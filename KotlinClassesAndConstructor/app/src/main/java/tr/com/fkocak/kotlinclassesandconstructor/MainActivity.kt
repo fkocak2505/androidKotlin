@@ -15,6 +15,13 @@ class MainActivity : AppCompatActivity() {
         car.setModelName("Fatih")
         car.seteModeleYear(2020)
 
-        Toast.makeText(applicationContext,car.getModelName() + " - " + car.getModelYear(),Toast.LENGTH_LONG).show()
+        Toast.makeText(applicationContext, car.getModelName() + " - " + car.getModelYear(), Toast.LENGTH_LONG).show()
+
+        val person = Person("Fatih", "Koçak", 26)
+        Toast.makeText(
+            applicationContext,
+            person.name + " - " + person.surName + " - " + person.age,
+            Toast.LENGTH_SHORT
+        ).show()
     }
 }
