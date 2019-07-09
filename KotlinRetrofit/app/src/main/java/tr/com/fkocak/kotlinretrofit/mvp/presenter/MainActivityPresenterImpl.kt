@@ -11,16 +11,14 @@ class MainActivityPresenterImpl(val iMainAcitivityModel: IMainActivityModel, val
 
 
     override fun getHeroes() {
-        /// Show Loading
         iMainAcitivityModel.getHeroes(object : IRequestResultListener<List<Hero>>{
             override fun onSuccess(response: Response<List<Hero>>) {
                 /// Gelen  Data
-                val a: Int = 2
+                iMainActivityView.handleHeroesData(response.body())
             }
 
             override fun onFail() {
                 /// Hata olma Durumu
-                val a: Int = 2
             }
         })
     }
