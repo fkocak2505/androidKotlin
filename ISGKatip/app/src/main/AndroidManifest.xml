@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="tr.gov.acsgb.isgkatip">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:usesCleartextTraffic="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".mvp.view.welcome.WelcomeActivityViewImpl">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity android:name=".mvp.view.login.LoginActivityViewImpl"/>
+        <activity android:name=".mvp.view.dashboard.DashboardActivityViewImpl"
+            android:label="@string/homeFragmentName"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity android:name=".mvp.view.dashboard.fragments.home.addService.AddServiceActivityViewImpl"/>
+        <activity android:name=".mvp.view.welcome.docVerification.DocVerificationActivityViewImpl"/>
+        <activity android:name=".mvp.view.welcome.docVerification.barcode.BarcodeVerificationScanActivityViewImpl"/>
+        <activity android:name=".mvp.view.welcome.news.NewsActivityViewImpl"/>
+        <activity android:name=".mvp.view.welcome.news.detail.NewsDetailActivityViewImpl"/>
+        <activity android:name=".mvp.view.welcome.announcement.AnnouncementActivityViewImpl"/>
+        <activity android:name=".mvp.view.welcome.announcement.detail.AnnouncementsDetailActivityViewImpl"/>
+        <activity android:name=".mvp.view.welcome.neYapmaliyim.NeYapmaliyimActivityViewImpl"/>
+        <activity android:name=".mvp.view.welcome.neYapmaliyim.detail.NeYapmaliyimDetailActivityViewImpl"/>
+        <activity android:name=".mvp.view.welcome.nasilYaparim.NasilYaparimActivityViewImpl"/>
+        <activity android:name=".mvp.view.welcome.nasilYaparim.detail.NasilYaparimDetailActivityViewImpl"/>
+        <activity android:name=".mvp.view.welcome.selfEvaluate.SelfEvaluateActivityViewImpl"/>
+        <activity android:name=".mvp.view.dashboard.navMenuScreen.calendar.CalendarActivityViewImpl"/>
+        <activity android:name=".mvp.view.dashboard.navMenuScreen.publications.PublicationsActivityViewImpl"/>
+        <activity android:name=".mvp.view.dashboard.navMenuScreen.publications.detail.PublicationsDetailActivityViewImpl"/>
+
+
+
+    </application>
+
+</manifest>

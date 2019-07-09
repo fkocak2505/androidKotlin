@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#BE161D</color>
+    <color name="colorAccent">#c8e8ff</color>
+
+    <!-- //========================= General Color =========================// -->
+    <color name="whiteColor">#FFFFFF</color>
+    <color name="blackColor">#000000</color>
+    <color name="listViewDividerColor">#eff3f4</color>
+
+    <!-- //========================= Welcome Activity Color =========================// -->
+    <color name="karsilamaEkraniBackground">#e4e4e4</color>
+    <color name="gradientBackGroundFirstColor">#ED1C24</color>
+    <color name="loginBtnUp">#ED1C24</color>
+    <color name="loginBtnDown">#FF6E73</color>
+    <color name="loginBtnTextColor">#FFFFFF</color>
+
+    <!-- //========================= Login Activity Color =========================// -->
+    <color name="loginInputError">#FFF4F4</color>
+    <color name="loginInputErrorBorder">#ED1C24</color>
+
+
+    <!-- //========================= Dashboard Activity Color =========================// -->
+    <color name="homeTabBackground">#f2f2f2</color>
+    <color name="lineColor">#d6d6d6</color>
+    <color name="homeTabNonSelect">#BFBFBF</color>
+
+    <!-- //========================= Calendar Activity Color =========================// -->
+    <color name="calendarItemColor1">#f2d29e</color>
+
+
+</resources>

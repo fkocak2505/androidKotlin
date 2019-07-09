@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">ISGKatip</string>
+
+    <!-- //===================================================================================// -->
+    <!-- Login Activity String -->
+    <string name="loginActivityToolbarText">Giriş Yap</string>
+    <string name="eDevletSifresiGiris">E- Devlet Şifresi İle giriş</string>
+    <string name="edtTCK">T.C. Kimlik No</string>
+    <string name="edtEDevlet">E- Devlet Şifresi</string>
+    <string name="mobileSignatureLogin">Mobil İmza ile Giriş Yapın</string>
+
+    <!-- //===================================================================================// -->
+    <!-- Dashboard Activity String -->
+    <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Fatih Koçak</string>
+    <string name="nav_header_subtitle">Son başarılı giriş: 19.02.2019</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="homeFragmentName">Ana Sayfa</string>
+    <string name="notificationFragmentName">Bildirimler</string>
+    <string name="messagesFragmentName">Mesajlar</string>
+    <string name="profileFragmentName">Profil Ekranı</string>
+    <string name="individualTab">Bireysel</string>
+    <string name="corporateTab">Kurumsal</string>
+    <string name="personalInfo">Kişisel Bilgilerim</string>
+    <string name="seeAllPersonalInfo">Tümünü Gör</string>
+    <string name="addService">Hizmet Ekle</string>
+
+    <!-- //===================================================================================// -->
+    <!-- HomeFragment Grid Data SharedPref Key -->
+    <string name="keyOfServiceListData">SERVICE_DATA</string>
+
+    <!-- //===================================================================================// -->
+    <!-- Messages Fragrament -->
+    <string name="messagesActivityEmpty">Mesaj sayfanız boş</string>
+    <string name="messagesActivityEmptyDetail">Mesaj sayfanız henüz boş, işlemler yaptığınız zaman bu alanda bildirimler görünecektir.</string>
+
+    <!-- //===================================================================================// -->
+    <!-- Messages Fragrament -->
+    <string name="notificaionActivityEmpty">Bildirim sayfanız boş</string>
+    <string name="notificaionActivityEmptyDetail">Bildirim sayfanız henüz boş, işlemler yaptığınız zaman bu alanda bildirimler görünecektir..</string>
+
+    <!-- //===================================================================================// -->
+    <!-- Doc Verification Activity String -->
+    <string name="toolbarDocVerification">Belge Doğrulama</string>
+    <string name="barkodDogrulama">Barkod İle Doğrulama</string>
+    <string name="barkodNoImg">123...</string>
+    <string name="barkodNoDogrulama">Belge No İle Doğrulama</string>
+    <string name="edtHintBelgeNo"><font size="18">Belge No</font></string>
+    <string name="btnDogrula">Doğrula</string>
+
+    <!-- //===================================================================================// -->
+    <!-- News Activity String -->
+    <string name="newsToolbarText">Haberler</string>
+    <string name="newsDetailToolbarText">Haberler Detay</string>
+
+    <!-- //===================================================================================// -->
+    <!-- Announcement Activity String -->
+    <string name="announcementToolbarText">Duyurular</string>
+    <string name="announcementDetailToolbarText">Duyuru Detay</string>
+
+    <!-- //===================================================================================// -->
+    <!-- Ne Yapmalıyım Activity String -->
+    <string name="neYapmaliyimToolbarText">Ne Yapmalıyım?</string>
+    <string name="neYapmaliyimDetailToolbarText">Ne Yapmalıyım Detay</string>
+
+    <!-- //===================================================================================// -->
+    <!-- Nasıl Yaparım Activity String -->
+    <string name="nasilYaparimToolbarText">Nasıl Yaparım?</string>
+
+    <!-- //===================================================================================// -->
+    <!-- Self Evaluate Activity String -->
+    <string name="selfEvaluateToolbarText">Kendini Değerlendir</string>
+
+    <!-- //===================================================================================// -->
+    <!-- Calendar Activity String -->
+    <string name="calendarToolbarText">Takvim</string>
+
+    <!-- //===================================================================================// -->
+    <!-- Publications Activity String -->
+    <string name="publicationsToolbarText">Yayınlar</string>
+    <string name="publicationsDetailToolbarText">Yayınlar Detay</string>
+    <string name="publicationsGroup">Yayın Grupları</string>
+
+
+
+</resources>
