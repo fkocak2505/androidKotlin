@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#D8070F</color>
+    <color name="colorPrimaryDark">#BE161D</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="filters_chips">#FFFFFF</color>
+    <color name="filtersfab">#D8070F</color>
+
+    <color name="bg">#f5f5f5</color>
+    <color name="filters_header">#303f9f</color>
+
+    <color name="filters_buttons">#D8070F</color>
+    <color name="filters_buttons_selected">#BE161D</color>
+
+</resources>
