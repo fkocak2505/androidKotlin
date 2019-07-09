@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="tr.gov.saglik.uets">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:usesCleartextTraffic="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+
+
+        <activity
+            android:name=".mvp.view.welcome.WelcomeActivityViewImpl"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".mvp.view.login.LoginActivityViewImpl"/>
+        <activity android:name=".mvp.view.demands.DemandsActivityViewImpl"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:label="Talepler"/>
+        <activity android:name=".mvp.view.register.RegisterActivityViewImpl"/>
+
+        <activity android:name=".mvp.view.demandsDetail.DemandsDetailActivityViewImpl"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:label="Talepler Detay"/>
+
+        <activity android:name=".mvp.view.notifications.NotificationsActivityViewImpl"/>
+        <activity android:name=".mvp.view.announcements.AnnouncementsActivityViewImpl"/>
+        <activity android:name=".mvp.view.announcements.detail.AnnouncementsDetailActivityViewImpl"/>
+        <activity android:name=".mvp.view.profil.ProfilActivityViewImpl"/>
+        <activity android:name=".mvp.view.profil.userInfo.UserInfoActivityViewImpl"/>
+        <activity android:name=".mvp.view.profil.privacy.PrivacyActivityViewImpl"/>
+        <activity android:name=".mvp.view.profil.demandsRecommendations.DemandsAndRecommendationsActivityViewImpl"/>
+        <activity android:name=".mvp.view.profil.demandsRecommendations.NewDemandsAndRecommendationActivityViewImpl"/>
+        <activity android:name=".mvp.view.documents.DocumentsActivityViewImpl"/>
+        <activity android:name=".mvp.view.documents.documentsDetail.DocsDetailActivityImpl"/>
+        <activity android:name=".mvp.view.decisions.DecisionsActivityViewImpl"/>
+        <activity android:name=".mvp.view.decisions.decisionDetail.DecisionDetailActivityImpl"/>
+        <activity android:name=".mvp.view.studentsReport.StudentReportActivityViewImpl"/>
+        <activity android:name=".mvp.view.programs.ProgramsActivityViewImpl"/>
+        <activity android:name=".mvp.view.curriculum.CurriculumActivityViewImpl"/>
+        <activity android:name=".mvp.view.curriculum.detail.CurriculumDetailActivityViewImpl"/>
+        <activity android:name=".mvp.view.studentsReport.bitirmeSinavi.BitirmeSinaviActivityViewImpl"/>
+        <activity android:name=".mvp.view.studentsReport.bitirmeSinavi.BitirmeSinaviDetailActivityViewImpl"/>
+        <activity android:name=".mvp.view.studentsReport.thesis.ThesisActivityViewImpl"/>
+        <activity android:name=".mvp.view.studentsReport.thesis.ThesisJuryActivityViewImpl"/>
+        <activity android:name=".mvp.view.studentsReport.entrusting.EntrustingActivityViewImpl"/>
+        <activity android:name=".mvp.view.studentsReport.rotation.RotationActivityViewImpl"/>
+        <activity android:name=".mvp.view.studentsReport.rotation.RotationDetailActivityViewImpl"/>
+        <activity android:name=".mvp.view.studentsReport.programInfo.ProgramInfoActivityViewImpl"/>
+        <activity android:name=".mvp.view.studentsReport.transport.TransportInfoActivityViewImpl"/>
+        <activity android:name=".mvp.view.studentsReport.transport.NewTransportInfoActivityViewImpl"/>
+        <activity android:name=".mvp.view.studentsReport.yetkinlik.YetkinlikListesiActivityViewImpl"/>
+        <activity android:name=".mvp.view.studentsReport.yetkinlik.detail.YetkinlikKayitlarimActivityViewImpl"/>
+        <activity android:name=".mvp.view.studentsReport.yetkinlik.saveOrUpdateOrDeleteYetkinlik.YetkinlikSaveUpdateDeleteActivityViewImpl"/>
+        <!--<activity android:name=".view.studentsReport.yetkinlik.detail.YetkinlikKayitlarimActivityViewImpl"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:label="Yetkinlik Detayı"/>-->
+        <activity android:name=".mvp.view.tukmos.TUKMOSMemberActivityViewImpl"/>
+        <activity android:name=".mvp.view.communucation.CommunucationActivityViewImpl"/>
+
+    </application>
+
+</manifest>

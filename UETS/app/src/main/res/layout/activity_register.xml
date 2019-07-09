@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="75dp"
+        android:background="@drawable/custom_toolbar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/left_arrow" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/registerToolbartext"
+            android:textColor="#FFFFFF"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageView2"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </android.support.constraint.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/createNewMember"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/edtTCKN"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="@drawable/login_input"
+                android:hint="@string/tckNo"
+                android:paddingLeft="10dp" />
+
+            <EditText
+                android:id="@+id/edtUserName"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/login_input"
+                android:hint="@string/registerUserName"
+                android:paddingLeft="10dp" />
+
+
+            <EditText
+                android:id="@+id/edtUserSurname"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/login_input"
+                android:hint="@string/registerUserSurName"
+                android:paddingLeft="10dp" />
+
+            <EditText
+                android:id="@+id/edtUserEmail"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/login_input"
+                android:hint="@string/registerUserEmail"
+                android:paddingLeft="10dp" />
+
+
+            <Spinner
+                android:id="@+id/spnAppealType"
+                style="@style/spinner_style"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="8dp"
+                android:gravity="center" />
+
+            <Spinner
+                android:id="@+id/spnCompanyName"
+                style="@style/spinner_style"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="8dp"
+                android:gravity="center" />
+
+            <Spinner
+                android:id="@+id/spnMainExperise"
+                style="@style/spinner_style"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="8dp"
+                android:gravity="center" />
+
+            <Spinner
+                android:id="@+id/spnAnotherExperise"
+                style="@style/spinner_style"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="8dp"
+                android:gravity="center" />
+
+            <EditText
+                android:id="@+id/edtExpertiseRegistrationDate"
+                style="@style/calendar_style"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="8dp"
+                android:hint="@string/registerExpertiseRegistrationDate"
+                android:paddingLeft="10dp" />
+
+            <EditText
+                android:id="@+id/edtPassword"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/login_input"
+                android:hint="@string/registerPassword"
+                android:paddingLeft="10dp" />
+
+            <EditText
+                android:id="@+id/edtValidatePassword"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/login_input"
+                android:hint="@string/registerValidatePassword"
+                android:paddingLeft="10dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+

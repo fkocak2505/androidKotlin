@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#0C8B9B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="gradientToolbarBackGroundFirstColor">#25A9BA</color>
+    <color name="gradientToolbarBackGroundLastColor">#88D7E0</color>
+
+    <color name="gradientBackGroundFirstColor">#25A9BA</color>
+    <color name="gradientBackGroundLastColor">#88D7E0</color>
+
+    <color name="karneDividerColor">#eff3f4</color>
+
+    <!-- Welcome Activity Color -->
+    <color name="welcomeActivityUserNameColor">#FFF</color>
+    <color name="welcomeActivityLoginButtonTextColor">#25A9BA</color>
+    <color name="welcomeActivityRegisterButtonBackground">#E5F6F7</color>
+    <color name="welcomeActivityGirdItemLineColor">#DEF0F2</color>
+
+    <!-- Login Activity Color -->
+    <color name="toolBarBackgroundColor">#88D7E0</color>
+    <color name="loginActivityLoginbtnFirstColor">#25A9BA</color>
+    <color name="loginActivityLoginbtnLastColor">#88D7E0</color>
+    <color name="loginInputError">#FFF4F4</color>
+    <color name="loginInputErrorBorder">#ED1C24</color>
+    
+    <!-- Register Activity Color -->
+    <color name="focusColor">#ED1C24</color>
+
+    <!-- Demands Activity Color -->
+    <color name="tabBackgroundColor">#FFFFFF</color>
+    <color name="tabIndicatorColor">#0C8B9B</color>
+    <color name="tabNotSelectedtextColor">#BFBFBF</color>
+    <color name="pendingApprovelTextColor">#EDA51C</color>
+    <color name="pendingApprovelDateTextColor">#7A7A7A</color>
+    <color name="backgroundColor">#FAFAFA</color>
+    <color name="dividerColor">#FAFAFA</color>
+    <color name="complatedTextColor">#27A217</color>
+
+    <!-- Demands Detail Activity Color -->
+    <color name="lineColor">#d6d6d6</color>
+    <color name="demandsDetailInfoTextColor">#7A7A7A</color>
+    <color name="demandsRejectFirstColor">#DB1414</color>
+    <color name="demandsRejectLastColor">#FF7E7E</color>
+    <color name="demandsApprovedFirstColor">#25A9BA</color>
+    <color name="demandsApprovedLastColor">#88D7E0</color>
+
+    <!-- Demands And Recommendation Activity Color -->
+    <color name="fabButtonColor">#F7C72B</color>
+
+    <!-- Programs Activity Color -->
+    <color name="layoutBackgroundColor">#F6F6F6</color>
+    <color name="dialogBackground">#00000000</color>
+
+
+</resources>

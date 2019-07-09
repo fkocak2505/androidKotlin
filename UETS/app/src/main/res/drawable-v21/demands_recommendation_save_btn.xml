@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <gradient
+                android:endColor="@color/loginActivityLoginbtnFirstColor"
+                android:startColor="@color/loginActivityLoginbtnLastColor"
+                android:angle="90" />
+            <corners
+                android:radius="6dp" />
+        </shape>
+    </item>
+</selector>

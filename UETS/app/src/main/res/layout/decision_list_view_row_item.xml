@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:id="@+id/decisionIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/decisions_icon" />
+
+    <TextView
+        android:id="@+id/decisionTitle"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:gravity="left"
+        android:text="Tıpta Uzmanlık Kurulu tarafından kabul edilmiş Uzmanlık Eğitimi Programları listesi güncellenmiştir."
+        android:textColor="#000"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/decisionIcon"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/decisionDate"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="12dp"
+        android:paddingBottom="25dp"
+        android:text="22/11/2018"
+        android:textSize="15dp"
+        android:textStyle="normal"
+        app:layout_constraintStart_toEndOf="@+id/decisionIcon"
+        app:layout_constraintTop_toBottomOf="@+id/decisionTitle" />
+
+
+</android.support.constraint.ConstraintLayout>

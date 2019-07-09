@@ -1,0 +1,213 @@
+<resources>
+    <string name="app_name">UETS</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Fatih Koçak</string>
+    <string name="nav_header_subtitle">uets@saglik.gov.tr</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Welcome Activity -->
+    <string name="welcomeUserName">Fatih Koçak</string>
+    <string name="welcomeUserLastLoginInfo">Son Giriş: 25.02.2019 10:28</string>
+    <string name="welcomeLoginButton">Giriş Yap</string>
+    <string name="welcomeRegisterButton">Üye Ol</string>
+
+    <!-- Login Activity -->
+    <string name="toolbarText">Giriş Yap</string>
+    <string name="entryApplication">Uygulamaya Giriş</string>
+    <string name="userName">Kullanıcı Adı</string>
+    <string name="password">Şifre</string>
+    <string name="mobileEsignature">Mobil imza ile giriş</string>
+
+    <!-- Register Activity -->
+    <string name="registerToolbartext">Yeni Üyelik</string>
+    <string name="createNewMember">Yeni Üyelik Oluştur</string>
+    <string name="tckNo">*TC Kimlik Numarası</string>
+    <string name="registerUserName">*İsim</string>
+    <string name="registerUserSurName">*Soyisim</string>
+    <string name="registerUserEmail">*E-posta Adresi</string>
+    <string name="registerExpertiseRegistrationDate">*Uzmanlık Tescil Tarihi</string>
+    <string name="registerPassword">*Şifre</string>
+    <string name="registerValidatePassword">*Şifre Tekrar</string>
+
+    <!-- Demands Activity -->
+    <string name="demandsPendingApprovelText">Onay Bekliyor</string>
+    <string name="demandsCompleted">Tamamlanmış</string>
+
+    <!-- Demands Detail Activity -->
+    <string name="demandsDetailInfo">Talep Bilgileri</string>
+    <string name="demandsDetial">Detay</string>
+    <string name="demandsDate">Talep Tarihi</string>
+    <string name="claimant">Talep Sahibi</string>
+    <string name="demandType">Talep Türü</string>
+    <string name="demandStatus">Talep Statüsü</string>
+    <string name="giveUp">Vazgeç</string>
+    <string name="approved">Onayla</string>
+    <string name="competenceName">Yetkinlik Adı</string>
+    <string name="teacherName">Eğitici Adı</string>
+    <string name="expreinceCount">Tecrübe Sayısı</string>
+    <string name="explanation">Açıklama</string>
+    <string name="teamMemberName">Ekip Üyeleri</string>
+
+    <!-- Notifications Activity -->
+    <string name="notificaitonToolbarText">Bildirimler</string>
+    <string name="notificationActivityEmpty">Bildirim sayfanız boş</string>
+    <string name="notificationActivityEmptyDetail">Bildirim sayfanız henüz boş, işlemler yaptığınız zaman bu alanda bildirimler görünecektir.</string>
+
+    <!-- Announcements Activity -->
+    <string name="announcementsToolbarText">Duyurular</string>
+
+    <!-- Profil Activity -->
+    <string name="profilToolbarText">Profil</string>
+    <string name="profilUserInfoActivityToolbarText">Kullanıcı Bilgileri</string>
+    <string name="userInfoUserNameSurname">Adı Soyadı</string>
+    <string name="tckn">T.C. Kimlik No</string>
+    <string name="birthPlace">Doğum Yeri</string>
+    <string name="birthday">Doğum Tarihi</string>
+    <string name="sex">Cinsiyet</string>
+    <string name="nationality">Uyruk</string>
+    <string name="address">Adres</string>
+    <string name="phoneNumber">Telefon</string>
+    <string name="email">E-Mail</string>
+    <string name="privacyToolbarText">Gizlilik</string>
+    
+    <!-- Demands And Recommendation Activity -->
+    <string name="demandsRecommendations">Talep ve Önerileri</string>
+    <string name="demandsNumber">Talep Numarası</string>
+    <string name="demandsType">Talep Türü</string>
+    <string name="subject">Konu</string>
+    <string name="arrivedAddress">Ulaşacağı Adres</string>
+    <string name="demandsFile">Dosya Eki</string>
+    <string name="demandsRecommendationDate">Talep Tarihi</string>
+    <string name="demandsStatus">Durum</string>
+    <string name="demandsText">Metin</string>
+    <string name="addFile">Dosya Ekle</string>
+    <string name="save">Kaydet</string>
+    <string name="goBack">Vazgeç</string>
+    <string name="newDemand">Talep Gir</string>
+    <string name="delete">Sil</string>
+    <string name="update">Güncelle</string>
+    
+
+    <!-- Documents Activity -->
+    <string name="documentsActivityToolbarText">Dökümanlar</string>
+
+    <!-- Documents Detail Activity -->
+    <string name="documentsDetailActivityToolbarText">Döküman Detay</string>
+
+    <!-- Decisions Activity -->
+    <string name="decisionsActivityToolbarText">Kararlar</string>
+
+    <!-- Decisions Detail Activity -->
+    <string name="decisionsDetailActivityToolbarText">Karar Detay</string>
+
+    <!-- Student Report Activity -->
+    <string name="studentReportActivityToolbarText">Karne İşlemleri</string>
+    <!-- ======================== -->
+    <string name="bitirmeSinaviToolbarText">Bitirme Sınavı</string>
+    <string name="examInformation">Sınav Bilgileri</string>
+    <string name="examJury">Sınav Jurisi</string>
+    <string name="examNo">Sınav Numarası</string>
+    <string name="examPlace">Sınav Yeri</string>
+    <string name="examDate">Sınav Tarihi</string>
+    <string name="examDateInfo">Sınav Bilgisi Giriş Tarihi</string>
+    <string name="examPoint">Sınav Puanı</string>
+    <string name="examResult">Sınav Sonucu</string>
+    <string name="juryNameSurnam">Adı Soyadı</string>
+    <string name="companyName">Kurum Adı</string>
+    <string name="role">Rolü</string>
+    <string name="profession">Uzmanlık Dalı</string>
+    <string name="anotherProfession">Uzmanlık Yan Dalı</string>
+    <string name="juryDate">Juri Belirlenme Tarihi</string>
+
+    <!-- ======================== -->
+    <string name="thesisToolbarText">Tez Bilgileri</string>
+    <string name="thesisConsultant">Tez Danışmanı</string>
+    <string name="consultantDate">Danışman Atama Tarihi</string>
+    <string name="consultantProfession">Danışman Uzmanlık Alanı</string>
+    <string name="thesisSubject">Tez Konusu</string>
+    <string name="thesisSubjectDate">Tez Konusu Belirlenme Tarihi</string>
+    <string name="thesisDeadLineDate">Tez Son Teslim Tarihi</string>
+    <string name="thesisUploadDate">Tez Yükleme Tarihi</string>
+    <string name="thesisResult">Tez Değerlendirme Sonucu</string>
+    <string name="thesisJury">Tez Jürisi</string>
+
+    <!-- ======================== -->
+    <string name="entrustingToolbarText">Görevlendirme Bilgileri</string>
+    <string name="entrustingType">Görevlendirme Türü</string>
+    <string name="entrustingReason">Görevlendir Sebebi</string>
+    <string name="startDate">Başlangıç Tarihi</string>
+    <string name="endDate">Bitiş Tarihi</string>
+    <string name="programName">Program Adı</string>
+    <string name="status">Durum</string>
+
+    <!-- ======================= -->
+    <string name="rotationToolbarText">Rotasyon Detayı</string>
+    <string name="rotationDepartment">Rotasyon Dalı</string>
+    <string name="rotationDate">Rotasyon Süresi</string>
+    <string name="rotationStatus">Rotasyon Durumu</string>
+    <string name="rotationDetail">Rotasyon Kayıtları</string>
+    <string name="programAdmin">Program Yöneticisi</string>
+
+    <!-- ======================= -->
+    <string name="programInfoToolbarText">Program Bilgilerim</string>
+    <string name="yerlestirildigiSinav">Yerleştirildiği Sınav</string>
+    <string name="quotaType">Kontenjan Türü</string>
+    <string name="curriculumName">Müfredat Adı</string>
+    <string name="curriculumType">Müferad Türü</string>
+    <string name="curriculumVersion">Müfredat Versiyonu</string>
+    <string name="curriculumDetail">Müfredat Dosyaları</string>
+    <string name="educationYear">Eğitim Süresi (Yıl)</string>
+    <string name="educationStartDate">Eğitim Başlangıuç Tarihi</string>
+    <string name="educationEndDate">Eğitim Bitiş Tarihi</string>
+    <string name="programCity">Program İli</string>
+    <string name="yerlestirmePuani">Yerleştirme Puanı</string>
+    <string name="studentStatus">Öğrenci Durumu</string>
+
+    <!-- ======================= -->
+    <string name="transportInfoToolbarText">Nakil Bilgileri</string>
+    <string name="transportType">Nakil Türü</string>
+    <string name="transportReason">Nakil Sebebi</string>
+    <string name="beforeProgram">Önceki Program</string>
+    <string name="transportedProgram">Nakil Olunan Program</string>
+    <string name="newTransport">Nakil Gir</string>
+
+    <!-- ======================= -->
+    <string name="yetkinlikBilgileriToolbarText">Yetkinlik Listesi</string>
+    <string name="yetkinlikAdi">Yetkinlik Adı</string>
+    <string name="uzmanlikDali">Uzmanlık Dalı</string>
+    <string name="yetkinlikTuru">Yetkinlik Turu</string>
+    <string name="yetkinlikDuzeyi">Yetkinlik Düzeyi</string>
+    <string name="yetkinlikYontem">Yöntem</string>
+    <string name="sizeOfRecord">Kayıt Sayısı</string>
+    <string name="yetkinlikBilgileri">Yetkinlik Bilgileri</string>
+    <string name="kayitliYetkinliklerim">Kayıtlarım</string>
+    <string name="demandDate">Talep Tarihi</string>
+    <string name="teamMember">Ekip Üyeleri</string>
+    <string name="approvedDate">Onay Tarihi</string>
+    <string name="yetkinlikGirisi">Yetkinlik Girişi</string>
+    <string name="createdYetkinlikDate">Gerçekleşme Tarihi</string>
+
+
+    <!-- TUKMOS Member Activity -->
+    <string name="tukmosToolbarText">TUKMOS Üyeleri</string>
+
+    <!-- Communucation Activity -->
+    <string name="communucationToolbarText">İletişim</string>
+
+
+    <!-- Programs Activity -->
+    <string name="programsToolbarText">Programlar</string>
+    <string name="filterPrograms">Filtrele</string>
+    <string name="yetkilendirmeTarihi">Yetkilendirme Tarihi</string>
+    <string name="egitimSuresi">Eğitim Süresi</string>
+    <string name="filterDialogClose">Kapat</string>
+    <string name="filter">Filtrele</string>
+    <string name="doFilter">Uygula</string>
+
+    <!-- Curriculum Activity -->
+    <string name="curriculumToolbarText">Müfredatlar</string>
+    <string name="createdDate">Oluşturulma Tarihi</string>
+
+</resources>
