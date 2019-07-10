@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "22778454382",
+    "firebase_url": "https://facebooklogin-d2db0.firebaseio.com",
+    "project_id": "facebooklogin-d2db0",
+    "storage_bucket": "facebooklogin-d2db0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:22778454382:android:9bded89a49a825d8",
+        "android_client_info": {
+          "package_name": "com.example.fkocak.facebookloginwithfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "22778454382-m44uiosmq8pf32t759hvmv4t0gp7hbld.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEsEYLfn7Qy7-ghVBe7cNbkQIM1n72CbQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

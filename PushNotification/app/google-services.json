@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "647804743168",
+    "firebase_url": "https://pushnotification-ff11a.firebaseio.com",
+    "project_id": "pushnotification-ff11a",
+    "storage_bucket": "pushnotification-ff11a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:647804743168:android:346c46a43b061daa",
+        "android_client_info": {
+          "package_name": "tr.com.cs.pushnotification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "647804743168-ijcafklnjnbj5juc8i7r95859gikc8hj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1Bz5eVVa8U8BxtlLQO7UscVLt9KWtgGM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

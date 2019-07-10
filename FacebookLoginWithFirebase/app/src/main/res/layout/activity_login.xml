@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:facebook="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/textInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        facebook:layout_constraintEnd_toEndOf="parent"
+        facebook:layout_constraintStart_toStartOf="parent"
+        facebook:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/girisEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="@string/Email"
+            android:inputType="textEmailAddress" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/textInputLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        facebook:layout_constraintEnd_toEndOf="parent"
+        facebook:layout_constraintStart_toStartOf="parent"
+        facebook:layout_constraintTop_toBottomOf="@+id/textInputLayout">
+
+        <EditText
+            android:id="@+id/girisParola"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="@string/Parola"
+            android:inputType="textPassword" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/girisButton"
+        android:layout_width="140dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:background="@color/uyeButtonColor"
+        android:text="Giriş Yap"
+        android:textAllCaps="true"
+        android:textColor="#FFFF"
+        facebook:layout_constraintEnd_toEndOf="parent"
+        facebook:layout_constraintStart_toStartOf="parent"
+        facebook:layout_constraintTop_toBottomOf="@+id/textInputLayout2" />
+
+    <Button
+        android:id="@+id/uyeOlButton"
+        android:layout_width="140dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@color/uyeButtonColor"
+        android:text="Üye Ol!"
+        android:textColor="#FFFF"
+        facebook:layout_constraintEnd_toEndOf="parent"
+        facebook:layout_constraintStart_toStartOf="parent"
+        facebook:layout_constraintTop_toBottomOf="@+id/girisButton" />
+
+    <Button
+        android:id="@+id/yeniSifreButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@color/uyeButtonColor"
+        android:text="Şifreni mi unuttun?"
+        android:textAllCaps="false"
+        android:textColor="#FFFF"
+        facebook:layout_constraintEnd_toEndOf="parent"
+        facebook:layout_constraintStart_toStartOf="parent"
+        facebook:layout_constraintTop_toBottomOf="@+id/uyeOlButton" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="center"
+        android:text="VEYA"
+        android:textColor="@color/colorPrimary"
+        facebook:layout_constraintEnd_toEndOf="parent"
+        facebook:layout_constraintStart_toStartOf="parent"
+        facebook:layout_constraintTop_toBottomOf="@+id/yeniSifreButton" />
+
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/loginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="15dp"
+        android:paddingRight="15dp"
+        android:paddingBottom="15dp"
+        android:textSize="15dp"
+        facebook:com_facebook_login_text="Facebook İle Giriş Yap"
+        facebook:layout_constraintEnd_toEndOf="parent"
+        facebook:layout_constraintStart_toStartOf="parent"
+        facebook:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/sign_in_button"
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        facebook:layout_constraintEnd_toEndOf="parent"
+        facebook:layout_constraintStart_toStartOf="parent"
+        facebook:layout_constraintTop_toBottomOf="@+id/loginButton" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:indeterminate="true"
+        android:visibility="gone" />
+
+</android.support.constraint.ConstraintLayout>

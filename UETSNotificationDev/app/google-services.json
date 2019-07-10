@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "821283029152",
+    "firebase_url": "https://uetsnotificationdev.firebaseio.com",
+    "project_id": "uetsnotificationdev",
+    "storage_bucket": "uetsnotificationdev.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:821283029152:android:e619fa8fb8464a18",
+        "android_client_info": {
+          "package_name": "com.fkocak.uetsnotificationdev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "821283029152-jk2keqh80j85it7e0hrn57r4oihnj5n1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fkocak.uetsnotificationdev",
+            "certificate_hash": "7755958b54b0c73e55b003dd135efd7bf1000431"
+          }
+        },
+        {
+          "client_id": "821283029152-02jpbvpja3vneanm00l8eu101m0j2kmc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_4JuYzBmzz4ZqKSPBPi4G3-sEEZLyTm8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "821283029152-02jpbvpja3vneanm00l8eu101m0j2kmc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
