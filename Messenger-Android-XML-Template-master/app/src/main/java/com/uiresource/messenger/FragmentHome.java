@@ -57,7 +57,7 @@ public class FragmentHome extends Fragment implements ChatAdapter.ViewHolder.Cli
         String name[]= {"Laura Owens", "Angela Price", "Donald Turner", "Kelly", "Julia Harris", "Laura Owens", "Angela Price", "Donald Turner", "Kelly", "Julia Harris" };
         String lastchat[]= {"Hi Laura Owens", "Hi there how are you", "Can we meet?", "Ow this awesome", "How are you?", "Ow this awesome", "How are you?", "Ow this awesome", "How are you?", "How are you?" };
         @DrawableRes int img[]= {R.drawable.userpic , R.drawable.user1, R.drawable.user2, R.drawable.user3, R.drawable.user4 , R.drawable.userpic , R.drawable.user1, R.drawable.user2, R.drawable.user3, R.drawable.user4 };
-        boolean online[] = {true, false, true, false, true, true, true, false, false, true};
+        boolean[] online = {true, false, true, false, true, true, true, false, false, true};
 
         for (int i = 0; i<10; i++){
             Chat chat = new Chat();

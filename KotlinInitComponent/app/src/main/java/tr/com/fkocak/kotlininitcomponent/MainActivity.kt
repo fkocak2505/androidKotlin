@@ -36,9 +36,9 @@ class MainActivity : AppCompatActivity() {
         }*/
 
 
-        recyclerView.layoutManager = LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false)
+        recyclerView.layoutManager = LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false)
         recyclerView.adapter = RecylerAdapter(getModels()) {
-            Toast.makeText(applicationContext,getModels().get(it).capitalName,Toast.LENGTH_SHORT).show()
+            Toast.makeText(applicationContext, getModels()[it].capitalName,Toast.LENGTH_SHORT).show()
         }
 
 

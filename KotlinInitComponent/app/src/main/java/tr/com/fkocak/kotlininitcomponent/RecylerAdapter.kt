@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 
-class RecylerAdapter(val countryList: MutableList<CountryModel>, val listener: (Int) -> Unit) :
+class RecylerAdapter(val countryList: MutableList<CountryModel>, private val listener: (Int) -> Unit) :
     RecyclerView.Adapter<RecylerAdapter.ModelViewHolder>() {
 
     class ModelViewHolder(view: View) : RecyclerView.ViewHolder(view) {

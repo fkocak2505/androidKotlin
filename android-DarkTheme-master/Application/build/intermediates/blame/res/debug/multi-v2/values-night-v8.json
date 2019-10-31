@@ -1,0 +1,60 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/fatihkocak/Desktop/android-DarkTheme-master/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
+            "map": [
+                {
+                    "source": "/Users/fatihkocak/Desktop/android-DarkTheme-master/Application/src/main/res/values-night/colors.xml",
+                    "from": {
+                        "startLines": "22,20,21",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "838,714,774",
+                        "endColumns": "39,41,43",
+                        "endOffsets": "873,751,813"
+                    },
+                    "to": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,95,137",
+                        "endColumns": "39,41,43",
+                        "endOffsets": "90,132,176"
+                    }
+                },
+                {
+                    "source": "/Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/appcompat-1.1.0-alpha04.aar/8187619ac85a266c2f4c2b8a5bfedf06/res/values-night-v8/values-night-v8.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,125,209,293,389,491,593,687",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "120,204,288,384,486,588,682,771"
+                    },
+                    "to": {
+                        "startLines": "5,6,7,8,9,10,11,19",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "181,251,335,419,515,617,719,1571",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "246,330,414,510,612,714,808,1655"
+                    }
+                },
+                {
+                    "source": "/Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/material-1.1.0-alpha05.aar/ce5b5ac8b8823f3df54050195576c821/res/values-night-v8/values-night-v8.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,143,245,347,461,581,701",
+                        "endColumns": "87,101,101,113,119,119,111",
+                        "endOffsets": "138,240,342,456,576,696,808"
+                    },
+                    "to": {
+                        "startLines": "12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "813,901,1003,1105,1219,1339,1459",
+                        "endColumns": "87,101,101,113,119,119,111",
+                        "endOffsets": "896,998,1100,1214,1334,1454,1566"
+                    }
+                }
+            ]
+        }
+    ]
+}

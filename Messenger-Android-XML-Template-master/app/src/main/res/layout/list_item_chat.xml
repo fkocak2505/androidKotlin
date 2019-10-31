@@ -42,7 +42,6 @@
         android:layout_height="90dp"
         android:paddingRight="@dimen/space10"
         android:layout_toRightOf="@+id/rl_photo"
-        android:background="@drawable/bg_bottom_grey"
         android:gravity="center_vertical">
         <RelativeLayout
             android:layout_width="match_parent"

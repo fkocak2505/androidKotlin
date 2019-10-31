@@ -12,7 +12,6 @@ import android.widget.TextView;
 
 import com.uiresource.messenger.R;
 
-import java.util.ArrayList;
 import java.util.List;
 
 /**

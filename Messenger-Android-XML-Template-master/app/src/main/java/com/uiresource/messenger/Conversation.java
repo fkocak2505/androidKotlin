@@ -18,6 +18,9 @@ import com.uiresource.messenger.recylcerchat.ConversationRecyclerView;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
+
+import static java.lang.Math.random;
 
 
 public class Conversation extends BaseActivity {
@@ -71,7 +74,7 @@ public class Conversation extends BaseActivity {
                     List<ChatData> data = new ArrayList<ChatData>();
                     ChatData item = new ChatData();
                     item.setTime("6:00pm");
-                    item.setType("2");
+                    item.setType(String.valueOf(1+ new Random().nextInt(3)));
                     item.setText(text.getText().toString());
                     data.add(item);
                     mAdapter.addItem(data);

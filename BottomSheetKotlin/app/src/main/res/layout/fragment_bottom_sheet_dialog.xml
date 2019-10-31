@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <!-- NOTE: This list should be displayed in a list
+    instead of nested layouts -->
+
+   <androidx.constraintlayout.widget.ConstraintLayout
+       android:layout_width="match_parent"
+       android:layout_height="640dp">
+
+       <!--<info.androidhive.bottomsheet.BottomSheetListView
+           android:id="@+id/person_list_view"
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent"
+           app:layout_constraintBottom_toBottomOf="parent"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toTopOf="parent" /> -->
+
+       <com.example.bottomsheetkotlin.BottomSheetExpandableListView
+           android:id="@+id/expand_listview"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_marginTop="20dp"
+           app:layout_constraintBottom_toBottomOf="parent"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toTopOf="parent">
+
+       </com.example.bottomsheetkotlin.BottomSheetExpandableListView>
+
+
+
+   </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

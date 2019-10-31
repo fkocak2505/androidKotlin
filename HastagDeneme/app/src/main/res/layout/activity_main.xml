@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.hastagdeneme.HashtagView
+        android:id="@+id/afafa"
+        style="@style/HashtagView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:rowGravity="left"
+        app:rowMargin="10dp"
+        app:tagBackground="@drawable/item_bg_1"
+        app:tagForeground="@drawable/flat_button_light"
+        app:tagMargin="10dp"
+        app:tagPaddingBottom="10dp"
+        app:tagPaddingLeft="6dp"
+        app:tagPaddingRight="6dp"
+        app:tagPaddingTop="10dp"
+        app:tagTextColor="#000" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

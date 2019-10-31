@@ -1,0 +1,176 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/fatihkocak/Desktop/android-DarkTheme-master/Application/src/main/AndroidManifest.xml:18:1-42:12
+INJECTED from /Users/fatihkocak/Desktop/android-DarkTheme-master/Application/src/main/AndroidManifest.xml:18:1-42:12
+INJECTED from /Users/fatihkocak/Desktop/android-DarkTheme-master/Application/src/main/AndroidManifest.xml:18:1-42:12
+MERGED from [com.google.android.material:material:1.1.0-alpha05] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/material-1.1.0-alpha05.aar/ce5b5ac8b8823f3df54050195576c821/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-alpha3] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/constraintlayout-2.0.0-alpha3.aar/650554c785112f4df51d7f5c84eeba85/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.preference:preference:1.1.0-alpha04] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/preference-1.1.0-alpha04.aar/4c4e453bc32ca7c042955f5dea74dd2e/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.1.0-alpha04] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/appcompat-1.1.0-alpha04.aar/8187619ac85a266c2f4c2b8a5bfedf06/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/cardview-1.0.0.aar/1401141122b1a5deda4242031d19075c/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/4202806da74ac85859488d4ba7df1ddb/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-alpha01] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.1.0-alpha01.aar/b17f198500b890cab8ccae8f420bea61/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/25af54c142a8cdfdcadcaedde04e92f8/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-alpha01] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/recyclerview-1.1.0-alpha01.aar/672b2a3ea2d518aeb3773381707d0ef5/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.1] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/transition-1.0.1.aar/662acd338a9cdd3855db250f6b8ca28f/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0-alpha04] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/appcompat-resources-1.1.0-alpha04.aar/99c0a6f81fd55ad84bf70af45bfeb23a/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0-alpha01] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.1.0-alpha01.aar/6c180d8b8e63ad939f3695686029f1a6/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0-alpha01] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.1.0-alpha01.aar/6070010ca85a18b7cd20c3d5d373f3d7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.1.0-alpha06] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/fragment-1.1.0-alpha06.aar/a60f80de417839947a2d126d821f8425/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/4ab91719890cf6cc50c862447bbc2ba2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/53d7026f54337b0b25d8906733dbdb32/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/fcca837a25ee3cdf554ccc8131407372/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/190878779af9d14f2c5b09be3a9eeac5/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/e8bd31393ddc42b3eace0c50a9234734/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/913b9df52a8ce5e5e1ff7b94930480da/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/6358100f550d7b7cb8a7a3ddebe37203/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0-alpha06] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/activity-1.0.0-alpha06.aar/36c5ff60ac6948840f1072dffed698a1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0-alpha05] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/core-1.1.0-alpha05.aar/e93411da42be6e332e5e391c2980605e/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/660e47d39b5d9b4808d6dfc9ff53a477/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/db0a2a4271a4aa2afe32deee4fc3ba9b/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/21ef92803c5ab7225d0e66412f74225f/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/b3628a9ba107aa571b83f21b07196d3f/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/e4d0917a0bd30fdca37dbd887bddc9ee/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-alpha02] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.1.0-alpha02.aar/2fa4ab0295e982a64cde589e68f466ab/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/2e246903f17b87c96ba81902486308b0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0-alpha04] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.1.0-alpha04.aar/dbfb5b6e22720c852ea150c6427675b0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0-alpha02] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/savedstate-1.0.0-alpha02.aar/af67a1ee2effa81258e604714c1f1dfd/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/4d1c9a76b799419fcfabbbb55efd1b23/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/650fc62b947efbbb3e3a42381b4434bb/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0-alpha04] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.1.0-alpha04.aar/65ce360f7ab0976df3245f5227f53489/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/fatihkocak/Desktop/android-DarkTheme-master/Application/src/main/AndroidManifest.xml:18:1-42:12
+INJECTED from /Users/fatihkocak/Desktop/android-DarkTheme-master/Application/src/main/AndroidManifest.xml:18:1-42:12
+	package
+		ADDED from /Users/fatihkocak/Desktop/android-DarkTheme-master/Application/src/main/AndroidManifest.xml:19:5-44
+	android:versionName
+		ADDED from /Users/fatihkocak/Desktop/android-DarkTheme-master/Application/src/main/AndroidManifest.xml:21:5-30
+		INJECTED from /Users/fatihkocak/Desktop/android-DarkTheme-master/Application/src/main/AndroidManifest.xml
+		INJECTED from /Users/fatihkocak/Desktop/android-DarkTheme-master/Application/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/fatihkocak/Desktop/android-DarkTheme-master/Application/src/main/AndroidManifest.xml:18:11-69
+	android:versionCode
+		ADDED from /Users/fatihkocak/Desktop/android-DarkTheme-master/Application/src/main/AndroidManifest.xml:20:5-28
+		INJECTED from /Users/fatihkocak/Desktop/android-DarkTheme-master/Application/src/main/AndroidManifest.xml
+		INJECTED from /Users/fatihkocak/Desktop/android-DarkTheme-master/Application/src/main/AndroidManifest.xml
+application
+ADDED from /Users/fatihkocak/Desktop/android-DarkTheme-master/Application/src/main/AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.android.material:material:1.1.0-alpha05] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/material-1.1.0-alpha05.aar/ce5b5ac8b8823f3df54050195576c821/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0-alpha05] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/material-1.1.0-alpha05.aar/ce5b5ac8b8823f3df54050195576c821/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-alpha3] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/constraintlayout-2.0.0-alpha3.aar/650554c785112f4df51d7f5c84eeba85/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-alpha3] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/constraintlayout-2.0.0-alpha3.aar/650554c785112f4df51d7f5c84eeba85/AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.1.0-alpha05] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/core-1.1.0-alpha05.aar/e93411da42be6e332e5e391c2980605e/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.1.0-alpha05] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/core-1.1.0-alpha05.aar/e93411da42be6e332e5e391c2980605e/AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-alpha02] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.1.0-alpha02.aar/2fa4ab0295e982a64cde589e68f466ab/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-alpha02] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.1.0-alpha02.aar/2fa4ab0295e982a64cde589e68f466ab/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0-alpha05] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/core-1.1.0-alpha05.aar/e93411da42be6e332e5e391c2980605e/AndroidManifest.xml:22:18-86
+	android:label
+		ADDED from /Users/fatihkocak/Desktop/android-DarkTheme-master/Application/src/main/AndroidManifest.xml:27:9-41
+	android:icon
+		ADDED from /Users/fatihkocak/Desktop/android-DarkTheme-master/Application/src/main/AndroidManifest.xml:26:9-43
+	android:allowBackup
+		ADDED from /Users/fatihkocak/Desktop/android-DarkTheme-master/Application/src/main/AndroidManifest.xml:25:9-35
+	android:theme
+		ADDED from /Users/fatihkocak/Desktop/android-DarkTheme-master/Application/src/main/AndroidManifest.xml:28:9-44
+	android:name
+		ADDED from /Users/fatihkocak/Desktop/android-DarkTheme-master/Application/src/main/AndroidManifest.xml:24:9-45
+activity#com.example.android.darktheme.MainActivity
+ADDED from /Users/fatihkocak/Desktop/android-DarkTheme-master/Application/src/main/AndroidManifest.xml:30:9-38:20
+	android:label
+		ADDED from /Users/fatihkocak/Desktop/android-DarkTheme-master/Application/src/main/AndroidManifest.xml:32:13-45
+	android:name
+		ADDED from /Users/fatihkocak/Desktop/android-DarkTheme-master/Application/src/main/AndroidManifest.xml:31:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/fatihkocak/Desktop/android-DarkTheme-master/Application/src/main/AndroidManifest.xml:33:13-37:29
+action#android.intent.action.MAIN
+ADDED from /Users/fatihkocak/Desktop/android-DarkTheme-master/Application/src/main/AndroidManifest.xml:34:17-69
+	android:name
+		ADDED from /Users/fatihkocak/Desktop/android-DarkTheme-master/Application/src/main/AndroidManifest.xml:34:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/fatihkocak/Desktop/android-DarkTheme-master/Application/src/main/AndroidManifest.xml:36:17-77
+	android:name
+		ADDED from /Users/fatihkocak/Desktop/android-DarkTheme-master/Application/src/main/AndroidManifest.xml:36:27-74
+uses-sdk
+INJECTED from /Users/fatihkocak/Desktop/android-DarkTheme-master/Application/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/fatihkocak/Desktop/android-DarkTheme-master/Application/src/main/AndroidManifest.xml
+INJECTED from /Users/fatihkocak/Desktop/android-DarkTheme-master/Application/src/main/AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.1.0-alpha05] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/material-1.1.0-alpha05.aar/ce5b5ac8b8823f3df54050195576c821/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0-alpha05] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/material-1.1.0-alpha05.aar/ce5b5ac8b8823f3df54050195576c821/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-alpha3] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/constraintlayout-2.0.0-alpha3.aar/650554c785112f4df51d7f5c84eeba85/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-alpha3] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/constraintlayout-2.0.0-alpha3.aar/650554c785112f4df51d7f5c84eeba85/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.preference:preference:1.1.0-alpha04] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/preference-1.1.0-alpha04.aar/4c4e453bc32ca7c042955f5dea74dd2e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.preference:preference:1.1.0-alpha04] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/preference-1.1.0-alpha04.aar/4c4e453bc32ca7c042955f5dea74dd2e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0-alpha04] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/appcompat-1.1.0-alpha04.aar/8187619ac85a266c2f4c2b8a5bfedf06/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0-alpha04] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/appcompat-1.1.0-alpha04.aar/8187619ac85a266c2f4c2b8a5bfedf06/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/cardview-1.0.0.aar/1401141122b1a5deda4242031d19075c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/cardview-1.0.0.aar/1401141122b1a5deda4242031d19075c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/4202806da74ac85859488d4ba7df1ddb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/4202806da74ac85859488d4ba7df1ddb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-alpha01] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.1.0-alpha01.aar/b17f198500b890cab8ccae8f420bea61/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-alpha01] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.1.0-alpha01.aar/b17f198500b890cab8ccae8f420bea61/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/25af54c142a8cdfdcadcaedde04e92f8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/25af54c142a8cdfdcadcaedde04e92f8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-alpha01] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/recyclerview-1.1.0-alpha01.aar/672b2a3ea2d518aeb3773381707d0ef5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-alpha01] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/recyclerview-1.1.0-alpha01.aar/672b2a3ea2d518aeb3773381707d0ef5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.1] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/transition-1.0.1.aar/662acd338a9cdd3855db250f6b8ca28f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.1] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/transition-1.0.1.aar/662acd338a9cdd3855db250f6b8ca28f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0-alpha04] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/appcompat-resources-1.1.0-alpha04.aar/99c0a6f81fd55ad84bf70af45bfeb23a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0-alpha04] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/appcompat-resources-1.1.0-alpha04.aar/99c0a6f81fd55ad84bf70af45bfeb23a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0-alpha01] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.1.0-alpha01.aar/6c180d8b8e63ad939f3695686029f1a6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0-alpha01] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.1.0-alpha01.aar/6c180d8b8e63ad939f3695686029f1a6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0-alpha01] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.1.0-alpha01.aar/6070010ca85a18b7cd20c3d5d373f3d7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0-alpha01] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.1.0-alpha01.aar/6070010ca85a18b7cd20c3d5d373f3d7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0-alpha06] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/fragment-1.1.0-alpha06.aar/a60f80de417839947a2d126d821f8425/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0-alpha06] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/fragment-1.1.0-alpha06.aar/a60f80de417839947a2d126d821f8425/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/4ab91719890cf6cc50c862447bbc2ba2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/4ab91719890cf6cc50c862447bbc2ba2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/53d7026f54337b0b25d8906733dbdb32/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/53d7026f54337b0b25d8906733dbdb32/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/fcca837a25ee3cdf554ccc8131407372/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/fcca837a25ee3cdf554ccc8131407372/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/190878779af9d14f2c5b09be3a9eeac5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/190878779af9d14f2c5b09be3a9eeac5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/e8bd31393ddc42b3eace0c50a9234734/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/e8bd31393ddc42b3eace0c50a9234734/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/913b9df52a8ce5e5e1ff7b94930480da/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/913b9df52a8ce5e5e1ff7b94930480da/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/6358100f550d7b7cb8a7a3ddebe37203/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/6358100f550d7b7cb8a7a3ddebe37203/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0-alpha06] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/activity-1.0.0-alpha06.aar/36c5ff60ac6948840f1072dffed698a1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0-alpha06] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/activity-1.0.0-alpha06.aar/36c5ff60ac6948840f1072dffed698a1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0-alpha05] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/core-1.1.0-alpha05.aar/e93411da42be6e332e5e391c2980605e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0-alpha05] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/core-1.1.0-alpha05.aar/e93411da42be6e332e5e391c2980605e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/660e47d39b5d9b4808d6dfc9ff53a477/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/660e47d39b5d9b4808d6dfc9ff53a477/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/db0a2a4271a4aa2afe32deee4fc3ba9b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/db0a2a4271a4aa2afe32deee4fc3ba9b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/21ef92803c5ab7225d0e66412f74225f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/21ef92803c5ab7225d0e66412f74225f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/b3628a9ba107aa571b83f21b07196d3f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/b3628a9ba107aa571b83f21b07196d3f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/e4d0917a0bd30fdca37dbd887bddc9ee/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/e4d0917a0bd30fdca37dbd887bddc9ee/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-alpha02] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.1.0-alpha02.aar/2fa4ab0295e982a64cde589e68f466ab/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-alpha02] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.1.0-alpha02.aar/2fa4ab0295e982a64cde589e68f466ab/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/2e246903f17b87c96ba81902486308b0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/2e246903f17b87c96ba81902486308b0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0-alpha04] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.1.0-alpha04.aar/dbfb5b6e22720c852ea150c6427675b0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0-alpha04] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.1.0-alpha04.aar/dbfb5b6e22720c852ea150c6427675b0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0-alpha02] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/savedstate-1.0.0-alpha02.aar/af67a1ee2effa81258e604714c1f1dfd/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0-alpha02] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/savedstate-1.0.0-alpha02.aar/af67a1ee2effa81258e604714c1f1dfd/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/4d1c9a76b799419fcfabbbb55efd1b23/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/4d1c9a76b799419fcfabbbb55efd1b23/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/650fc62b947efbbb3e3a42381b4434bb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/650fc62b947efbbb3e3a42381b4434bb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0-alpha04] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.1.0-alpha04.aar/65ce360f7ab0976df3245f5227f53489/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0-alpha04] /Users/fatihkocak/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.1.0-alpha04.aar/65ce360f7ab0976df3245f5227f53489/AndroidManifest.xml:20:5-44
+INJECTED from /Users/fatihkocak/Desktop/android-DarkTheme-master/Application/src/main/AndroidManifest.xml
+INJECTED from /Users/fatihkocak/Desktop/android-DarkTheme-master/Application/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/fatihkocak/Desktop/android-DarkTheme-master/Application/src/main/AndroidManifest.xml
+		ADDED from /Users/fatihkocak/Desktop/android-DarkTheme-master/Application/src/main/AndroidManifest.xml
+		INJECTED from /Users/fatihkocak/Desktop/android-DarkTheme-master/Application/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/fatihkocak/Desktop/android-DarkTheme-master/Application/src/main/AndroidManifest.xml
+		ADDED from /Users/fatihkocak/Desktop/android-DarkTheme-master/Application/src/main/AndroidManifest.xml
+		INJECTED from /Users/fatihkocak/Desktop/android-DarkTheme-master/Application/src/main/AndroidManifest.xml
