@@ -1,0 +1,1072 @@
+{
+  "code": "CAT-1000",
+  "message": "Article fetched successfully.",
+  "data": {
+    "_id": "5f4cf6fbb69eb4f91273c899",
+    "legacyId": 917453,
+    "title": "Ömrümüz Vergi Ödemekle Geçiyor! Peki Hangi Vergileri Ödediğinizi Biliyor musunuz? İşte Türkiye'de Ödenilen Vergi Çeşitleri",
+    "description": "Hayatımız boyunca çeşit çeşit vergiler ödüyoruz\\. Bazı vergileri ödediğimizden bile bir haberiz\\. Vergi konusunda aydınlanmak isteyenleri buraya alalım\\.",
+    "layout": "ol-asc",
+    "authors": [
+      {
+        "_id": "5a0c52ae828df3ae15d245dd",
+        "username": "nursuduha",
+        "name": "Nursu Duha Çubukçu",
+        "image": {
+          "alternates": {
+            "standardResolution": {
+              "url": "//srv-cdn.onedio.com/twitter/avatar/cubukcnursu"
+            },
+            "highResolution": {
+              "url": "//srv-cdn.onedio.com/twitter/avatar/cubukcnursu/original"
+            }
+          }
+        },
+        "country": "TR",
+        "gender": "female",
+        "city": null,
+        "title": null,
+        "slogan": null,
+        "birthdate": "1993-02-10T00:00:00.000Z",
+        "flags": {
+          "approvedEmail": true
+        }
+      }
+    ],
+    "image": {
+      "_id": "5f4e1e4d265a611c146cb0b4",
+      "url": "https://img-s2.onedio.com/id-5f4e1e4d265a611c146cb0b4/rev-0/w-1200/h-628/f-jpg/s-d8b1e1a5798679c1757dd0c9ae02aee09b5ec713.jpg",
+      "width": 1200,
+      "height": 628,
+      "format": "jpg",
+      "alternates": {
+        "standardResolution": {
+          "url": "https://img-s2.onedio.com/id-5f4e1e4d265a611c146cb0b4/rev-0/w-600/h-314/f-jpg/s-caafb0fad42e4b0af4e514675afc2d8317f6af7e.jpg",
+          "height": 314,
+          "width": 600,
+          "format": "jpg",
+          "thumbnail": null
+        },
+        "highResolution": {
+          "url": "https://img-s2.onedio.com/id-5f4e1e4d265a611c146cb0b4/rev-0/w-900/h-471/f-jpg/s-f49ea6a237114aabb0c0aa296b30a1bab500c86f.jpg",
+          "height": 471,
+          "width": 900,
+          "format": "jpg",
+          "thumbnail": null
+        }
+      }
+    },
+    "categories": [
+      {
+        "_id": "59edee88289af902f042bcea",
+        "name": "Iq",
+        "icons": {
+          "png": "https://static.onedio.com/icons/category/png/iq-68.png",
+          "svg": "https://static.onedio.com/icons/category/svg/iq.svg"
+        }
+      }
+    ],
+    "entries": [
+      {
+        "_id": "5f4cf6fbb69eb4f91273c891",
+        "mode": "text",
+        "title": null,
+        "content": "Hayatımız boyunca çeşit çeşit vergiler ödüyoruz\\. Bazı vergileri ödediğimizden bile bir haberiz\\. Vergi konusunda aydınlanmak isteyenleri buraya alalım\\.",
+        "metadata": {
+          "fittoscreen": true,
+          "unordered": true
+        },
+        "internaldata": {},
+        "urls": {
+          "image": null
+        }
+      },
+      {
+        "_id": "5f4cf6fbb69eb4f91273c892",
+        "mode": "image",
+        "title": "1. Katma Değer Vergisi (KDV)",
+        "content": "KDV, ürün veya hizmeti alan kişinin, ürün veya hizmeti satan kişiye dolaylı yoldan ödediği vergi türüdür\\. Genellikle girdiğimiz mağazalarda \"KDV Dahildir\" yazılarına denk geliriz\\.",
+        "image": {
+          "_id": "5f4cf9e4e87564260facd725",
+          "url": "https://img-s3.onedio.com/id-5f4cf9e4e87564260facd725/rev-0/w-720/h-400/f-jpg/s-f185e6cf607f43c0aeafac3c35ceffcb538e8de9.jpg",
+          "width": 720,
+          "height": 400,
+          "format": "jpg",
+          "alternates": {
+            "standardResolution": {
+              "url": "https://img-s3.onedio.com/id-5f4cf9e4e87564260facd725/rev-0/w-600/h-333/f-jpg/s-502eb4add7dbeee142f6ce2c80a2bbd2d2a2cc47.jpg",
+              "height": 333,
+              "width": 600,
+              "format": "jpg",
+              "thumbnail": null
+            },
+            "highResolution": {
+              "url": "https://img-s3.onedio.com/id-5f4cf9e4e87564260facd725/rev-0/w-900/h-500/f-jpg/s-0d1ed1d29fc3b40cfe4fb9d0f0ff7fbb696285fa.jpg",
+              "height": 500,
+              "width": 900,
+              "format": "jpg",
+              "thumbnail": null
+            }
+          }
+        },
+        "metadata": {
+          "fittoscreen": true,
+          "extra_media": ""
+        },
+        "internaldata": {
+          "size": {
+            "width": 635,
+            "height": 420
+          },
+          "format": "jpg"
+        },
+        "urls": {
+          "source": "https://static.birgun.net/resim/haber-detay-resim/2020/03/19/bilim-kurulu-uyesi-tasova-anlatti-market-alisverisi-nasil-yapilmali-702954-5.jpg",
+          "image": "https://static.birgun.net/resim/haber-detay-resim/2020/03/19/bilim-kurulu-uyesi-tasova-anlatti-market-alisverisi-nasil-yapilmali-702954-5.jpg"
+        }
+      },
+      {
+        "_id": "5f4cf6fbb69eb4f91273c893",
+        "mode": "image",
+        "title": "2. Özel Tüketim Vergisi (ÖTV)",
+        "content": "ÖTV, lüks olarak adlandırılan ürünlerden alınan vergidir\\. En çok araba, cep telefonları gibi ürünlerden alınan ÖTV'yi haberlerde de sıklıkla duyuyoruz\\.",
+        "image": {
+          "_id": "5f4cfd5ac4a62b250f7e99ac",
+          "url": "https://img-s1.onedio.com/id-5f4cfd5ac4a62b250f7e99ac/rev-0/w-1400/h-700/f-jpg/s-86b49a146007a6462252ebf5d3c11372d4947254.jpg",
+          "width": 1400,
+          "height": 700,
+          "format": "jpg",
+          "alternates": {
+            "standardResolution": {
+              "url": "https://img-s1.onedio.com/id-5f4cfd5ac4a62b250f7e99ac/rev-0/w-600/h-300/f-jpg/s-fc65104735bdcdb7f2dcff11fde1f286cd17933c.jpg",
+              "height": 300,
+              "width": 600,
+              "format": "jpg",
+              "thumbnail": null
+            },
+            "highResolution": {
+              "url": "https://img-s1.onedio.com/id-5f4cfd5ac4a62b250f7e99ac/rev-0/w-900/h-450/f-jpg/s-a003c559d7532000077f1612645d8df360af8a0f.jpg",
+              "height": 450,
+              "width": 900,
+              "format": "jpg",
+              "thumbnail": null
+            }
+          }
+        },
+        "metadata": {
+          "fittoscreen": true
+        },
+        "internaldata": {
+          "size": {
+            "width": 1280,
+            "height": 654
+          },
+          "format": "jpg"
+        },
+        "urls": {
+          "source": "https://coinkazanma.com/wp-content/uploads/2018/10/dash-ile-otomobil-satın-almak.jpg",
+          "image": "https://coinkazanma.com/wp-content/uploads/2018/10/dash-ile-otomobil-satın-almak.jpg"
+        }
+      },
+      {
+        "_id": "5f4cf6fbb69eb4f91273c894",
+        "mode": "image",
+        "title": "3. Motorlu Taşıtlar Vergisi (MTV)",
+        "content": "MTV'de trafik şubelerine kayıtlı araçları olan herkesi ilgilendiren bir vergidir\\. Senede iki kez Ocak ve Temmuz aylarında ödenir\\.",
+        "image": {
+          "_id": "5f4ce53ec322eb5b1a6b4973",
+          "url": "https://img-s1.onedio.com/id-5f4ce53ec322eb5b1a6b4973/rev-0/w-900/h-506/f-jpg/s-086c1f838ee2701571d77d85bedebf900eff84e8.jpg",
+          "width": 900,
+          "height": 506,
+          "format": "jpg",
+          "alternates": {
+            "standardResolution": {
+              "url": "https://img-s1.onedio.com/id-5f4ce53ec322eb5b1a6b4973/rev-0/w-600/h-337/f-jpg/s-f6dcfc1dfba8cac4465e1982fbcb03569bf758d8.jpg",
+              "height": 337,
+              "width": 600,
+              "format": "jpg",
+              "thumbnail": null
+            },
+            "highResolution": {
+              "url": "https://img-s1.onedio.com/id-5f4ce53ec322eb5b1a6b4973/rev-0/w-900/h-506/f-jpg/s-086c1f838ee2701571d77d85bedebf900eff84e8.jpg",
+              "height": 506,
+              "width": 900,
+              "format": "jpg",
+              "thumbnail": null
+            }
+          }
+        },
+        "metadata": {
+          "fittoscreen": true
+        },
+        "internaldata": {
+          "size": {
+            "width": 900,
+            "height": 506
+          },
+          "format": "jpg"
+        },
+        "urls": {
+          "source": "https://img-s1.onedio.com/id-5e35520161e3d38745cc673e/rev-0/w-900/h-506/f-jpg/s-ad16996be5ad718863e1da9161aadd813296cfe6.jpg",
+          "image": "https://img-s1.onedio.com/id-5e35520161e3d38745cc673e/rev-0/w-900/h-506/f-jpg/s-ad16996be5ad718863e1da9161aadd813296cfe6.jpg"
+        }
+      },
+      {
+        "_id": "5f4cf6fbb69eb4f91273c895",
+        "mode": "image",
+        "title": "4. Emlak Vergisi",
+        "content": "Emlak vergisi de; ev, iş yeri, bina, arsa, arazi sahiplerini ilgilendiren bir vergi türüdür\\. Her yıl düzenli olarak alınan emlak vergisinde belirli muafiyetler mevcuttur\\.",
+        "image": {
+          "_id": "5f4cfc96c51860280fe59216",
+          "url": "https://img-s1.onedio.com/id-5f4cfc96c51860280fe59216/rev-0/w-500/h-240/f-jpg/s-c169749ae11d827b3530cf8b6338a8b5d30f196a.jpg",
+          "width": 500,
+          "height": 240,
+          "format": "jpg",
+          "alternates": {
+            "standardResolution": {
+              "url": "https://img-s1.onedio.com/id-5f4cfc96c51860280fe59216/rev-0/w-600/h-288/f-jpg/s-0c20146057ae4208952e248996a8c654d9a4ae24.jpg",
+              "height": 288,
+              "width": 600,
+              "format": "jpg",
+              "thumbnail": null
+            },
+            "highResolution": {
+              "url": "https://img-s1.onedio.com/id-5f4cfc96c51860280fe59216/rev-0/w-900/h-431/f-jpg/s-227402bf28c27453baab998acd65681adfe3ccbe.jpg",
+              "height": 431,
+              "width": 900,
+              "format": "jpg",
+              "thumbnail": null
+            }
+          }
+        },
+        "metadata": {
+          "fittoscreen": true
+        },
+        "internaldata": {
+          "size": {
+            "width": 635,
+            "height": 357
+          },
+          "format": "jpg"
+        },
+        "urls": {
+          "source": "https://img-s2.onedio.com/id-53b660ae2fbb2b4d184ab8e9/rev-0/w-500/s-12dd4df8f80ebfd50bf190d7e3a46bdf10526e6e.jpg",
+          "image": "https://img-s2.onedio.com/id-53b660ae2fbb2b4d184ab8e9/rev-0/w-500/s-12dd4df8f80ebfd50bf190d7e3a46bdf10526e6e.jpg"
+        }
+      },
+      {
+        "_id": "5f4cf6fbb69eb4f91273c896",
+        "mode": "image",
+        "title": "5. Gelir Vergisi",
+        "content": "Gelir vergisi, gerçek kişilerin elde ettiği gelir üzerinden düzenli olarak ödenilen vergi türünden biridir\\. Kişinin aldığı gelir üzerinden adaletli bir şekilde gelir vergisi kesilir\\.",
+        "image": {
+          "_id": "5f4cfbdce87564260facd75a",
+          "url": "https://img-s1.onedio.com/id-5f4cfbdce87564260facd75a/rev-0/w-1280/h-720/f-jpg/s-3339eb38d920c102874f18c917358dba04f8d092.jpg",
+          "width": 1280,
+          "height": 720,
+          "format": "jpg",
+          "alternates": {
+            "standardResolution": {
+              "url": "https://img-s1.onedio.com/id-5f4cfbdce87564260facd75a/rev-0/w-600/h-337/f-jpg/s-7e5bbe8349b0798bc94b95720e41424fcf0524e4.jpg",
+              "height": 337,
+              "width": 600,
+              "format": "jpg",
+              "thumbnail": null
+            },
+            "highResolution": {
+              "url": "https://img-s1.onedio.com/id-5f4cfbdce87564260facd75a/rev-0/w-900/h-506/f-jpg/s-6f3c344c9e0381cda7c5321dfc7a8df3ad7ba7d7.jpg",
+              "height": 506,
+              "width": 900,
+              "format": "jpg",
+              "thumbnail": null
+            }
+          }
+        },
+        "metadata": {
+          "fittoscreen": true
+        },
+        "internaldata": {
+          "size": {
+            "width": 635,
+            "height": 352
+          },
+          "format": "jpg"
+        },
+        "urls": {
+          "source": "https://i.pinimg.com/originals/f4/fe/f9/f4fef93bba83350d97b7cf7152ed53de.jpg",
+          "image": "https://i.pinimg.com/originals/f4/fe/f9/f4fef93bba83350d97b7cf7152ed53de.jpg"
+        }
+      },
+      {
+        "_id": "5f4cf6fbb69eb4f91273c897",
+        "mode": "image",
+        "title": "6. Kurumlar Vergisi",
+        "content": "Kurumlar vergisi; şirketler, vakıf ve dernekler, iktisadi kamu kuruluşları gibi kurumların gelirlerinden ödenen vergi türüdür\\.",
+        "image": {
+          "_id": "5f4ceb310c5b6e470f33cfd4",
+          "url": "https://img-s2.onedio.com/id-5f4ceb310c5b6e470f33cfd4/rev-0/w-1024/h-665/f-jpg/s-3ff47bb761bd971907e0d5a5ae9d37534f75384b.jpg",
+          "width": 1024,
+          "height": 665,
+          "format": "jpg",
+          "alternates": {
+            "standardResolution": {
+              "url": "https://img-s2.onedio.com/id-5f4ceb310c5b6e470f33cfd4/rev-0/w-600/h-389/f-jpg/s-296d7909c840b76e6bd8fb586791003393784e47.jpg",
+              "height": 389,
+              "width": 600,
+              "format": "jpg",
+              "thumbnail": null
+            },
+            "highResolution": {
+              "url": "https://img-s2.onedio.com/id-5f4ceb310c5b6e470f33cfd4/rev-0/w-900/h-584/f-jpg/s-229ff28d7715706080744d8bf8b9b3deb25d80d0.jpg",
+              "height": 584,
+              "width": 900,
+              "format": "jpg",
+              "thumbnail": null
+            }
+          }
+        },
+        "metadata": {
+          "fittoscreen": true
+        },
+        "internaldata": {
+          "size": {
+            "width": 1024,
+            "height": 665
+          },
+          "format": "jpg"
+        },
+        "urls": {
+          "source": "https://www.insaatgundemi.com/wp-content/uploads/açık-ofis-1024x665.jpg",
+          "image": "https://www.insaatgundemi.com/wp-content/uploads/açık-ofis-1024x665.jpg"
+        }
+      },
+      {
+        "_id": "5f4cf6fbb69eb4f91273c898",
+        "mode": "image",
+        "title": "7. Damga Vergisi",
+        "content": "Makbuz ve diğer kağıtları kapsayan, her türlü sözleşmeden doğan ve devlet tarafından alınan bir vergi türüdür\\.\n\n**Sizler bu vergiler hakkında ne düşünüyorsunuz?**",
+        "image": {
+          "_id": "5f4cec1f5c54ea3e0fadd04e",
+          "url": "https://img-s1.onedio.com/id-5f4cec1f5c54ea3e0fadd04e/rev-0/w-660/h-330/f-jpg/s-f88d5bed85e9451e4f483972827bc77b1786dcff.jpg",
+          "width": 660,
+          "height": 330,
+          "format": "jpg",
+          "alternates": {
+            "standardResolution": {
+              "url": "https://img-s1.onedio.com/id-5f4cec1f5c54ea3e0fadd04e/rev-0/w-600/h-300/f-jpg/s-532d93220c98a75bc1eff2f1ac5402c8892934e3.jpg",
+              "height": 300,
+              "width": 600,
+              "format": "jpg",
+              "thumbnail": null
+            },
+            "highResolution": {
+              "url": "https://img-s1.onedio.com/id-5f4cec1f5c54ea3e0fadd04e/rev-0/w-900/h-450/f-jpg/s-441ee686908b1c18ae2b8c5fea2380983057f5cd.jpg",
+              "height": 450,
+              "width": 900,
+              "format": "jpg",
+              "thumbnail": null
+            }
+          }
+        },
+        "metadata": {
+          "fittoscreen": true
+        },
+        "internaldata": {
+          "size": {
+            "width": 660,
+            "height": 330
+          },
+          "format": "jpg"
+        },
+        "urls": {
+          "source": "http://www.memurlar.net/common/news/images/800135/headline.jpg",
+          "image": "https://memurlar.net/common/news/images/800135/headline.jpg"
+        }
+      },
+      {
+        "_id": "5f4d00075096e943118c1db4",
+        "mode": "oio-embed",
+        "title": "Bu içerikler de ilginizi çekebilir:",
+        "content": null,
+        "image": null,
+        "metadata": {
+          "unordered": true,
+          "hidein": {}
+        },
+        "internaldata": {
+          "embedfrom": "oioembed"
+        },
+        "urls": {
+          "image": null,
+          "source": "https://onedio.com/haber/berat-albayrak-toplanan-her-100-tl-verginin-85-2-tl-si-toplumun-refahi-icin-kullaniliyor-915903?oioembed"
+        },
+        "embedArticle": {
+          "_id": "5f47cc5487156bbd17b9d427",
+          "legacyId": 915903,
+          "title": "Berat Albayrak: 'Toplanan Her 100 TL Verginin 85,2 TL'si Toplumun Refahı İçin Kullanılıyor'",
+          "description": "Hazine ve Maliye Bakanı Berat Albayrak, \"Toplanan her 100 lira verginin 85,2 lirası toplumun refahı için kullanılıyor\\.\" dedi, sosyal medya kullanıcıları \"Hangi refah\" diye sordu\\.",
+          "layout": "default",
+          "authors": [
+            {
+              "_id": "5457ab06d355a8ff04a5b6c7",
+              "username": "dnizgk",
+              "name": "Deniz Gök",
+              "email": "dnizgk@gmail.com",
+              "image": {
+                "alternates": {
+                  "standardResolution": {
+                    "url": "https://graph.facebook.com/693056267474260/picture?type=normal"
+                  },
+                  "highResolution": {
+                    "url": "https://graph.facebook.com/693056267474260/picture?type=large"
+                  }
+                }
+              },
+              "country": "TR",
+              "gender": "male",
+              "city": null,
+              "title": "Onedio Üyesi",
+              "slogan": "Sen Abdülhamid'i Savundun",
+              "birthdate": "1989-11-08T22:00:00.000Z",
+              "flags": {
+                "approvedEmail": true
+              }
+            }
+          ],
+          "image": {
+            "_id": "5f47cb5e43a5a334189ccf4a",
+            "url": "https://img-s1.onedio.com/id-5f47cb5e43a5a334189ccf4a/rev-0/w-680/h-453/f-jpg/s-8b0416ea2e5116db785f569c15f6b75d296d430c.jpg",
+            "width": 680,
+            "height": 453,
+            "format": "jpg",
+            "alternates": {
+              "standardResolution": {
+                "url": "https://img-s1.onedio.com/id-5f47cb5e43a5a334189ccf4a/rev-0/w-600/h-399/f-jpg/s-51d904d6cdadfac13246ed2738e2c6f41fdb7ab5.jpg",
+                "height": 399,
+                "width": 600,
+                "format": "jpg",
+                "thumbnail": null
+              },
+              "highResolution": {
+                "url": "https://img-s1.onedio.com/id-5f47cb5e43a5a334189ccf4a/rev-0/w-900/h-599/f-jpg/s-7c1f32e6d7eee12a6a1ca693e184717097405e8c.jpg",
+                "height": 599,
+                "width": 900,
+                "format": "jpg",
+                "thumbnail": null
+              }
+            }
+          },
+          "categories": [
+            {
+              "_id": "50187b5d295c043264000144",
+              "name": "Gündem",
+              "icons": {
+                "png": "https://static.onedio.com/icons/category/png/gundem-68.png",
+                "svg": "https://static.onedio.com/icons/category/svg/gundem.svg"
+              }
+            }
+          ],
+          "reactions": [
+            {
+              "id": "1f44f",
+              "name": "",
+              "count": 422,
+              "icons": {
+                "svg": "https://static.onedio.com/icons/badge/svg/laugh.svg",
+                "png": "https://static.onedio.com/icons/badge/png/laugh.png"
+              }
+            },
+            {
+              "id": "emoj.kizgin",
+              "name": "",
+              "count": 280,
+              "icons": {
+                "svg": "https://static.onedio.com/icons/badge/svg/angry.svg",
+                "png": "https://static.onedio.com/icons/badge/png/angry.png"
+              }
+            },
+            {
+              "id": "1f602",
+              "name": "",
+              "count": 160,
+              "icons": {
+                "svg": "https://static.onedio.com/icons/badge/svg/fail.svg",
+                "png": "https://static.onedio.com/icons/badge/png/fail.png"
+              }
+            },
+            {
+              "id": "1f60c",
+              "name": "",
+              "count": 16,
+              "icons": {
+                "svg": "https://static.onedio.com/icons/badge/svg/clap.svg",
+                "png": "https://static.onedio.com/icons/badge/png/clap.png"
+              }
+            },
+            {
+              "id": "1f44e",
+              "name": "",
+              "count": 8,
+              "icons": {
+                "svg": "https://static.onedio.com/icons/badge/svg/heart.svg",
+                "png": "https://static.onedio.com/icons/badge/png/heart.png"
+              }
+            },
+            {
+              "id": "1f631",
+              "name": "",
+              "count": 6,
+              "icons": {
+                "svg": "https://static.onedio.com/icons/badge/svg/sad.svg",
+                "png": "https://static.onedio.com/icons/badge/png/sad.png"
+              }
+            },
+            {
+              "id": "1f625",
+              "name": "",
+              "count": 6,
+              "icons": {
+                "svg": "https://static.onedio.com/icons/badge/svg/surprise.svg",
+                "png": "https://static.onedio.com/icons/badge/png/surprise.png"
+              }
+            }
+          ],
+          "badge": [
+            {
+              "_id": "562e40f6df878a1246186f02",
+              "name": "Çok iyi!",
+              "icons": {
+                "svg": "https://static.onedio.com/icons/badge/svg/laugh.svg",
+                "png": "https://static.onedio.com/icons/badge/png/laugh.png"
+              }
+            }
+          ],
+          "showInWebview": false,
+          "stats": {
+            "views": 16996,
+            "shares": 120,
+            "comments": 148,
+            "reactions": 898
+          },
+          "flags": {
+            "showAds": true
+          },
+          "redirectUrl": null,
+          "isUserFavorite": false,
+          "createDate": "2020-08-27T15:08:04.826Z",
+          "updateDate": "2020-08-27T15:12:26.062Z",
+          "publishDate": "2020-08-27T15:12:26.062Z"
+        }
+      },
+      {
+        "_id": "5f4d00075096e943118c1db6",
+        "mode": "oio-embed",
+        "title": null,
+        "content": null,
+        "image": null,
+        "metadata": {
+          "unordered": true,
+          "no_taglinks": false,
+          "hidein": {}
+        },
+        "internaldata": {
+          "embedfrom": "oioembed"
+        },
+        "urls": {
+          "image": null,
+          "source": "https://onedio.com/haber/playstation-5-tanitildi-peki-satin-almak-istersek-hangi-vergileri-odememiz-gerekecek-908435?oioembed"
+        },
+        "embedArticle": {
+          "_id": "5ee34002dde5073851a7955f",
+          "legacyId": 908435,
+          "title": "PlayStation 5 Tanıtıldı! Peki Satın Almak İstersek Hangi Vergileri Ödememiz Gerekecek?",
+          "description": "Oyun tutkunlarının beklediği an geldi ve PlayStation 5 tanıtıldı\\. Peki fiyatı ne? Bize gelene kadar hangi vergiler ekleniyor?",
+          "layout": "ul",
+          "authors": [
+            {
+              "_id": "55a2b95cfd30bd994c7ae4f1",
+              "username": "peennyy",
+              "name": "Penny",
+              "email": "yelda.goktepe@onedio.com",
+              "image": {
+                "alternates": {
+                  "standardResolution": {
+                    "url": "https://graph.facebook.com/768488656581831/picture?type=normal"
+                  },
+                  "highResolution": {
+                    "url": "https://graph.facebook.com/768488656581831/picture?type=large"
+                  }
+                }
+              },
+              "country": "TR",
+              "gender": "female",
+              "city": "Kocaeli",
+              "title": null,
+              "slogan": null,
+              "birthdate": "1996-01-27T00:00:00.000Z",
+              "flags": {
+                "approvedEmail": true
+              }
+            }
+          ],
+          "image": {
+            "_id": "5ee36d8ea33b774a767b9e02",
+            "url": "https://img-s3.onedio.com/id-5ee36d8ea33b774a767b9e02/rev-0/w-750/h-422/f-jpg/s-07534f2f1b2a9331b7e57989f77c908770ef9966.jpg",
+            "width": 750,
+            "height": 422,
+            "format": "jpg",
+            "alternates": {
+              "standardResolution": {
+                "url": "https://img-s3.onedio.com/id-5ee36d8ea33b774a767b9e02/rev-0/w-600/h-337/f-jpg/s-2a839b09651eb765f73203a32d77c1954fcda891.jpg",
+                "height": 337,
+                "width": 600,
+                "format": "jpg",
+                "thumbnail": null
+              },
+              "highResolution": {
+                "url": "https://img-s3.onedio.com/id-5ee36d8ea33b774a767b9e02/rev-0/w-900/h-506/f-jpg/s-28136d57aee1ac67c7c9ed5b35d6a49632b5dc7b.jpg",
+                "height": 506,
+                "width": 900,
+                "format": "jpg",
+                "thumbnail": null
+              }
+            }
+          },
+          "categories": [
+            {
+              "_id": "4fa2e79f027fbe9d1c00000d",
+              "name": "Spor",
+              "icons": {
+                "png": "https://static.onedio.com/icons/category/png/spor-68.png",
+                "svg": "https://static.onedio.com/icons/category/svg/spor.svg"
+              }
+            },
+            {
+              "_id": "59edee88289af902f042bcea",
+              "name": "Iq",
+              "icons": {
+                "png": "https://static.onedio.com/icons/category/png/iq-68.png",
+                "svg": "https://static.onedio.com/icons/category/svg/iq.svg"
+              }
+            }
+          ],
+          "reactions": [
+            {
+              "id": "emoj.kizgin",
+              "name": "",
+              "count": 230,
+              "icons": {
+                "svg": "https://static.onedio.com/icons/badge/svg/angry.svg",
+                "png": "https://static.onedio.com/icons/badge/png/angry.png"
+              }
+            },
+            {
+              "id": "1f602",
+              "name": "",
+              "count": 67,
+              "icons": {
+                "svg": "https://static.onedio.com/icons/badge/svg/fail.svg",
+                "png": "https://static.onedio.com/icons/badge/png/fail.png"
+              }
+            },
+            {
+              "id": "1f44f",
+              "name": "",
+              "count": 44,
+              "icons": {
+                "svg": "https://static.onedio.com/icons/badge/svg/laugh.svg",
+                "png": "https://static.onedio.com/icons/badge/png/laugh.png"
+              }
+            },
+            {
+              "id": "1f60c",
+              "name": "",
+              "count": 21,
+              "icons": {
+                "svg": "https://static.onedio.com/icons/badge/svg/clap.svg",
+                "png": "https://static.onedio.com/icons/badge/png/clap.png"
+              }
+            },
+            {
+              "id": "1f631",
+              "name": "",
+              "count": 15,
+              "icons": {
+                "svg": "https://static.onedio.com/icons/badge/svg/sad.svg",
+                "png": "https://static.onedio.com/icons/badge/png/sad.png"
+              }
+            },
+            {
+              "id": "1f625",
+              "name": "",
+              "count": 13,
+              "icons": {
+                "svg": "https://static.onedio.com/icons/badge/svg/surprise.svg",
+                "png": "https://static.onedio.com/icons/badge/png/surprise.png"
+              }
+            },
+            {
+              "id": "1f44e",
+              "name": "",
+              "count": 6,
+              "icons": {
+                "svg": "https://static.onedio.com/icons/badge/svg/heart.svg",
+                "png": "https://static.onedio.com/icons/badge/png/heart.png"
+              }
+            }
+          ],
+          "badge": [],
+          "showInWebview": false,
+          "stats": {
+            "views": 29650,
+            "shares": 76,
+            "comments": 61,
+            "reactions": 396
+          },
+          "flags": {
+            "showAds": true
+          },
+          "redirectUrl": null,
+          "isUserFavorite": false,
+          "createDate": "2020-06-12T08:42:42.821Z",
+          "updateDate": "2020-06-12T09:45:36.555Z",
+          "publishDate": "2020-06-12T09:45:36.555Z"
+        }
+      }
+    ],
+    "reactions": [
+      {
+        "id": "emoj.kizgin",
+        "name": "",
+        "count": 205,
+        "icons": {
+          "svg": "https://static.onedio.com/icons/badge/svg/angry.svg",
+          "png": "https://static.onedio.com/icons/badge/png/angry.png"
+        }
+      },
+      {
+        "id": "1f602",
+        "name": "",
+        "count": 92,
+        "icons": {
+          "svg": "https://static.onedio.com/icons/badge/svg/fail.svg",
+          "png": "https://static.onedio.com/icons/badge/png/fail.png"
+        }
+      },
+      {
+        "id": "1f631",
+        "name": "",
+        "count": 24,
+        "icons": {
+          "svg": "https://static.onedio.com/icons/badge/svg/sad.svg",
+          "png": "https://static.onedio.com/icons/badge/png/sad.png"
+        }
+      },
+      {
+        "id": "1f44f",
+        "name": "",
+        "count": 10,
+        "icons": {
+          "svg": "https://static.onedio.com/icons/badge/svg/laugh.svg",
+          "png": "https://static.onedio.com/icons/badge/png/laugh.png"
+        }
+      },
+      {
+        "id": "1f625",
+        "name": "",
+        "count": 8,
+        "icons": {
+          "svg": "https://static.onedio.com/icons/badge/svg/surprise.svg",
+          "png": "https://static.onedio.com/icons/badge/png/surprise.png"
+        }
+      },
+      {
+        "id": "1f60c",
+        "name": "",
+        "count": 6,
+        "icons": {
+          "svg": "https://static.onedio.com/icons/badge/svg/clap.svg",
+          "png": "https://static.onedio.com/icons/badge/png/clap.png"
+        }
+      },
+      {
+        "id": "1f44e",
+        "name": "",
+        "count": 3,
+        "icons": {
+          "svg": "https://static.onedio.com/icons/badge/svg/heart.svg",
+          "png": "https://static.onedio.com/icons/badge/png/heart.png"
+        }
+      }
+    ],
+    "badge": [],
+    "showInWebview": false,
+    "tags": [
+      "~experimental-videogifs",
+      "Manşet Galerileri",
+      "Medya Galeriler",
+      "~no-instant-article",
+      "#vergi",
+      "~shared-social-twitter-onedio_iq",
+      "~shared-social",
+      "~shared-social-twitter-onediocom"
+    ],
+    "stats": {
+      "views": 14409,
+      "shares": 15,
+      "comments": 31,
+      "reactions": 348
+    },
+    "flags": {
+      "showAds": true
+    },
+    "redirectUrl": null,
+    "isUserFavorite": false,
+    "createDate": "2020-08-31T13:11:23.357Z",
+    "updateDate": "2020-09-01T06:18:57.397Z",
+    "publishDate": "2020-09-01T06:18:57.397Z",
+    "comments": [
+      {
+        "_id": "5f4e09d33a4ec35b10edd0b6",
+        "user": {
+          "_id": "5e32a3069d664c1b2072340f",
+          "username": "pepe-the-frog",
+          "name": "Pepe",
+          "email": "karaefendi@msn.com",
+          "image": {
+            "_id": "5efc4fccbcdbc2e80ef34511",
+            "url": "https://img-s2.onedio.com/id-5efc4fccbcdbc2e80ef34511/rev-0/w-210/h-208/f-jpg/s-4c36515da63cae5db7ade6abdaf20ccfe88f0396.jpg",
+            "width": 210,
+            "height": 208,
+            "format": "jpg",
+            "alternates": {
+              "standardResolution": {
+                "url": "https://img-s2.onedio.com/id-5efc4fccbcdbc2e80ef34511/rev-0/w-600/h-594/f-jpg/s-8df436542ecbd4793c68a39a9bcd81e27802911b.jpg",
+                "height": 594,
+                "width": 600,
+                "format": "jpg",
+                "thumbnail": null
+              },
+              "highResolution": {
+                "url": "https://img-s2.onedio.com/id-5efc4fccbcdbc2e80ef34511/rev-0/w-900/h-891/f-jpg/s-498bef22c4c5ea1fc6d2cd851c75a74834991b81.jpg",
+                "height": 891,
+                "width": 900,
+                "format": "jpg",
+                "thumbnail": null
+              }
+            }
+          },
+          "country": null,
+          "gender": "unknown",
+          "city": null,
+          "title": null,
+          "slogan": "Pepe The Frog",
+          "birthdate": null,
+          "flags": {
+            "approvedEmail": true
+          }
+        },
+        "target": {
+          "type": "Article",
+          "id": "5f4cf6fbb69eb4f91273c899"
+        },
+        "text": "\"Eğlence Vergisi\" diye bir şey olduğunu biliyor muydunuz!? Eğleniyoruz diye vergi veriyoruz :)",
+        "parent": null,
+        "replyTo": null,
+        "replies": {
+          "data": []
+        },
+        "createDate": "2020-09-01T08:44:03.327Z",
+        "ratings": {
+          "likes": 80,
+          "dislikes": 0
+        }
+      },
+      {
+        "_id": "5f4dfa0f278b48120f3709ab",
+        "user": {
+          "_id": "555b5dd4fc8ce25611de39dc",
+          "username": "csa",
+          "name": "Can Arat",
+          "email": "canaratcsa@gmail.com",
+          "image": {
+            "alternates": {
+              "standardResolution": {
+                "url": "https://graph.facebook.com/10153250897509303/picture?type=normal"
+              },
+              "highResolution": {
+                "url": "https://graph.facebook.com/10153250897509303/picture?type=large"
+              }
+            }
+          },
+          "country": "TR",
+          "gender": "male",
+          "city": "Istanbul",
+          "title": null,
+          "slogan": "Slogan da ha diyince akla gelmiyor ki... E ne diyem kısaca Carpe Diem D",
+          "birthdate": "1996-03-29T22:00:00.000Z",
+          "flags": {
+            "approvedEmail": true
+          }
+        },
+        "target": {
+          "type": "Article",
+          "id": "5f4cf6fbb69eb4f91273c899"
+        },
+        "text": "ÖTV alınan ürünlerin de lüks olması... Fiat bir araba, Xiaomi veya hadi yerli marka olsun, Casper bir telefona ÖTV ödenmesi komik o zaman. Lüks değil ihtiyaç bunlar. iPhone alıyorsa ödesin de fakir, üç kuruşluk telefon alan adam neyin lüks vergisini ödüyor anlamadım :D",
+        "parent": null,
+        "replyTo": null,
+        "replies": {
+          "data": []
+        },
+        "createDate": "2020-09-01T07:36:47.738Z",
+        "ratings": {
+          "likes": 68,
+          "dislikes": 0
+        }
+      },
+      {
+        "_id": "5f4e0269838a0a0b10fd7f92",
+        "user": {
+          "_id": "52fe10d099e34b715c000048",
+          "username": "ser.ozatici",
+          "name": "Serdar Özatıcı",
+          "email": "serdar.ozatici@hotmail.com",
+          "image": {
+            "alternates": {
+              "standardResolution": {
+                "url": "https://graph.facebook.com/100004107728283/picture?type=normal"
+              },
+              "highResolution": {
+                "url": "https://graph.facebook.com/100004107728283/picture?type=large"
+              }
+            }
+          },
+          "country": null,
+          "gender": "male",
+          "city": null,
+          "title": null,
+          "slogan": null,
+          "birthdate": "1993-01-21T22:00:00.000Z",
+          "flags": {
+            "approvedEmail": true
+          }
+        },
+        "target": {
+          "type": "Article",
+          "id": "5f4cf6fbb69eb4f91273c899"
+        },
+        "text": "Canımızı da alsınlar.",
+        "parent": null,
+        "replyTo": null,
+        "replies": {
+          "data": []
+        },
+        "createDate": "2020-09-01T08:12:25.369Z",
+        "ratings": {
+          "likes": 64,
+          "dislikes": 0
+        }
+      },
+      {
+        "_id": "5f4e0f5ca4c9080b79d19d08",
+        "user": {
+          "_id": "5e7bce954301d8ba254806c0",
+          "username": "umur-disi",
+          "name": "Umur Dışı",
+          "email": null,
+          "image": {
+            "alternates": {
+              "standardResolution": {
+                "url": "https://graph.facebook.com/10157983273357296/picture?type=normal"
+              },
+              "highResolution": {
+                "url": "https://graph.facebook.com/10157983273357296/picture?type=large"
+              }
+            }
+          },
+          "country": null,
+          "gender": "unknown",
+          "city": null,
+          "title": null,
+          "slogan": null,
+          "birthdate": null,
+          "flags": {
+            "approvedEmail": true
+          }
+        },
+        "target": {
+          "type": "Article",
+          "id": "5f4cf6fbb69eb4f91273c899"
+        },
+        "text": "Yakında DELİDUMRUL VERGİLERİ ödemeye başlarsak hiç şaşırmam. Eve giren her kalem ürünün 1i eve 2si 5i vergiye. Yazık yaa. Yetmezmiş gibi her satın aldığımız şeye vergi öderken maaşımızdan da vergi kesiliyor",
+        "parent": null,
+        "replyTo": null,
+        "replies": {
+          "data": []
+        },
+        "createDate": "2020-09-01T09:07:40.592Z",
+        "ratings": {
+          "likes": 49,
+          "dislikes": 0
+        }
+      },
+      {
+        "_id": "5f4e0e9c7c7eddfd107e2296",
+        "user": {
+          "_id": "5a077742a163efab0f289b5d",
+          "username": "ufukdiyoki",
+          "name": "ufukdiyoki",
+          "email": "ufukdiyo@gmail.com",
+          "image": {
+            "_id": "5a081b8c4f36db1d1389459b",
+            "url": "https://img-s1.onedio.com/id-5a081b8c4f36db1d1389459b/rev-0/w-210/h-208/f-jpg/s-c8debe4fceb844c214ca9c00683843ac70c66e7e.jpg",
+            "width": 210,
+            "height": 208,
+            "format": "jpg",
+            "alternates": {
+              "standardResolution": {
+                "url": "https://img-s1.onedio.com/id-5a081b8c4f36db1d1389459b/rev-0/w-600/h-594/f-jpg/s-23af5429e377bf64fd22cd37d29e2d3ef25471b0.jpg",
+                "height": 594,
+                "width": 600,
+                "format": "jpg",
+                "thumbnail": null
+              },
+              "highResolution": {
+                "url": "https://img-s1.onedio.com/id-5a081b8c4f36db1d1389459b/rev-0/w-900/h-891/f-jpg/s-28f318ecdd8a7f75a30711bafd852167fb931179.jpg",
+                "height": 891,
+                "width": 900,
+                "format": "jpg",
+                "thumbnail": null
+              }
+            }
+          },
+          "country": "TR",
+          "gender": "unknown",
+          "city": null,
+          "title": null,
+          "slogan": "bişeyler diipduruu",
+          "birthdate": "1923-10-28T21:00:00.000Z",
+          "flags": {
+            "approvedEmail": true
+          }
+        },
+        "target": {
+          "type": "Article",
+          "id": "5f4cf6fbb69eb4f91273c899"
+        },
+        "text": "Gelir vergisi adaletli değildir. Mayıs ayında geçen khk ile huzur hakkı vs isimle 2, 3, 4 maaş bağlanmış olanlar ilk maaşları dışındakilerin vergilerinden muaftır.",
+        "parent": null,
+        "replyTo": null,
+        "replies": {
+          "data": []
+        },
+        "createDate": "2020-09-01T09:04:28.066Z",
+        "ratings": {
+          "likes": 22,
+          "dislikes": 0
+        }
+      }
+    ]
+  }
+}

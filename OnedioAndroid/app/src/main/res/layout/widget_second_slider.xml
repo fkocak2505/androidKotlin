@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/constraintSecondSlider"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!--<tr.androidside.onedio.mvp.view.dashboard.homeFragment.widgets.sliderConfig.ImageSlider
+            android:id="@+id/sliderList"
+            android:layout_width="match_parent"
+            android:layout_height="290dp"
+            android:nestedScrollingEnabled="false"
+            app:auto_cycle="false"
+            app:corner_radius="0"
+            app:delay="1000"
+            app:error_image="@drawable/image_error_dark_mode"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/storyRecylerListView"
+            app:period="3000"
+            app:placeholder="@drawable/image_error_dark_mode"
+            app:selected_dot="@drawable/slider_default_selected_dot"
+            app:unselected_dot="@drawable/slider_default_unselected_dot" />-->
+
+    <!--<com.smarteist.autoimageslider.SliderView
+        android:id="@+id/secondSliderListView"
+        android:layout_width="match_parent"
+        android:layout_height="290dp"
+        android:nestedScrollingEnabled="false"
+        android:visibility="visible"
+        app:sliderAnimationDuration="600"
+        app:sliderAutoCycleDirection="back_and_forth"
+        app:sliderIndicatorAnimationDuration="600"
+        app:sliderIndicatorGravity="center_horizontal|bottom"
+        app:sliderIndicatorMargin="15dp"
+        app:sliderIndicatorOrientation="horizontal"
+        app:sliderIndicatorPadding="3dp"
+        app:sliderIndicatorRadius="2dp"
+        app:sliderIndicatorSelectedColor="#5A5A5A"
+        app:sliderIndicatorUnselectedColor="#FFF"
+        app:sliderScrollTimeInSec="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>-->
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/secondSliderHugeCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+
+    <View
+        android:id="@+id/secondSliderView"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:background="#e2e2e2"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/secondSliderHugeCard" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.onedio.androidside">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <!-- For Yandex App Metrica -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+
+    <application
+        android:name=".mvp.AnalyticsApplication"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/ic_onedio_app_icon"
+        android:label="${appName}"
+        android:largeHeap="true"
+        android:roundIcon="@drawable/ic_onedio_app_icon_round"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:replace="android:label,android:icon">
+        <activity
+            android:name=".mvp.view.splash.OnedioSplash"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".mvp.view.loginAndRegister.LoginAndRegisterDashboardActivityViewImpl"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name=".mvp.view.dashboard.DashboardActivityViewImpl"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:scheme="https"
+                    android:host="onedio.com"
+                    android:pathPrefix="/haber/" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".mvp.view.dashboard.homeFragment.messageActivity.MessageActivityViewImpl"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mvp.view.dashboard.profileFragment.generalSetting.profileSetting.UserProfileInfoDetailActivityViewImpl"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name=".mvp.view.loginAndRegister.login.forgotPassword.ForgotPasswordActivityViewImpl"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name=".mvp.view.dashboard.profileFragment.generalSetting.securityPolicy.changePassword.ChangePasswordActivityViewImpl"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mvp.view.dashboard.profileFragment.generalSetting.securityPolicy.userBlocked.UserBlockListActivityViewImpl"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mvp.view.notDesigned.doBlockUser.UserDoBlockActivityViewImpl"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mvp.view.dashboard.profileFragment.generalSetting.GeneralSettingActivityViewImpl"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".mvp.view.dashboard.profileFragment.generalSetting.securityPolicy.SecurityAndPolicyActivityViewImpl"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mvp.view.dashboard.profileFragment.fragments.userFollowersAndFollowing.UserFollowerAndFollowingActivityViewImpl"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mvp.view.dashboard.profileFragment.generalSetting.applicationSetting.ApplicationSettingActivityViewImpl"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mvp.view.dashboard.profileFragment.generalSetting.notificationSetting.NotificationSettingActivityViewImpl"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mvp.view.dashboard.profileFragment.generalSetting.userAgreement.UserAgreementActivityViewImpl"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mvp.view.dashboard.homeFragment.messageActivity.conversation.MessageActivityConversationViewImpl"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mvp.view.dashboard.search.moreContent.MoreContentActivityViewImpl"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mvp.view.dashboard.search.moreUser.MoreUserActivityViewImpl"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mvp.view.dashboard.search.moreTag.MoreTagActivityViewImpl"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mvp.view.dashboard.homeFragment.widgets.storyListView.story.StoryWatch"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mvp.view.dashboard.homeFragment.articleComment.ArticleCommentActivityViewImpl"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".mvp.view.dashboard.homeFragment.articleDetail.ArticleDetailActivityViewImpl"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" />
+
+        <!--<activity
+            android:name=".mvp.view.dashboard.homeFragment.articleDetail.optimizedArticleDetail.ArticleDetailWithRecyclerView"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" />-->
+        <activity
+            android:name=".mvp.view.dashboard.categoryFragment.categoryFeed.CategoryFeedActivityViewImpl"
+            android:hardwareAccelerated="false"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mvp.view.dashboard.categoryFragment.categoryFeed.food.FoodActivityViewImpl"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mvp.view.dashboard.categoryFragment.categoryFeed.video.VideoActivityViewImpl"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mvp.view.dashboard.homeFragment.profile.ProfileActivityViewImpl"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mvp.view.dashboard.homeFragment.articleDetail.TestArticleDetailActivityViewImpl"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mvp.view.dashboard.search.moreTag.tagsArticle.TagsArticleActivityViewImpl"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".mvp.view.dashboard.homeFragment.articleDetail.swipableArticleDetail.SwipableArticleDetailActivityViewImpl"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mvp.view.dashboard.profileFragment.generalSetting.feedbackSetting.FeedBackSettingActivity"
+            android:screenOrientation="portrait" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+
+        <!--<meta-data
+                android:name="io.sentry.dsn"
+                android:value="https://d3444e016daf4437a85b4f2ae66631dc@o306578.ingest.sentry.io/3726365" />-->
+
+        <meta-data
+            android:name="com.google.android.gms.ads.AD_MANAGER_APP"
+            android:value="true" />
+
+        <meta-data
+            android:name="com.onesignal.NotificationOpened.DEFAULT"
+            android:value="DISABLE" />
+
+
+    </application>
+
+</manifest>

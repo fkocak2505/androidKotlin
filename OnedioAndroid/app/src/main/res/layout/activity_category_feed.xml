@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/OScreenBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true">
+
+    <include
+        android:id="@+id/toolBar4CategoryFeed"
+        layout="@layout/toolbar_without_onedio_icon" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:id="@+id/sortInfo4Comments"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="17dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/muli_semibold"
+            android:text="Sırala"
+            android:textColor="@color/textColor"
+            android:textSize="12dp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/dateSort"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="17dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/custom_button_sort_selected"
+            android:visibility="invisible"
+            android:elevation="5dp"
+            app:layout_constraintStart_toEndOf="@+id/sortInfo4Comments"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/infoDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/muli_semibold"
+                android:text="Tarihe Göre"
+                android:textColor="#FFFFFF"
+                android:textSize="12dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/categoryFeedVideoAvlIndicatorProgress4List"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="25dp"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/progress" />
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/popularitySort"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="17dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/custom_button_sort_unselected"
+            android:visibility="invisible"
+            android:elevation="5dp"
+            app:layout_constraintStart_toEndOf="@+id/dateSort"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/infoPopularite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:fontFamily="@font/muli_regular"
+                android:text="Popülarite"
+                android:textColor="#777777"
+                android:textSize="12dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <ImageView
+                android:id="@+id/popularMenu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:paddingEnd="10dp"
+                android:src="@drawable/ic_popular_menu"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/infoPopularite"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/popularitySortMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/layout_border"
+            android:elevation="2dp"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toEndOf="@+id/popularitySort"
+            app:layout_constraintStart_toStartOf="@+id/popularitySort"
+            app:layout_constraintTop_toBottomOf="@id/popularitySort">
+
+            <TextView
+                android:id="@+id/dotLast24Hour"
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/category_feed_sorted_default_selected_dot"
+                android:fontFamily="@font/muli_regular"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/last24Hour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/muli_regular"
+                android:text="Son 24 Saat"
+                android:textColor="@color/textColor"
+                android:textSize="12dp"
+                app:layout_constraintStart_toEndOf="@id/dotLast24Hour"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <TextView
+                android:id="@+id/dotLastWeek"
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="18dp"
+                android:background="@drawable/category_feed_sorted_default_selected_dot"
+                android:fontFamily="@font/muli_regular"
+                android:visibility="invisible"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/dotLast24Hour" />
+
+            <TextView
+                android:id="@+id/lastWeek"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/muli_regular"
+                android:text="Son 1 Hafta"
+                android:textColor="@color/textColor"
+                android:textSize="12dp"
+                app:layout_constraintStart_toEndOf="@id/dotLastWeek"
+                app:layout_constraintTop_toBottomOf="@id/last24Hour" />
+
+            <TextView
+                android:id="@+id/dotLastMonth"
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="18dp"
+                android:background="@drawable/category_feed_sorted_default_selected_dot"
+                android:fontFamily="@font/muli_regular"
+                android:visibility="invisible"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/dotLastWeek" />
+
+            <TextView
+                android:id="@+id/lastMonth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/muli_regular"
+                android:text="Son 1 Ay"
+                android:textColor="@color/textColor"
+                android:textSize="12dp"
+                app:layout_constraintStart_toEndOf="@id/dotLastMonth"
+                app:layout_constraintTop_toBottomOf="@id/lastWeek" />
+
+            <TextView
+                android:id="@+id/dotAllTime"
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="18dp"
+                android:background="@drawable/category_feed_sorted_default_selected_dot"
+                android:fontFamily="@font/muli_regular"
+                android:visibility="invisible"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/dotLastMonth" />
+
+            <TextView
+                android:id="@+id/allTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/muli_regular"
+                android:paddingEnd="10dp"
+                android:paddingBottom="10dp"
+                android:text="Tüm Zamanlar"
+                android:textColor="@color/textColor"
+                android:textSize="12dp"
+                app:layout_constraintStart_toEndOf="@id/dotLastMonth"
+                app:layout_constraintTop_toBottomOf="@id/lastMonth" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/paginationRecyclerView4CategoryDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="60dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <!--<androidx.core.widget.NestedScrollView
+            android:id="@+id/categoryFeedNestedScrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="80dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/nestedScrollConstraint"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.google.android.gms.ads.doubleclick.PublisherAdView
+                    android:id="@+id/publisherAdViewCategoryTop"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    app:adSize="300x150, 300x100,300x250, 320x50, 320x100, 320x150"
+                    app:adUnitId="/21814681/Onedio.com_App_android_Masthead"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/paginationRecyclerView4CategoryDetail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/publisherAdViewCategoryTop" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.core.widget.NestedScrollView>-->
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/categoryFeedAvlIndicatorProgress"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/progress" />
+
+    <!--<com.wang.avi.AVLoadingIndicatorView
+            android:id="@+id/categoryFeedAvlIndicatorProgress"
+            style="@style/AVLoadingIndicatorView"
+            android:layout_width="60sp"
+            android:layout_height="60sp"
+            android:visibility="invisible"
+            app:indicatorColor="@color/buttonBackgroundColorBlue"
+            app:indicatorName="BallSpinFadeLoaderIndicator"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:taboola="http://schemas.android.com/tools">
+
+    <com.taboola.android.TaboolaWidget
+        android:id="@+id/itemOfTaboolaWidget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#FFFFFF"
+        taboola:tb_publisher="onedio-app-android"
+        taboola:tb_mode="alternating-thumbnails-a"
+        taboola:tb_placement="Below Article Thumbnails"
+        taboola:tb_url="https://onedio.com/"
+        taboola:tb_page_type="article"
+        taboola:tb_target_type="mix"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

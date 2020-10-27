@@ -1,0 +1,54 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        android:id="@+id/constraintReaction">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/emojiConstraintLayout"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:background="@drawable/article_detail_emoji_layout_bg"
+            android:elevation="7dp"
+            android:layout_marginStart="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+                android:id="@+id/emojiReactionItem"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/ic_launcher_background"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/statusLine"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+            android:id="@+id/emojiItemCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="516"
+            android:textSize="14dp"
+            android:fontFamily="@font/muli_regular"
+            app:layout_constraintBottom_toTopOf="@+id/statusLine"
+            app:layout_constraintEnd_toEndOf="@+id/emojiConstraintLayout"
+            app:layout_constraintStart_toStartOf="@+id/emojiConstraintLayout" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

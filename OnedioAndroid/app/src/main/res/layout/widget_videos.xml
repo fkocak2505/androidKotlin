@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/constraintVideo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+    <TextView
+            android:id="@+id/videoTextInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Videolar"
+            android:textColor="#231f20"
+            android:fontFamily="@font/muli_bold"
+            android:textSize="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+            android:id="@+id/showAllVideos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="20dp"
+            android:text="@string/showAll"
+            android:textColor="#231f20"
+            android:textSize="14dp"
+            android:fontFamily="@font/muli_regular"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+            android:id="@+id/videoHugeBadgeLineCovertPhoto"
+            android:layout_width="25dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="10dp"
+            android:background="#50000000"
+            android:elevation="10dp"
+            app:layout_constraintStart_toStartOf="@+id/videoHugeCoverPhoto"
+            app:layout_constraintTop_toTopOf="@+id/videoHugeCoverPhoto" />
+
+    <ImageView
+            android:id="@+id/videoHugeCoverPhotoBadgeImage"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:elevation="10dp"
+            app:layout_constraintStart_toStartOf="@+id/videoHugeCoverPhoto"
+            app:layout_constraintTop_toTopOf="@+id/videoHugeCoverPhoto"
+            tools:ignore="ContentDescription" />
+
+
+    <ImageView
+            android:id="@+id/videoHugeCoverPhoto"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_marginTop="15dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/videoTextInfo" />
+
+    <ProgressBar
+            android:id="@+id/videoHugeCoverPhotoProgress"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="125dp"
+            android:indeterminate="true"
+            android:indeterminateTint="@color/tabIndicatorColor4Proile"
+            android:indeterminateTintMode="src_atop"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    <!--<ImageView
+            app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_video_black" /> -->
+
+    <TextView
+            android:id="@+id/videoCoverTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:text="Börek Sadece Tepside Yapılmaz! Dedirtecek Nefis Lezzet: Buz Kalıbında Çıtır Börek Nasıl Yapılır?"
+            android:textColor="#231f20"
+            android:textSize="14dp"
+            android:ellipsize="end"
+            android:maxLines="4"
+            android:fontFamily="@font/muli_regular"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/videoHugeCoverPhoto" />
+
+    <View
+            android:id="@+id/viewSeparate"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="20dp"
+            android:background="#e2e2e2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/videoCoverTitle" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/childVideoLinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/viewSeparate">
+
+        <View
+                android:id="@+id/videoChild1BadgeLineCovertPhoto"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:background="#50000000"
+                android:elevation="10dp"
+                app:layout_constraintStart_toStartOf="@+id/videoChild1Image"
+                app:layout_constraintTop_toTopOf="@+id/videoChild1Image" />
+
+        <ImageView
+                android:id="@+id/videoChild1CoverPhotoBadgeImage"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:elevation="10dp"
+                app:layout_constraintStart_toStartOf="@+id/videoChild1Image"
+                app:layout_constraintTop_toTopOf="@+id/videoChild1Image"
+                tools:ignore="ContentDescription" />
+
+
+        <ImageView
+                android:id="@+id/videoChild1Image"
+                android:layout_width="177dp"
+                android:layout_height="120dp"
+                android:scaleType="centerCrop"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        <ProgressBar
+                android:id="@+id/videoChild1Progress"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:indeterminate="true"
+                android:layout_marginTop="50dp"
+                android:layout_marginStart="75dp"
+                android:indeterminateTint="@color/tabIndicatorColor4Proile"
+                android:indeterminateTintMode="src_atop"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+                android:id="@+id/videoChild1Title"
+                android:layout_width="177dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textSize="14dp"
+                android:ellipsize="end"
+                android:maxLines="4"
+                android:text="Denemeemem"
+                android:fontFamily="@font/muli_regular"
+                android:textColor="#191919"
+                app:layout_constraintEnd_toEndOf="@+id/videoChild1Image"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/videoChild1Image" />
+
+        <View
+                android:id="@+id/videoChild2BadgeLineCovertPhoto"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:background="#50000000"
+                android:elevation="10dp"
+                app:layout_constraintStart_toStartOf="@+id/videoChild2Image"
+                app:layout_constraintTop_toTopOf="@+id/videoChild2Image" />
+
+        <ImageView
+                android:id="@+id/videoChild2CoverPhotoBadgeImage"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:elevation="10dp"
+                app:layout_constraintStart_toStartOf="@+id/videoChild2Image"
+                app:layout_constraintTop_toTopOf="@+id/videoChild2Image"
+                tools:ignore="ContentDescription" />
+
+        <ImageView
+                android:id="@+id/videoChild2Image"
+                android:layout_width="177dp"
+                android:layout_height="120dp"
+                android:scaleType="centerCrop"
+                android:layout_marginStart="15dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/videoChild1Image"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        <ProgressBar
+                android:id="@+id/videoChild2Progress"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:indeterminate="true"
+                android:layout_marginEnd="75dp"
+                android:indeterminateTint="@color/tabIndicatorColor4Proile"
+                android:indeterminateTintMode="src_atop"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+                android:id="@+id/videoChild2Title"
+                android:layout_width="177dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Sürücü Adayının Kullandığı Aracın Üstüne Kıran Sonra Da Eğitmenine Saldıran Özel Halk Otobüsü Şoförü"
+                android:textSize="14dp"
+                android:ellipsize="end"
+                android:maxLines="4"
+                android:textColor="#191919"
+                android:fontFamily="@font/muli_regular"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/videoChild2Image"
+                app:layout_constraintTop_toBottomOf="@+id/videoChild2Image" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <!--<tr.androidside.onedio.common.ScrollableGridView
+            android:id="@+id/videoWidgetGridView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="40dp"
+            android:columnWidth="90dp"
+            android:gravity="center"
+            android:numColumns="2"
+            android:stretchMode="columnWidth"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/viewSeparate" /> -->
+
+    <!--<TextView
+            android:id="@+id/moreVideoGridData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/moreData"
+            android:textColor="#231f20"
+            android:layout_marginTop="15dp"
+            android:textSize="12dp"
+            app:layout_constraintTop_toBottomOf="@+id/videoWidgetGridView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" /> -->
+
+    <View
+            android:id="@+id/view94Video"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_marginTop="15dp"
+            android:background="#e2e2e2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/childVideoLinearLayout" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

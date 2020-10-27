@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="zeroDp">0dp</dimen>
+    <dimen name="oneDp">1dp</dimen>
+    <dimen name="sevenDp">7dp</dimen>
+    <dimen name="tenDp">10dp</dimen>
+    <dimen name="twentyFiveDp">25dp</dimen>
+
+    <dimen name="emoji_size_default">20sp</dimen>
+    <dimen name="emoji_size_only_emojis">40sp</dimen>
+    <dimen name="emoji_size_single_emoji">60sp</dimen>
+
+    <dimen name="min_item_width">0dp</dimen>
+    <dimen name="default_text_size">14sp</dimen>
+    <dimen name="default_item_margin">2dp</dimen>
+    <dimen name="default_item_padding">4dp</dimen>
+    <dimen name="default_row_margin">2dp</dimen>
+
+    <dimen name="progress_bar_height">2dp</dimen>
+
+    <dimen name="jz_start_button_w_h_normal">60dp</dimen>
+    <dimen name="jz_start_button_w_h_fullscreen">62dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+</resources>

@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        style="@style/OScreenBackground"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical"
+        tools:ignore="RtlSymmetry">
+
+    <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            tools:ignore="UselessParent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/registerConstraintLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/ePosta"
+                    android:layout_width="320dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginEnd="16dp"
+                    android:background="@drawable/custom_edittext"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="5dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="RtlHardcoded">
+
+                <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/edtOfEposta"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:hint="@string/ePosta"
+                        android:inputType="textEmailAddress"
+                        android:maxLines="1"
+                        android:importantForAutofill="noExcludeDescendants"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="10dp"
+                        android:textColor="@color/userFollowerCountColor"
+                        android:textSize="14sp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!--<EditText android:id="@+id/edtOfUsername"
+                      android:layout_width="match_parent"
+                      android:layout_height="60dp"
+                      android:hint="Kullanıcı Adı"
+                      android:background="@drawable/custom_edittext"
+                      android:paddingLeft="20dp"
+                      app:layout_constraintTop_toBottomOf="@+id/ePosta"
+                      app:layout_constraintStart_toStartOf="parent"
+                      android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent"
+                      android:layout_marginEnd="8dp" android:layout_marginTop="8dp"/> -->
+
+            <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/userName"
+                    android:layout_width="320dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="16dp"
+                    android:background="@drawable/custom_edittext"
+                    android:paddingStart="20dp"
+                    android:paddingTop="5dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/ePosta">
+
+                <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/edtOfUsername"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890."
+                        android:hint="@string/userName"
+                        android:importantForAutofill="noExcludeDescendants"
+                        android:inputType="textFilter"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="10dp"
+                        android:textSize="14sp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!--<EditText android:id="@+id/edtOfName"
+                      android:layout_width="match_parent"
+                      android:layout_height="60dp"
+                      android:hint="İsim ve Soyisim"
+                      android:background="@drawable/custom_edittext"
+                      android:paddingLeft="20dp"
+                      app:layout_constraintTop_toBottomOf="@+id/userName"
+                      app:layout_constraintStart_toStartOf="parent"
+                      android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent"
+                      android:layout_marginEnd="8dp" android:layout_marginTop="8dp"/> -->
+
+            <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/nameAndSurname"
+                    android:layout_width="320dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="16dp"
+                    android:background="@drawable/custom_edittext"
+                    android:paddingStart="20dp"
+                    android:paddingTop="5dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/userName">
+
+                <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/edtOfName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:hint="@string/nameAndSurname"
+                        android:inputType="text"
+                        android:importantForAutofill="noExcludeDescendants"
+                        android:maxLines="1"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="10dp"
+                        android:textSize="14sp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!--<EditText android:id="@+id/edtOfPassword"
+                      android:layout_width="match_parent"
+                      android:layout_height="60dp"
+                      android:hint="Şifre"
+                      android:background="@drawable/custom_edittext"
+                      android:paddingLeft="20dp"
+                      android:inputType="numberPassword"
+                      app:layout_constraintTop_toBottomOf="@+id/nameAndSurname" app:layout_constraintStart_toStartOf="parent"
+                      android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent"
+                      android:layout_marginEnd="8dp" android:layout_marginTop="8dp"/> -->
+
+            <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/password"
+                    android:layout_width="320dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="16dp"
+                    android:background="@drawable/custom_edittext"
+                    android:paddingStart="20dp"
+                    android:paddingTop="5dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/nameAndSurname"
+                    app:passwordToggleEnabled="true"
+                    app:passwordToggleTint="@color/toolbarBackgroundColor">
+
+                <EditText
+                        android:id="@+id/edtOfPassword"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:hint="@string/password"
+                        android:importantForAutofill="noExcludeDescendants"
+                        android:inputType="textPassword"
+                        android:maxLines="1"
+                        android:paddingBottom="10dp"
+                        android:textSize="14sp"
+                        tools:ignore="Autofill" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!--<EditText android:id="@+id/edtOfPasswordVerify"
+                      android:layout_width="match_parent"
+                      android:layout_height="60dp"
+                      android:hint="Şifre (tekrar)"
+                      android:background="@drawable/custom_edittext"
+                      android:paddingLeft="20dp"
+                      android:inputType="numberPassword"
+                      app:layout_constraintTop_toBottomOf="@+id/password"
+                      app:layout_constraintStart_toStartOf="parent"
+                      android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent"
+                      android:layout_marginEnd="8dp" android:layout_marginTop="8dp"/> -->
+
+            <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/passwordVerify"
+                    android:layout_width="320dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="16dp"
+                    android:background="@drawable/custom_edittext"
+                    android:paddingStart="20dp"
+                    android:paddingTop="5dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/password"
+                    app:passwordToggleEnabled="true"
+                    app:passwordToggleTint="@color/toolbarBackgroundColor">
+
+                <EditText
+                        android:id="@+id/edtOfPasswordVerify"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:hint="@string/passwordAgain"
+                        android:importantForAutofill="noExcludeDescendants"
+                        android:inputType="textPassword"
+                        android:maxLines="1"
+                        android:paddingBottom="10dp"
+                        android:textSize="14sp"
+                        tools:ignore="Autofill" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <CheckBox
+                    android:id="@+id/checkBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="8dp"
+                    android:text="@string/checkBoxText"
+                    android:textSize="12sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/passwordVerify" />
+
+            <Button
+                    android:id="@+id/btnRegister"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="320dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="27dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="32dp"
+                    android:background="@drawable/custom_button_green"
+                    android:text="@string/register"
+                    android:textAllCaps="false"
+                    android:textColor="#FFF"
+                    android:textSize="16sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/checkBox" />
+
+            <!--<com.wang.avi.AVLoadingIndicatorView
+                    android:id="@+id/avlIndicatorProgress"
+                    style="@style/AVLoadingIndicatorView"
+                    android:layout_width="60sp"
+                    android:layout_height="60sp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:visibility="invisible"
+                    app:indicatorColor="@color/tabSelectedIndicator"
+                    app:indicatorName="BallSpinFadeLoaderIndicator"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/ePosta" />-->
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/avlIndicatorProgress"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:lottie_loop="true"
+                app:lottie_autoPlay="true"
+                app:lottie_rawRes="@raw/progress" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

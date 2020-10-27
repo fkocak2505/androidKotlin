@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/onedioEmbedConstraintRoot"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/onedioEmbedEntriesTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="@font/muli_semibold"
+        android:text=""
+        android:textColor="@color/dateTextColor"
+        android:textSize="18dp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/onedioEmbedConstraint"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/layout_border"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/onedioEmbedEntriesTitle">
+
+        <ImageView
+            android:id="@+id/onedioEmbedPhoto"
+            android:layout_width="140dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="15dp"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ProgressBar
+            android:id="@+id/onedioEmbedPhotoProgress"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:indeterminate="true"
+            android:indeterminateTint="@color/tabIndicatorColor4Proile"
+            android:indeterminateTintMode="src_atop"
+            app:layout_constraintBottom_toBottomOf="@+id/onedioEmbedPhoto"
+            app:layout_constraintEnd_toEndOf="@+id/onedioEmbedPhoto"
+            app:layout_constraintStart_toStartOf="@+id/onedioEmbedPhoto"
+            app:layout_constraintTop_toTopOf="@+id/onedioEmbedPhoto" />
+
+        <TextView
+            android:id="@+id/onedioEmbedTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="160dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="10dp"
+            android:fontFamily="@font/muli_semibold"
+            android:text="Bu Testi Sadece Gerçek Makyaj Tutkunları Geçebilecek!"
+            android:textColor="@color/textColor"
+            android:textSize="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayoutOnedioEmbed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bg_category_item_read_count"
+            android:elevation="3dp"
+            android:padding="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/onedioEmbedPhoto">
+
+            <TextView
+                android:id="@+id/onedioEmbedReadCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/muli_regular"
+                android:text="376b"
+                android:textColor="@color/textColor"
+                android:textSize="14dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/onedioEmbedInfoText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/muli_regular"
+                android:text="Okunma"
+                android:textColor="@color/textColor"
+                android:textSize="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/onedioEmbedReadCount" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/onedioEmbedDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/muli_regular"
+            android:gravity="center"
+            android:text="09.10.2019"
+            android:textColor="@color/textColor"
+            android:textSize="12dp"
+            app:layout_constraintBottom_toBottomOf="@+id/constraintLayoutOnedioEmbed"
+            app:layout_constraintStart_toEndOf="@+id/constraintLayoutOnedioEmbed"
+            app:layout_constraintTop_toTopOf="@+id/constraintLayoutOnedioEmbed" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/onedioEmbedEntriesSource"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="@font/muli_regular"
+        android:text=""
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/onedioEmbedConstraint" />
+
+
+    <TextView
+        android:id="@+id/onedioEmbedEntriesContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="@font/muli_regular"
+        android:paddingBottom="10dp"
+        android:text=""
+        android:textColor="@color/textColor"
+        android:textSize="16dp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/onedioEmbedConstraint" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,120 @@
+<resources>
+    <string name="app_name" translatable="false">Onedio</string>
+
+    <!-- Onedio Facebook App ID -->
+    <string name="facebook_app_id" translatable="false">182553655160563</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb182553655160563</string>
+
+    <!--<string name="google_app_id">1:262942824570:android:446bb295c3fc1e43</string>-->
+
+
+    <!-- Common -->
+    <string name="ePosta" translatable="false"><font size="14">E-Posta</font></string>
+    <string name="forgotPassword" translatable="false"><u>Şifremi unuttum!</u></string>
+    <string name="password" translatable="false"><font size="14">Şifre</font></string>
+    <string name="commentFragmentNoData" translatable="false">Bu konuya ait aktivite \n bulunmamaktadır.</string>
+    <string name="userName" translatable="false">Kullanıcı Adı</string>
+    <string name="nameAndSurname" translatable="false">İsim ve Soyisim</string>
+    <string name="block" translatable="false">Engelle</string>
+
+    <!-- Login Fragment -->
+    <string name="loginWithFacebook" translatable="false">Facebook ile Giriş Yap</string>
+    <string name="or" translatable="false">veya</string>
+    <string name="signIn" translatable="false">Giriş Yap</string>
+    <string name="appVersion" translatable="false">v6.1.4</string>
+
+    <!-- Forgat Password Activity -->
+    <string name="forgetPasswordInfo" translatable="false">Yeni şifre talebi için \n geçerli e-posta adresinizi girin.</string>
+    <string name="send" translatable="false">Yolla</string>
+
+    <!-- Register -->
+
+
+    <string name="passwordAgain" translatable="false">Şifre (tekrar)</string>
+    <string name="checkBoxText" translatable="false"><u>Kullanıcı Sözleşmesini okudum ve onaylıyorum.</u></string>
+    <string name="register" translatable="false">Kayıt Ol</string>
+
+    <!-- Profile Fragment -->
+    <string name="profile" translatable="false">Profil</string>
+    <string name="following" translatable="false">Takip Edilen</string>
+    <string name="dot" translatable="false">•</string>
+    <string name="followed" translatable="false">Takipçi</string>
+    <string name="follow" translatable="false">Takip Et</string>
+    <string name="blockedUserInfo" translatable="false">Paylaşımları görüntülemek istiyorsanız engeli kaldırmanız gerekmektedir.</string>
+
+    <!-- Follower Fragment -->
+    <string name="findFollower" translatable="false">  Takipçi Ara</string>
+
+    <!-- Following Fragment -->
+    <string name="findFollowing" translatable="false">  Takip Edilen Ara</string>
+
+    <!-- General Setting -->
+    <string name="applicationSetting" translatable="false">Uygulama Ayarları</string>
+    <string name="version" translatable="false">Versiyon</string>
+    <string name="notificationSetting" translatable="false">Bildirim Ayarları</string>
+    <string name="profileSetting" translatable="false">Profil Ayarları</string>
+
+    <!-- Profile Update -->
+    <string name="about" translatable="false">Hakkında</string>
+    <string name="gender" translatable="false">Cinsiyet</string>
+    <string name="birthday" translatable="false">Doğum Günü</string>
+    <string name="city" translatable="false">Şehir</string>
+    <string name="country" translatable="false">Ülke</string>
+
+    <!-- Security And Policy -->
+    <string name="securityAndPolicy" translatable="false">Güvenlik ve Gizlilik Ayarları</string>
+
+    <!-- Change Password -->
+    <string name="changePassword" translatable="false">Şifre Değiştir</string>
+    <string name="oldPassword" translatable="false">Eski Şifre</string>
+    <string name="newPassword" translatable="false">Yeni Şifre</string>
+    <string name="newPasswordAgain" translatable="false">Yeni Şifre (tekrar)</string>
+    <string name="update" translatable="false">Güncelle</string>
+
+    <!-- General Setting -->
+    <string name="generalSetting" translatable="false">Genel Ayarlar</string>
+
+    <!-- User Aggreement And Policy -->
+    <string name="userAggreementAndPolicy" translatable="false">Kullanıcı Sözleşmesi ve Yayın İlkeleri</string>
+    <string name="userAggreementAndPolicyTitle" translatable="false">Onedio Kullanıcı Sözleşmesi</string>
+
+    <string name="followingInfo" translatable="false">Takip Bilgileri</string>
+    <string name="blockedUser" translatable="false">Engellenen Kullanıcılar</string>
+
+
+    <!-- Messages -->
+    <string name="txtOfNoMessage" translatable="false">Mesaj kutusu boştur</string>
+    <string name="findUser4Chat" translatable="false">  Kullanıcı Ara</string>
+    <string name="youCanWriteHere" translatable="false">Mesaj yazınız...</string>
+
+    <!-- Search -->
+    <string name="search" translatable="false">Ara</string>
+    <string name="featuredNews" translatable="false">Öne Çıkan Haberler</string>
+    <string name="contents" translatable="false">İçerikler</string>
+    <string name="users" translatable="false">Kullanıcılar</string>
+    <string name="tags" translatable="false">Etiketler</string>
+    <string name="more" translatable="false"><u>Daha Fazlası</u></string>
+
+    <!-- Popup Menu -->
+    <string name="darkMode" translatable="false">Gece Modu</string>
+    <string name="setting" translatable="false">Ayarlar</string>
+
+    <string name="moreData" translatable="false"><u>Daha Fazla</u></string>
+    <string name="showAll" translatable="false"><u>Hepsini Gör</u></string>
+
+    <string name="tips_not_wifi">You are currently using the mobile network, the player will continue to consume traffic</string>
+    <string name="tips_not_wifi_confirm">Resume</string>
+    <string name="tips_not_wifi_cancel">Stop play</string>
+    <string name="no_url">No url</string>
+    <string name="replay">Replay</string>
+    <string name="click_to_restart">Click to try again</string>
+    <string name="video_loading_failed">Video loading failed</string>
+
+    <string name="rate_dialog_title">Puan Ver</string>
+    <string name="rate_dialog_message">Puan versene</string>
+    <string name="rate_dialog_ok">Şimdi Puanla</string>
+    <string name="rate_dialog_cancel">Sonra</string>
+    <string name="rate_dialog_no">Hayır</string>
+
+
+</resources>

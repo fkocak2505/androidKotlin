@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <EditText
+            android:id="@+id/edtOfUserName"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="@string/userName"
+            android:background="@drawable/custom_edittext"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+            android:id="@+id/doBlockUser"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="250sp"
+            android:layout_height="55dp"
+            android:text="@string/block"
+            android:textSize="20dp"
+            android:textAllCaps="false"
+            android:background="@drawable/custom_button_green"
+            android:textColor="@color/whiteColor"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edtOfUserName" />
+
+    <!--<com.wang.avi.AVLoadingIndicatorView
+            android:id="@+id/avlIndicatorProgressDoBlockUser"
+            style="@style/AVLoadingIndicatorView"
+            android:layout_width="60sp"
+            android:layout_height="60sp"
+            android:visibility="invisible"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="60dp"
+            app:indicatorColor="@color/buttonBackgroundColorBlue"
+            app:indicatorName="BallSpinFadeLoaderIndicator"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sendEmailForgotPassword" />-->
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/avlIndicatorProgressDoBlockUser"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lottie_loop="true"
+        app:lottie_autoPlay="true"
+        app:lottie_rawRes="@raw/progress" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/OScreenBackground">
+
+
+    <include
+        android:id="@+id/toolBar4MoreTag"
+        layout="@layout/toolbar_without_onedio_icon" />
+
+
+    <EditText
+        android:id="@+id/searchArea4Tags"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="17dp"
+        android:background="@drawable/custom_edittext"
+        android:drawableStart="@drawable/ic_search"
+        android:drawablePadding="10dp"
+        android:hint="@string/search"
+        android:imeOptions="actionSearch"
+        android:inputType="text"
+        android:paddingStart="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolBar4MoreTag"
+        tools:ignore="Autofill,TextFields" />
+
+    <ImageView
+        android:id="@+id/imgOfTag"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_search_element_fill_tag"
+        android:padding="11dp"
+        android:src="@drawable/ic_tags_fill"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/searchArea4Tags" />
+
+    <TextView
+        android:id="@+id/tagTitleInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/tags"
+        android:textColor="@color/textColor"
+        android:textSize="16dp"
+        app:layout_constraintStart_toEndOf="@+id/imgOfTag"
+        app:layout_constraintTop_toBottomOf="@+id/searchArea4Tags" />
+
+    <TextView
+        android:id="@+id/searchedTagWord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="17dp"
+        android:text="'Onedio' etiketiyle ile ilgili toplam 28 sonuç bulundu"
+        android:textColor="@color/textColor"
+        android:textSize="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tagTitleInfo" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="17dp"
+        android:background="@color/lineColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/searchedTagWord" />
+
+    <com.onedio.androidside.mvp.view.dashboard.search.customHastag.HashtagView
+        android:id="@+id/searchTagsStaggeredGridDetail"
+        style="@style/HashtagView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="17dp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view3"
+        app:rowGravity="left"
+        app:rowMargin="10dp"
+        app:tagBackground="@drawable/item_bg_1"
+        app:tagForeground="@drawable/flat_button_light"
+        app:tagMargin="10dp"
+        app:tagPaddingBottom="10dp"
+        app:tagPaddingLeft="6dp"
+        app:tagPaddingRight="6dp"
+        app:tagPaddingTop="10dp"
+        app:tagTextColor="@color/userFollowerCountColor" />
+
+    <!--<com.wang.avi.AVLoadingIndicatorView
+        android:id="@+id/avlIndicatorProgress4MoreTagSearchFilter"
+        style="@style/AVLoadingIndicatorView"
+        android:layout_width="60sp"
+        android:layout_height="60sp"
+        android:visibility="invisible"
+        app:indicatorColor="@color/buttonBackgroundColorBlue"
+        app:indicatorName="BallSpinFadeLoaderIndicator"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />-->
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/avlIndicatorProgress4MoreTagSearchFilter"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lottie_loop="true"
+        app:lottie_autoPlay="true"
+        app:lottie_rawRes="@raw/progress" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

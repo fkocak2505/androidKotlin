@@ -1,0 +1,68 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <View
+            android:id="@+id/badgeLineCovertPhotoEditorChoosing"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:elevation="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#50000000"
+            app:layout_constraintStart_toStartOf="@+id/itemCoverPhoto"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+            android:id="@+id/coverPhotoBadgeImageEditorChoosing"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:elevation="10dp"
+            android:src="@drawable/delete_after"
+            app:layout_constraintStart_toStartOf="@+id/itemCoverPhoto"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+            android:id="@+id/itemCoverPhoto"
+            android:layout_width="170dp"
+            android:layout_height="120dp"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/ic_no_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+            android:id="@+id/itemTitle"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:text="Börek Sadece Tepside Yapılmaz!  Dedirtecek Nefis Lezzet: Buz Kalıbında Çıtır Börek Nasıl Yapılır?"
+            android:layout_marginTop="10dp"
+            android:maxLines="4"
+            android:minLines="4"
+            android:ellipsize="end"
+            android:textSize="14dp"
+            android:textColor="#191919"
+            app:layout_constraintEnd_toEndOf="@+id/itemCoverPhoto"
+            app:layout_constraintStart_toStartOf="@+id/itemCoverPhoto"
+            app:layout_constraintTop_toBottomOf="@+id/itemCoverPhoto" />
+
+    <ProgressBar
+            android:id="@+id/itemCoverPhotoProgress"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="35dp"
+            android:indeterminate="true"
+            android:indeterminateTint="@color/tabIndicatorColor4Proile"
+            android:indeterminateTintMode="src_atop"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/itemOfPopularTrendingArticleCoverPhoto"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/itemOfPopularTrendingBadgeLineCovertPhoto"
+        android:layout_width="25dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="10dp"
+        android:background="#50000000"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/itemOfPopularTrendingArticleCoverPhoto" />
+
+    <ImageView
+        android:id="@+id/itemOfPopularTrendingCoverPhotoBadgeImage"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/delete_after"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/itemOfPopularTrendingArticleCoverPhoto" />
+
+    <!--<ImageView
+        android:id="@+id/itemOfPopularTrendingArticleActionBackground"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="25dp"
+        android:src="@drawable/ic_circle"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/itemOfPopularTrendingArticleCoverPhoto"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/itemOfPopularTrendingArticleDetailTitle" />
+
+    <ImageView
+        android:id="@+id/itemOfPopularTrendingArticleDetailAction"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="25dp"
+        android:src="@drawable/delete_after"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/itemOfPopularTrendingArticleCoverPhoto"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/itemOfPopularTrendingArticleDetailTitle" />-->
+
+    <ImageView
+        android:id="@+id/itemOfPopularTrendingArticleActionBackground"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="25dp"
+        android:src="@drawable/ic_circle"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/itemOfPopularTrendingArticleCoverPhoto"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/itemOfPopularTrendingArticleDetailTitle" />
+
+    <ImageView
+        android:id="@+id/itemOfPopularTrendingArticleDetailAction"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="25dp"
+        android:visibility="invisible"
+        android:src="@drawable/delete_after"
+        app:layout_constraintBottom_toBottomOf="@+id/itemOfPopularTrendingArticleCoverPhoto"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/itemOfPopularTrendingArticleDetailTitle" />
+
+    <TextView
+        android:id="@+id/itemOfPopularTrendingArticleDetailTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="@font/muli_semibold"
+        android:text=""
+        android:textColor="#000000"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/itemOfPopularTrendingArticleCoverPhoto" />
+
+    <View
+        android:id="@+id/itemOfPopularTrendingWidthLine"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/lineColor"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/itemOfPopularTrendingArticleDetailTitle" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

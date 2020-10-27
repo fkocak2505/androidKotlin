@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/rootConstraint"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+   <!-- <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/tabBackgroundColor"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        &lt;!&ndash;<ImageView
+                android:id="@+id/messageGoBack"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:src="@drawable/ic_back"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="ContentDescription" />&ndash;&gt;
+
+        <TextView
+                android:id="@+id/applicationToolbarTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:text="Arama"
+                android:textSize="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimaryDark"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/scrollableConstraintLayout"
+                android:layout_width="match_parent"
+                android:layout_height="500dp">
+
+            <EditText
+                    android:id="@+id/searchArea"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="17dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginEnd="17dp"
+                    android:background="@drawable/custom_edittext"
+                    android:drawableStart="@drawable/ic_search"
+                    android:drawablePadding="10dp"
+                    android:hint="@string/search"
+                    android:imeOptions="actionSearch"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:paddingStart="10dp"
+                    android:singleLine="true"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="Autofill,TextFields" />
+
+            <View
+                    android:id="@+id/viewNews1"
+                    android:layout_width="30dp"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginEnd="15dp"
+                    style="@style/OViewLine"
+                    app:layout_constraintEnd_toStartOf="@+id/featuredNewsTitleInfo"
+                    app:layout_constraintTop_toBottomOf="@+id/searchArea" />
+
+            <TextView
+                    android:id="@+id/featuredNewsTitleInfo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/featuredNews"
+                    android:textColor="@color/userFollowerCountColor"
+                    android:textSize="16dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/searchArea" />
+
+            <View
+                    android:id="@+id/viewNews2"
+                    android:layout_width="30dp"
+                    android:layout_height="1dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="30dp"
+                    style="@style/OViewLine"
+                    app:layout_constraintStart_toEndOf="@+id/featuredNewsTitleInfo"
+                    app:layout_constraintTop_toBottomOf="@+id/searchArea" />
+
+            <com.onedio.androidside.common.ScrollableGridView
+                    android:id="@+id/featuredNewsGrid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="10dp"
+                    android:numColumns="2"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/featuredNewsTitleInfo" />
+
+            <ImageView
+                    android:id="@+id/imgOfContent"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="17dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/custom_search_element_grey"
+                    android:padding="11dp"
+                    android:src="@drawable/ic_contents"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/featuredNewsGrid" />
+
+            <TextView
+                    android:id="@+id/searchContentTitleInfo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="17dp"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/contents"
+                    android:textColor="@color/userFollowerCountColor"
+                    android:textSize="16dp"
+                    app:layout_constraintStart_toEndOf="@+id/imgOfContent"
+                    app:layout_constraintTop_toBottomOf="@+id/featuredNewsGrid" />
+
+            <TextView
+                    android:id="@+id/moreContent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginEnd="17dp"
+                    android:text="@string/more"
+                    android:textColor="@color/tabTextColor"
+                    android:textSize="14dp"
+                    android:visibility="gone"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/featuredNewsGrid" />
+
+            <TextView
+                    android:id="@+id/countOfContent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginEnd="8dp"
+                    android:background="@drawable/custom_textview_background_blue"
+                    android:padding="4dp"
+                    android:text="0"
+                    android:textColor="@color/constWhite"
+                    android:textSize="10dp"
+                    android:visibility="gone"
+                    app:layout_constraintEnd_toStartOf="@+id/moreContent"
+                    app:layout_constraintTop_toBottomOf="@+id/featuredNewsGrid" />
+
+
+            <View
+                    android:id="@+id/viewContent"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginStart="75dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="17dp"
+                    style="@style/OViewLine"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imgOfContent" />
+
+            <GridView
+                    android:id="@+id/searchContentsGrid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="10dp"
+                    android:numColumns="3"
+                    android:visibility="gone"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/viewContent" />
+
+            <ImageView
+                    android:id="@+id/imgOfUser"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="17dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/custom_search_element_grey"
+                    android:padding="11dp"
+                    android:src="@drawable/ic_users"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/searchContentsGrid" />
+
+            <TextView
+                    android:id="@+id/searchUserTitleInfo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="17dp"
+                    android:layout_marginTop="30dp"
+                    android:text="@string/users"
+                    android:textColor="@color/userFollowerCountColor"
+                    android:textSize="16dp"
+                    app:layout_constraintStart_toEndOf="@+id/imgOfUser"
+                    app:layout_constraintTop_toBottomOf="@+id/searchContentsGrid" />
+
+            <TextView
+                    android:id="@+id/moreUsers"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginEnd="17dp"
+                    android:text="@string/more"
+                    android:textColor="@color/tabTextColor"
+                    android:textSize="14dp"
+                    android:visibility="gone"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/searchContentsGrid" />
+
+            <TextView
+                    android:id="@+id/countOfUsers"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginEnd="8dp"
+                    android:background="@drawable/custom_textview_background_red"
+                    android:padding="4dp"
+                    android:text="25"
+                    android:textColor="@color/constWhite"
+                    android:textSize="10dp"
+                    android:visibility="gone"
+                    app:layout_constraintEnd_toStartOf="@+id/moreUsers"
+                    app:layout_constraintTop_toBottomOf="@+id/searchContentsGrid" />
+
+            <View
+                    android:id="@+id/viewUser"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginStart="75dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="17dp"
+                    style="@style/OViewLine"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imgOfUser" />
+
+            <ListView
+                    android:id="@+id/searchUsersListView"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginEnd="30dp"
+                    android:divider="@null"
+                    android:dividerHeight="0dp"
+                    android:nestedScrollingEnabled="true"
+                    android:listSelector="@android:color/transparent"
+                    android:visibility="gone"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/viewUser" />
+
+            <ImageView
+                    android:id="@+id/imgOfTag"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="17dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/custom_search_element_grey"
+                    android:padding="11dp"
+                    android:src="@drawable/ic_tags"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/searchUsersListView" />
+
+            <TextView
+                    android:id="@+id/searchTagTitleInfo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="17dp"
+                    android:layout_marginTop="30dp"
+                    android:text="@string/tags"
+                    android:textColor="@color/userFollowerCountColor"
+                    android:textSize="16dp"
+                    app:layout_constraintStart_toEndOf="@+id/imgOfTag"
+                    app:layout_constraintTop_toBottomOf="@+id/searchUsersListView" />
+
+            <TextView
+                    android:id="@+id/moreTags"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginEnd="17dp"
+                    android:text="@string/more"
+                    android:textColor="@color/tabTextColor"
+                    android:textSize="14dp"
+                    android:visibility="gone"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/searchUsersListView" />
+
+            <TextView
+                    android:id="@+id/countOfTags"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginEnd="8dp"
+                    android:background="@drawable/custom_textview_background_purple"
+                    android:padding="4dp"
+                    android:text="25"
+                    android:textColor="@color/constWhite"
+                    android:textSize="10dp"
+                    android:visibility="gone"
+                    app:layout_constraintEnd_toStartOf="@+id/moreTags"
+                    app:layout_constraintTop_toBottomOf="@+id/searchUsersListView" />
+
+            <View
+                    android:id="@+id/viewTag"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginStart="75dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="17dp"
+                    style="@style/OViewLine"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imgOfTag" />
+
+
+            <com.onedio.androidside.mvp.view.dashboard.search.customHastag.HashtagView
+                    android:id="@+id/searchTagsStaggeredGrid"
+                    style="@style/HashtagView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginEnd="30dp"
+                    android:visibility="gone"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/viewTag"
+                    app:rowGravity="left"
+                    app:rowMargin="10dp"
+                    app:tagBackground="@drawable/item_bg_1"
+                    app:tagForeground="@drawable/flat_button_light"
+                    app:tagMargin="10dp"
+                    app:tagPaddingBottom="10dp"
+                    app:tagPaddingLeft="6dp"
+                    app:tagPaddingRight="6dp"
+                    app:tagPaddingTop="10dp"
+                    app:tagTextColor="@color/userFollowerCountColor" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+    <!--<com.wang.avi.AVLoadingIndicatorView
+            android:id="@+id/avlIndicatorProgress"
+            style="@style/AVLoadingIndicatorView"
+            android:layout_width="60sp"
+            android:layout_height="60sp"
+            android:visibility="invisible"
+            app:indicatorColor="@color/buttonBackgroundColorBlue"
+            app:indicatorName="BallSpinFadeLoaderIndicator"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />-->
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/avlIndicatorProgress"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lottie_loop="true"
+        app:lottie_autoPlay="true"
+        app:lottie_rawRes="@raw/progress" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

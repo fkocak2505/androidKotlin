@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/categoryItemConstraint"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/categoryItemPhoto"
+        android:layout_width="140dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="15dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/image_error_dark_mode"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/categoryItemPhotoProgress"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="50dp"
+        android:indeterminate="true"
+        android:indeterminateTint="@color/tabIndicatorColor4Proile"
+        android:indeterminateTintMode="src_atop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/categoryItemTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="30dp"
+        android:ellipsize="end"
+        android:fontFamily="@font/muli_semibold"
+        android:maxLines="4"
+        android:text="Bu Testi Sadece Gerçek Makyaj Tutkunları Geçebilecek!"
+        android:textSize="14dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/categoryItemSubTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="30dp"
+        android:ellipsize="end"
+        android:fontFamily="@font/muli_regular"
+        android:maxLines="3"
+        android:text="Artık çerle çöple uğraştığın yeter! Dünyanın en harika arabaları burada. Ama kritik soru şu: Hangi araba senin kişiliğinle eşleşiyor?"
+        android:textSize="14dp"
+        app:layout_constraintTop_toBottomOf="@+id/categoryItemTitle" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_category_item_read_count"
+        android:elevation="3dp"
+        android:padding="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/categoryItemPhoto">
+
+        <TextView
+            android:id="@+id/categoryItemReadCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/muli_regular"
+            android:text="376b"
+            android:textSize="14dp"
+            android:textColor="@color/textColor"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/infoText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/muli_regular"
+            android:text="Okunma"
+            android:textSize="10dp"
+            android:textColor="@color/textColor"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/categoryItemReadCount" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/categoryItemDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:fontFamily="@font/muli_regular"
+        android:text="09.10.2019"
+        android:textSize="12dp"
+        app:layout_constraintBottom_toBottomOf="@+id/constraintLayout7"
+        app:layout_constraintStart_toEndOf="@+id/constraintLayout7"
+        app:layout_constraintTop_toTopOf="@+id/constraintLayout7" />
+
+    <View
+        android:id="@+id/categoryFeedViewLine"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_marginTop="10dp"
+        android:background="#f5f5f5"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout7" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,712 @@
+{
+  "code": "CAT-1000",
+  "message": "Article fetched successfully.",
+  "data": {
+    "_id": "5f58070cd7b886cc1d60c5ed",
+    "legacyId": 919912,
+    "title": "MasterChef Türkiye'de Mehmet Şef Çıldırdı, Tabağı Hakkında Ağır Konuştuğu Furkan Ağlayarak Stüdyoyu Terk Etti",
+    "description": "Masterchef Türkiye'de heyecan durdurak bilmiyor\\. Türkiye'nin en çok izlenen yarışmalarından birisi olan Masterchef'te Furkan gözyaşlarına boğuldu\\.\\.\\.",
+    "layout": "default",
+    "authors": [
+      {
+        "_id": "58fde7506f540c8d11015ec7",
+        "username": "emresah",
+        "name": "Emre Şah",
+        "image": {
+          "_id": "58ff4b0082ca4fd40e939caa",
+          "url": "https://img-s1.onedio.com/id-58ff4b0082ca4fd40e939caa/rev-0/w-210/h-207/f-jpg/s-4b90f7898008527fe7caf2936006babc57ffb7b6.jpg",
+          "width": 210,
+          "height": 207,
+          "format": "jpg",
+          "alternates": {
+            "standardResolution": {
+              "url": "https://img-s1.onedio.com/id-58ff4b0082ca4fd40e939caa/rev-0/w-600/h-591/f-jpg/s-7142fd41d87afcea2682e4a6e8878152cf73a854.jpg",
+              "height": 591,
+              "width": 600,
+              "format": "jpg",
+              "thumbnail": null
+            },
+            "highResolution": {
+              "url": "https://img-s1.onedio.com/id-58ff4b0082ca4fd40e939caa/rev-0/w-900/h-887/f-jpg/s-c5807652a109e41b0ed3a4b1ad69bf5a658bd2de.jpg",
+              "height": 887,
+              "width": 900,
+              "format": "jpg",
+              "thumbnail": null
+            }
+          }
+        },
+        "country": "TR",
+        "gender": "unknown",
+        "city": null,
+        "title": null,
+        "slogan": null,
+        "birthdate": null,
+        "flags": {
+          "approvedEmail": true
+        }
+      }
+    ],
+    "image": {
+      "_id": "5f5806d14a4f907a2309a972",
+      "url": "https://img-s3.onedio.com/id-5f5806d14a4f907a2309a972/rev-0/w-800/h-400/f-jpg/s-8a5228606bbe20c21627c32cf09e00347de1515d.jpg",
+      "width": 800,
+      "height": 400,
+      "format": "jpg",
+      "alternates": {
+        "standardResolution": {
+          "url": "https://img-s3.onedio.com/id-5f5806d14a4f907a2309a972/rev-0/w-600/h-300/f-jpg/s-5022c6ec19dce4daef49a3e7356a00c5398a8453.jpg",
+          "height": 300,
+          "width": 600,
+          "format": "jpg",
+          "thumbnail": null
+        },
+        "highResolution": {
+          "url": "https://img-s3.onedio.com/id-5f5806d14a4f907a2309a972/rev-0/w-900/h-450/f-jpg/s-01b978fef7fbc5a6caf1e6648b4c1de7d463b427.jpg",
+          "height": 450,
+          "width": 900,
+          "format": "jpg",
+          "thumbnail": null
+        }
+      }
+    },
+    "categories": [
+      {
+        "_id": "50ce951f28e98bd23f000011",
+        "name": "Video",
+        "icons": {
+          "png": "https://static.onedio.com/icons/category/png/video-68.png",
+          "svg": "https://static.onedio.com/icons/category/svg/video.svg"
+        }
+      }
+    ],
+    "entries": [
+      {
+        "_id": "5f58070cd7b886cc1d60c5e6",
+        "mode": "text",
+        "title": null,
+        "content": "Masterchef Türkiye'de heyecan durdurak bilmiyor\\. Türkiye'nin en çok izlenen yarışmalarından birisi olan Masterchef'te Furkan gözyaşlarına boğuldu\\.\\.\\.",
+        "metadata": {
+          "unordered": true
+        },
+        "internaldata": {},
+        "urls": {
+          "image": null
+        }
+      },
+      {
+        "_id": "5f58070cd7b886cc1d60c5e7",
+        "mode": "image",
+        "title": "Masterchef Türkiye'nin ilk eleme oyununda mavi takım ile kırmızı takım yarıştı.",
+        "content": "Yarışta hem mavi takım hem de kırmızı takım çift tadım yapınca kriz yaşandı\\. Mavi takımın çorbası iptal olurken kırmızı takımın ise pazı dolması iptal oldu\\. Dokunulmazlık oyununa damga vuran olay ise Mehmet Yalçınkaya ile Furkan Yalçın arasındaki olay oldu\\.",
+        "image": {
+          "_id": "5f5804fcc09279471da63def",
+          "url": "https://img-s1.onedio.com/id-5f5804fcc09279471da63def/rev-0/w-800/h-500/f-jpg/s-a778dcc25bc03755a73937e361c0f3d0c5a6a938.jpg",
+          "width": 800,
+          "height": 500,
+          "format": "jpg",
+          "alternates": {
+            "standardResolution": {
+              "url": "https://img-s1.onedio.com/id-5f5804fcc09279471da63def/rev-0/w-600/h-375/f-jpg/s-837ea88b8ef396e97957df84059d0e654646be88.jpg",
+              "height": 375,
+              "width": 600,
+              "format": "jpg",
+              "thumbnail": null
+            },
+            "highResolution": {
+              "url": "https://img-s1.onedio.com/id-5f5804fcc09279471da63def/rev-0/w-900/h-562/f-jpg/s-b9804031313ef89aab1e3c09a91748942070260f.jpg",
+              "height": 562,
+              "width": 900,
+              "format": "jpg",
+              "thumbnail": null
+            }
+          }
+        },
+        "metadata": {},
+        "internaldata": {
+          "size": {
+            "width": 800,
+            "height": 500
+          },
+          "format": "jpg"
+        },
+        "urls": {
+          "source": "https://i.internethaber.com/storage/files/images/2020/09/08/masterchef-turkiye-eleme-adaylari-qbpo.jpg.webp",
+          "image": "https://i.internethaber.com/storage/files/images/2020/09/08/masterchef-turkiye-eleme-adaylari-qbpo.jpg.webp"
+        }
+      },
+      {
+        "_id": "5f58070cd7b886cc1d60c5e8",
+        "mode": "image",
+        "title": "Somer Sivrioğlu, Danilo Zanna ve Mehmet Yalçınkaya'nın jüri üyesi olduğu MasterChef Türkiye'de Furkan ve Mehmet Şef arasında büyük gerginlik çıktı.",
+        "content": null,
+        "image": {
+          "_id": "5f58027bffa17f6f220a1b23",
+          "url": "https://img-s1.onedio.com/id-5f58027bffa17f6f220a1b23/rev-0/w-728/h-432/f-jpg/s-b3a043ab7cd3b1c82068165e03c34935a45444ec.jpg",
+          "width": 728,
+          "height": 432,
+          "format": "jpg",
+          "alternates": {
+            "standardResolution": {
+              "url": "https://img-s1.onedio.com/id-5f58027bffa17f6f220a1b23/rev-0/w-600/h-356/f-jpg/s-00422bb270710f1f71369ac5e387b556b04d7971.jpg",
+              "height": 356,
+              "width": 600,
+              "format": "jpg",
+              "thumbnail": null
+            },
+            "highResolution": {
+              "url": "https://img-s1.onedio.com/id-5f58027bffa17f6f220a1b23/rev-0/w-900/h-534/f-jpg/s-19f8bee4dcdda7cb9637b79fe8bc0619690ab0ac.jpg",
+              "height": 534,
+              "width": 900,
+              "format": "jpg",
+              "thumbnail": null
+            }
+          }
+        },
+        "metadata": {},
+        "internaldata": {
+          "size": {
+            "width": 728,
+            "height": 432
+          },
+          "format": "jpg"
+        },
+        "urls": {
+          "source": "https://imgrosetta.mynet.com.tr/file/12168716/12168716-728xauto.jpg",
+          "image": "https://imgrosetta.mynet.com.tr/file/12168716/12168716-728xauto.jpg"
+        }
+      },
+      {
+        "_id": "5f58070cd7b886cc1d60c5e9",
+        "mode": "image",
+        "title": "Tabağını tamamlayamamasına rağmen şeflerin önüne tadıma getiren Furkan, Mehmet şeften ağır sözler yedi.",
+        "content": null,
+        "image": {
+          "_id": "5f5805de24b4fa8f1d4e855c",
+          "url": "https://img-s1.onedio.com/id-5f5805de24b4fa8f1d4e855c/rev-0/w-800/h-500/f-jpg/s-017d4fb112944eb558089c9d7633690c706730a3.jpg",
+          "width": 800,
+          "height": 500,
+          "format": "jpg",
+          "alternates": {
+            "standardResolution": {
+              "url": "https://img-s1.onedio.com/id-5f5805de24b4fa8f1d4e855c/rev-0/w-600/h-375/f-jpg/s-6f810ed5d954f4fe0da8b7b31a373bc33898e40c.jpg",
+              "height": 375,
+              "width": 600,
+              "format": "jpg",
+              "thumbnail": null
+            },
+            "highResolution": {
+              "url": "https://img-s1.onedio.com/id-5f5805de24b4fa8f1d4e855c/rev-0/w-900/h-562/f-jpg/s-6e3e0814978abaf0ac00c472bf48371d30c2488f.jpg",
+              "height": 562,
+              "width": 900,
+              "format": "jpg",
+              "thumbnail": null
+            }
+          }
+        },
+        "metadata": {},
+        "internaldata": {
+          "size": {
+            "width": 800,
+            "height": 500
+          },
+          "format": "jpg"
+        },
+        "urls": {
+          "source": "https://i.internethaber.com/storage/files/images/2020/09/08/masterchef-mehmet-yalcinkaya-fur-qn8q.jpg.webp",
+          "image": "https://i.internethaber.com/storage/files/images/2020/09/08/masterchef-mehmet-yalcinkaya-fur-qn8q.jpg.webp"
+        }
+      },
+      {
+        "_id": "5f58070cd7b886cc1d60c5ea",
+        "mode": "image",
+        "title": "Mehmet Şef, 'Bu ne abi sen nasıl getirebiliyorsun bu yemeği? Getirme daha iyi. Ayyüce gibi yok de. Şefe saygısızlık olmasa ben bu tabağı tatmam. Niye getirdin?' dedi.",
+        "content": "_Furkan'dan önce Ayyüce tabağını getirmediği için sıra Furkan'a geçmişti\\._",
+        "image": {
+          "_id": "5f5803365729dffd1c3bbae4",
+          "url": "https://img-s2.onedio.com/id-5f5803365729dffd1c3bbae4/rev-0/w-750/h-419/f-jpg/s-d89d0007a027c35e619e64f446301ac2dad5d485.jpg",
+          "width": 750,
+          "height": 419,
+          "format": "jpg",
+          "alternates": {
+            "standardResolution": {
+              "url": "https://img-s2.onedio.com/id-5f5803365729dffd1c3bbae4/rev-0/w-600/h-335/f-jpg/s-beeeeee2cb93a2f5b8b4f2ea8eb81e7fe767d0a2.jpg",
+              "height": 335,
+              "width": 600,
+              "format": "jpg",
+              "thumbnail": null
+            },
+            "highResolution": {
+              "url": "https://img-s2.onedio.com/id-5f5803365729dffd1c3bbae4/rev-0/w-900/h-502/f-jpg/s-fe946d6537d640cfe6dcd71da9ca56faa0266d01.jpg",
+              "height": 502,
+              "width": 900,
+              "format": "jpg",
+              "thumbnail": null
+            }
+          }
+        },
+        "metadata": {},
+        "internaldata": {
+          "size": {
+            "width": 750,
+            "height": 419
+          },
+          "format": "jpg"
+        },
+        "urls": {
+          "source": "https://i2.milimaj.com/i/milliyet/75/750x0/5f57f1f45542801120d7a300",
+          "image": "https://i2.milimaj.com/i/milliyet/75/750x0/5f57f1f45542801120d7a300"
+        }
+      },
+      {
+        "_id": "5f58070cd7b886cc1d60c5eb",
+        "mode": "image",
+        "title": "Mehmet Şef'in sözleri karşısında gözyaşlarına boğulan Furkan, 'Kusura bakmayın şef. Haklısınız. Şefim farkındayım kötü bir tabak. Benim hatam bunu kabul ediyorum. Ben neden bilerek kendimi rezil edeyim şef' dedi.",
+        "content": "Gözyaşlarına boğulan Furkan diğer şeflere tabağını tattırmadan yerinden ayrıldı\\. Öfke patlamasının eşiğine gelen Furkan, Somer Şef'ten izin istedi ve stüdyodan çıkıp gitti\\.",
+        "image": {
+          "_id": "5f580344211c7a4622cb00e2",
+          "url": "https://img-s3.onedio.com/id-5f580344211c7a4622cb00e2/rev-0/w-750/h-415/f-jpg/s-4b26a779b2027ab71dd4404de83838ac61f22e70.jpg",
+          "width": 750,
+          "height": 415,
+          "format": "jpg",
+          "alternates": {
+            "standardResolution": {
+              "url": "https://img-s3.onedio.com/id-5f580344211c7a4622cb00e2/rev-0/w-600/h-332/f-jpg/s-fa397bdb874b3ee64afd6f255cd0f9682230c704.jpg",
+              "height": 332,
+              "width": 600,
+              "format": "jpg",
+              "thumbnail": null
+            },
+            "highResolution": {
+              "url": "https://img-s3.onedio.com/id-5f580344211c7a4622cb00e2/rev-0/w-900/h-498/f-jpg/s-4c46f9c5a7255401d1d256d51defb9d9f21c3b02.jpg",
+              "height": 498,
+              "width": 900,
+              "format": "jpg",
+              "thumbnail": null
+            }
+          }
+        },
+        "metadata": {},
+        "internaldata": {
+          "size": {
+            "width": 750,
+            "height": 415
+          },
+          "format": "jpg"
+        },
+        "urls": {
+          "source": "https://i2.milimaj.com/i/milliyet/75/750x0/5f57f1f45542801120d7a2fc",
+          "image": "https://i2.milimaj.com/i/milliyet/75/750x0/5f57f1f45542801120d7a2fc"
+        }
+      },
+      {
+        "_id": "5f58070cd7b886cc1d60c5ec",
+        "mode": "video",
+        "title": "İşte o anlar:",
+        "content": null,
+        "image": {
+          "_id": "5f580193ffa17f6f220a1b12",
+          "url": "https://img-s3.onedio.com/id-5f580193ffa17f6f220a1b12/rev-0/w-854/h-394/f-jpg/s-71e1f069e7b3c0106b9c037fe6574fd989055ce7.jpg",
+          "width": 854,
+          "height": 394,
+          "format": "jpg",
+          "alternates": {
+            "standardResolution": {
+              "url": "https://img-s3.onedio.com/id-5f580193ffa17f6f220a1b12/rev-0/w-600/h-276/f-jpg/s-fc442410a8cca38e6e8aa72b71bb6bd3c25321df.jpg",
+              "height": 276,
+              "width": 600,
+              "format": "jpg",
+              "thumbnail": null
+            },
+            "highResolution": {
+              "url": "https://img-s3.onedio.com/id-5f580193ffa17f6f220a1b12/rev-0/w-900/h-415/f-jpg/s-c95778e66184f61c1918fbfed3deb6b8a894ba6a.jpg",
+              "height": 415,
+              "width": 900,
+              "format": "jpg",
+              "thumbnail": null
+            }
+          }
+        },
+        "metadata": {
+          "disable_ads": true,
+          "video_autoplay": ""
+        },
+        "html": "<iframe class=\"video-embed\" src=\"https://onedio.com/support/player?file=https%3A%2F%2Fonedio.com%2Fapi%2Fv2%2Fvideo%2Ffiles%2F5f58017dc1a20a321d399bfd.mp4&poster=https%3A%2F%2Fonedio.com%2Fapi%2Fv2%2Fvideo%2Ffiles%2F5f58017dc1a20a321d399bfd.png\" width=\"640\" height=\"480\" frameborder=\"0\"></iframe>",
+        "internaldata": {
+          "embedfrom": "onedio-video",
+          "presets": 5,
+          "file": "https://onedio.com/api/v2/video/files/5f58017dc1a20a321d399bfd.mp4",
+          "key": "5f58017dc1a20a321d399bfd",
+          "thumbnail": {
+            "size": {
+              "width": 854,
+              "height": 394
+            },
+            "format": "jpg"
+          },
+          "source": "onediovideo://5f58017dc1a20a321d399bfd"
+        },
+        "embedSource": "onedio",
+        "embedSourceId": "5f58017dc1a20a321d399bfd",
+        "urls": {
+          "image": "https://onedio.com/api/v2/video/files/5f58017dc1a20a321d399bfd.png"
+        }
+      }
+    ],
+    "reactions": [
+      {
+        "id": "1f602",
+        "name": "",
+        "count": 335,
+        "icons": {
+          "svg": "https://static.onedio.com/icons/badge/svg/fail.svg",
+          "png": "https://static.onedio.com/icons/badge/png/fail.png"
+        }
+      },
+      {
+        "id": "1f44f",
+        "name": "",
+        "count": 141,
+        "icons": {
+          "svg": "https://static.onedio.com/icons/badge/svg/laugh.svg",
+          "png": "https://static.onedio.com/icons/badge/png/laugh.png"
+        }
+      },
+      {
+        "id": "emoj.kizgin",
+        "name": "",
+        "count": 118,
+        "icons": {
+          "svg": "https://static.onedio.com/icons/badge/svg/angry.svg",
+          "png": "https://static.onedio.com/icons/badge/png/angry.png"
+        }
+      },
+      {
+        "id": "1f631",
+        "name": "",
+        "count": 46,
+        "icons": {
+          "svg": "https://static.onedio.com/icons/badge/svg/sad.svg",
+          "png": "https://static.onedio.com/icons/badge/png/sad.png"
+        }
+      },
+      {
+        "id": "1f60c",
+        "name": "",
+        "count": 25,
+        "icons": {
+          "svg": "https://static.onedio.com/icons/badge/svg/clap.svg",
+          "png": "https://static.onedio.com/icons/badge/png/clap.png"
+        }
+      },
+      {
+        "id": "1f44e",
+        "name": "",
+        "count": 17,
+        "icons": {
+          "svg": "https://static.onedio.com/icons/badge/svg/heart.svg",
+          "png": "https://static.onedio.com/icons/badge/png/heart.png"
+        }
+      },
+      {
+        "id": "1f625",
+        "name": "",
+        "count": 8,
+        "icons": {
+          "svg": "https://static.onedio.com/icons/badge/svg/surprise.svg",
+          "png": "https://static.onedio.com/icons/badge/png/surprise.png"
+        }
+      }
+    ],
+    "badge": [
+      {
+        "_id": "562e40f6df878a1246186f05",
+        "name": "Hoş değil!",
+        "icons": {
+          "svg": "https://static.onedio.com/icons/badge/svg/fail.svg",
+          "png": "https://static.onedio.com/icons/badge/png/fail.png"
+        }
+      }
+    ],
+    "showInWebview": false,
+    "tags": [
+      "~experimental-videogifs",
+      "Manşet Haberi",
+      "~no-instant-article",
+      "~no-playable-video-card",
+      "~shared-social-twitter-onediocomvideo",
+      "~shared-social",
+      "~shared-social-twitter-onediocom",
+      "Hoş değil!"
+    ],
+    "stats": {
+      "views": 40680,
+      "shares": 42,
+      "comments": 42,
+      "reactions": 690
+    },
+    "flags": {
+      "showAds": true
+    },
+    "redirectUrl": null,
+    "isUserFavorite": false,
+    "createDate": "2020-09-08T22:34:52.287Z",
+    "updateDate": "2020-09-08T22:35:40.028Z",
+    "publishDate": "2020-09-08T22:35:40.028Z",
+    "comments": [
+      {
+        "_id": "5f58081967d609931da6185c",
+        "user": {
+          "_id": "5f5571f00242aef12112fed4",
+          "username": "ahmetcel1",
+          "name": "Ahmet Çelik",
+          "email": "ahmetcel11@yandex.com",
+          "image": {
+            "_id": "5f5572560242aef12112fed7",
+            "url": "https://img-s2.onedio.com/id-5f5572560242aef12112fed7/rev-0/w-210/h-208/f-jpg/s-e5daeeb07b1862fb5c7a88398dc27151f2e23bf7.jpg",
+            "width": 210,
+            "height": 208,
+            "format": "jpg",
+            "alternates": {
+              "standardResolution": {
+                "url": "https://img-s2.onedio.com/id-5f5572560242aef12112fed7/rev-0/w-600/h-594/f-jpg/s-ea984539d618f38838555d68c9989ec18612a4c8.jpg",
+                "height": 594,
+                "width": 600,
+                "format": "jpg",
+                "thumbnail": null
+              },
+              "highResolution": {
+                "url": "https://img-s2.onedio.com/id-5f5572560242aef12112fed7/rev-0/w-900/h-891/f-jpg/s-0081dca9ddbcaf36589226098f27a2aa5b85be2a.jpg",
+                "height": 891,
+                "width": 900,
+                "format": "jpg",
+                "thumbnail": null
+              }
+            }
+          },
+          "country": "TR",
+          "gender": "unknown",
+          "city": null,
+          "title": null,
+          "slogan": null,
+          "birthdate": null,
+          "flags": {
+            "approvedEmail": true
+          }
+        },
+        "target": {
+          "type": "Article",
+          "id": "5f58070cd7b886cc1d60c5ed"
+        },
+        "text": "Emir, Eray, Furkan, Uğur ve Barbaros. Siz beş para etmez karaktersiz insanlarsınız. Ayrıca böyle programın da amk, yemek yarışmasıysa niye yarışmacılar birbirine oy veriyor böyle saçmalık mı olur amk",
+        "parent": null,
+        "replyTo": null,
+        "replies": {
+          "data": []
+        },
+        "createDate": "2020-09-08T22:39:21.105Z",
+        "ratings": {
+          "likes": 120,
+          "dislikes": 0
+        }
+      },
+      {
+        "_id": "5f58a618e1cabe863438ed9b",
+        "user": {
+          "_id": "5f55f7a91377ad20121116bd",
+          "username": "nurtenin-yegeni",
+          "name": "nurten'in yeğeni",
+          "email": "limonmuzik3333@gmail.com",
+          "image": {
+            "_id": "5f55f9331377ad20121116c4",
+            "url": "https://img-s2.onedio.com/id-5f55f9331377ad20121116c4/rev-0/w-210/h-208/f-jpg/s-3a3c88960db014f08884c08d396492f85ce52bb3.jpg",
+            "width": 210,
+            "height": 208,
+            "format": "jpg",
+            "alternates": {
+              "standardResolution": {
+                "url": "https://img-s2.onedio.com/id-5f55f9331377ad20121116c4/rev-0/w-600/h-594/f-jpg/s-2e0f4457847be8501a7527a7327ecd3d9cd2da70.jpg",
+                "height": 594,
+                "width": 600,
+                "format": "jpg",
+                "thumbnail": null
+              },
+              "highResolution": {
+                "url": "https://img-s2.onedio.com/id-5f55f9331377ad20121116c4/rev-0/w-900/h-891/f-jpg/s-e859a30be620c287cde1de0da1e57dd646d1c291.jpg",
+                "height": 891,
+                "width": 900,
+                "format": "jpg",
+                "thumbnail": null
+              }
+            }
+          },
+          "country": "TR",
+          "gender": "unknown",
+          "city": null,
+          "title": null,
+          "slogan": null,
+          "birthdate": null,
+          "flags": {
+            "approvedEmail": true
+          }
+        },
+        "target": {
+          "type": "Article",
+          "id": "5f58070cd7b886cc1d60c5ed"
+        },
+        "text": "masterchef'in orjinali 40 dk falan sürüyor. bu 40 dakikada kaptan seçiliyor. takımlar kuruluyor. eleme yapılıyor ve en az bir kişi gidiyor. gayet akıcı gayet geliştirici... en önemli detaylardan bir tanesi: eğer şef yarışmacılardan bir yemek istiyorsa bunu karşılarında canlı canlı yapıyor ve gerçek bir masterchef işte böyle biftek vs yapar diyor. bizde sadece bir bölümün özeti 40 dk.  bir oyuncunun elenmesi 1 hafta sürüyor.program 2 saat reklamlarla 3.5 saat falan. şeflerin burnu havada. hiç bir şeye ellerini sürmüyorlar. azarlamalar bagırmalar...yarışmacılar da ajitasyon, gereksiz bir duygusallık. her işimiz böyle... yapış yapış",
+        "parent": null,
+        "replyTo": null,
+        "replies": {
+          "data": []
+        },
+        "createDate": "2020-09-09T09:53:28.432Z",
+        "ratings": {
+          "likes": 114,
+          "dislikes": 0
+        }
+      },
+      {
+        "_id": "5f580f74a731fc0b8a7b906d",
+        "user": {
+          "_id": "55db02f7ef5aa602100d9e76",
+          "username": "socialworker",
+          "name": "hakan balta",
+          "email": "ardager@hotmail.com",
+          "image": {
+            "_id": "5c248b244f7a52dd1c8e87f4",
+            "url": "https://img-s2.onedio.com/id-5c248b244f7a52dd1c8e87f4/rev-0/w-210/h-208/f-jpg/s-6060b9ee9d8e70e2e2fee33cfcd8b9fb645c3351.jpg",
+            "width": 210,
+            "height": 208,
+            "format": "jpg",
+            "alternates": {
+              "standardResolution": {
+                "url": "https://img-s2.onedio.com/id-5c248b244f7a52dd1c8e87f4/rev-0/w-600/h-594/f-jpg/s-d910c162c3c2ad3bb7970d90ea5e0f576fefdbc8.jpg",
+                "height": 594,
+                "width": 600,
+                "format": "jpg",
+                "thumbnail": null
+              },
+              "highResolution": {
+                "url": "https://img-s2.onedio.com/id-5c248b244f7a52dd1c8e87f4/rev-0/w-900/h-891/f-jpg/s-64184f100f8d00d3219fb37dce3602306a401adc.jpg",
+                "height": 891,
+                "width": 900,
+                "format": "jpg",
+                "thumbnail": null
+              }
+            }
+          },
+          "country": "TR",
+          "gender": "male",
+          "city": "izmir",
+          "title": null,
+          "slogan": "Her birimiz kendi hapishanemizin gardiyanıyız.",
+          "birthdate": null,
+          "flags": {
+            "approvedEmail": true
+          }
+        },
+        "target": {
+          "type": "Article",
+          "id": "5f58070cd7b886cc1d60c5ed"
+        },
+        "text": "Mehmet bu role kendisini çok kaptirmaya başladı. 3 günlük dünya kardeşim değmez.",
+        "parent": null,
+        "replyTo": null,
+        "replies": {
+          "data": []
+        },
+        "createDate": "2020-09-08T23:10:44.612Z",
+        "ratings": {
+          "likes": 84,
+          "dislikes": 0
+        }
+      },
+      {
+        "_id": "5f580d53f7d0e783248a4d6c",
+        "user": {
+          "_id": "57e472ebfa2cb82223dd4676",
+          "username": "sexygirl",
+          "name": null,
+          "email": "turanoznur9@gmail.com",
+          "image": {
+            "alternates": {
+              "standardResolution": {
+                "url": "https://graph.facebook.com/528426550659022/picture?type=normal"
+              },
+              "highResolution": {
+                "url": "https://graph.facebook.com/528426550659022/picture?type=large"
+              }
+            }
+          },
+          "country": "TR",
+          "gender": "female",
+          "city": null,
+          "title": null,
+          "slogan": null,
+          "birthdate": "1997-03-30T21:00:00.000Z",
+          "flags": {
+            "approvedEmail": true
+          }
+        },
+        "target": {
+          "type": "Article",
+          "id": "5f58070cd7b886cc1d60c5ed"
+        },
+        "text": "mehmet şefi hiç sevmiyorum çok itici biri bir de onedio onu şirin gibi gösteren ve öven bi içerik hazırlamıştınız boş boş amacınız ne hayır para mı alıyorsunuz bu adamın nesi iy onu kadar agresif biri diğer jüriler niye o kadar sinirli değil bence şov yapıyor rating lazım tabi birinin tansiyonu yükseltmesi gerekiyor sürekli bu da o görevi yapıyor.!",
+        "parent": null,
+        "replyTo": null,
+        "replies": {
+          "data": []
+        },
+        "createDate": "2020-09-08T23:01:39.380Z",
+        "ratings": {
+          "likes": 79,
+          "dislikes": 0
+        }
+      },
+      {
+        "_id": "5f5875ddcd0014a536b2a9ac",
+        "user": {
+          "_id": "54822df5a5385cea2d71f2c0",
+          "username": "enk-capital",
+          "name": "Enk Capital",
+          "email": null,
+          "image": {
+            "alternates": {
+              "standardResolution": {
+                "url": "https://graph.facebook.com/391467344334536/picture?type=normal"
+              },
+              "highResolution": {
+                "url": "https://graph.facebook.com/391467344334536/picture?type=large"
+              }
+            }
+          },
+          "country": null,
+          "gender": "male",
+          "city": null,
+          "title": null,
+          "slogan": null,
+          "birthdate": "1990-10-25T22:00:00.000Z",
+          "flags": {
+            "approvedEmail": true
+          }
+        },
+        "target": {
+          "type": "Article",
+          "id": "5f58070cd7b886cc1d60c5ed"
+        },
+        "text": "Alt tarafı üç dört saat sonra sıçılacak yemekler için gerek yok bu kadar kaosa birbirini aşağılamaya falan. Saçma bi yarışma. Ayrıca bu şeflerin gereksiz egosu da beni hasta ediyo.",
+        "parent": null,
+        "replyTo": null,
+        "replies": {
+          "data": []
+        },
+        "createDate": "2020-09-09T06:27:41.727Z",
+        "ratings": {
+          "likes": 72,
+          "dislikes": 0
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <ImageView
+            android:id="@+id/coverPhoto"
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img_delete_after"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    <ProgressBar
+            android:id="@+id/coverPhotoProgress"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:indeterminate="true"
+            android:visibility="invisible"
+            android:indeterminateTint="@color/tabIndicatorColor4Proile"
+            android:indeterminateTintMode="src_atop"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+            android:layout_width="125dp"
+            android:layout_height="35dp"
+            android:background="#fc3937"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+            android:id="@+id/coverPhotoText"
+            android:layout_width="125dp"
+            android:layout_height="35dp"
+            android:gravity="center"
+            android:text="#Helal Olsun!"
+            android:textColor="#FFFFFF"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+            android:id="@+id/coverPhotoActionImage"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="110dp"
+            android:src="@drawable/delete_after"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+            android:id="@+id/articleAction"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="12dp"
+            android:src="@drawable/delete_after"
+            app:layout_constraintBottom_toBottomOf="@+id/coverPhoto"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/feedTitle" />
+
+    <ProgressBar
+            android:id="@+id/articleActionPhotoProgress"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginEnd="25dp"
+            android:layout_marginBottom="15dp"
+            android:indeterminate="true"
+            android:visibility="invisible"
+            android:indeterminateTint="@color/tabIndicatorColor4Proile"
+            android:indeterminateTintMode="src_atop"
+            app:layout_constraintBottom_toBottomOf="@+id/coverPhoto"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/feedTitle" />
+
+    <TextView
+            android:id="@+id/feedTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="20dp"
+            android:maxLines="3"
+            android:text="Kripto Para Piyasasında Neler Oluyor? Bitcoin Uzun Sürenin Ardından 5 Bin Doları Geçti"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/coverPhoto" />
+
+    <TextView
+            android:id="@+id/feedDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp"
+            android:text="25/05/2015"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/feedTitle" />
+
+    <TextView
+            android:id="@+id/emojiAction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:background="@drawable/rounded_corner"
+            android:text="Hello World!"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="35dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/delete_after_emoji_1"
+            app:layout_constraintEnd_toStartOf="@+id/emojiActionCount"
+            app:layout_constraintTop_toBottomOf="@+id/feedTitle"/>
+
+    <TextView
+            android:id="@+id/emojiAction2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:background="@drawable/rounded_corner"
+            android:text="Hello World!"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="20dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/delete_after_emoji_1"
+            app:layout_constraintEnd_toStartOf="@+id/emojiActionCount"
+            app:layout_constraintTop_toBottomOf="@+id/feedTitle"/>
+
+    <TextView
+            android:id="@+id/emojiAction3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:background="@drawable/rounded_corner"
+            android:text="Hello World!"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="5dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/delete_after_emoji_1"
+            app:layout_constraintEnd_toStartOf="@+id/emojiActionCount"
+            app:layout_constraintTop_toBottomOf="@+id/feedTitle"/>
+
+
+    <!--<com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/emojiAction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="35dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/delete_after_emoji_1"
+            app:layout_constraintEnd_toStartOf="@+id/emojiActionCount"
+            app:layout_constraintTop_toBottomOf="@+id/feedTitle"
+            app:riv_border_color="#ffffff"
+            app:riv_border_width="1dp"
+            app:riv_corner_radius="30dp"
+            app:riv_mutate_background="true"
+            app:riv_oval="true"
+            app:riv_tile_mode="repeat" />
+
+    <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/emojiAction2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="20dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/delete_after_emoji_2"
+            app:layout_constraintEnd_toStartOf="@+id/emojiActionCount"
+            app:layout_constraintTop_toBottomOf="@+id/feedTitle"
+            app:riv_border_color="#ffffff"
+            app:riv_border_width="1dp"
+            app:riv_corner_radius="30dp"
+            app:riv_mutate_background="true"
+            app:riv_oval="true"
+            app:riv_tile_mode="repeat" />
+
+    <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/emojiAction3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="6dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/delete_after_emoji_3"
+            app:layout_constraintEnd_toStartOf="@+id/emojiActionCount"
+            app:layout_constraintTop_toBottomOf="@+id/feedTitle"
+            app:riv_border_color="#ffffff"
+            app:riv_border_width="1dp"
+            app:riv_corner_radius="30dp"
+            app:riv_mutate_background="true"
+            app:riv_oval="true" /> -->
+
+    <TextView
+            android:id="@+id/emojiActionCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:text="59 Kişi daha"
+            app:layout_constraintEnd_toStartOf="@+id/view2"
+            app:layout_constraintTop_toBottomOf="@+id/feedTitle" />
+
+    <View
+            android:id="@+id/view2"
+            android:layout_width="1dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginEnd="15dp"
+            android:background="#e2e2e2"
+            app:layout_constraintEnd_toStartOf="@+id/commentIcon"
+            app:layout_constraintTop_toBottomOf="@+id/feedTitle" />
+
+    <ImageView
+            android:id="@+id/commentIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp"
+            android:layout_marginEnd="5dp"
+            android:src="@drawable/delete_after_comment"
+            app:layout_constraintEnd_toStartOf="@+id/commentCount"
+            app:layout_constraintTop_toBottomOf="@+id/feedTitle" />
+
+    <TextView
+            android:id="@+id/commentCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="30dp"
+            android:text="30"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/feedTitle" />
+
+    <View
+            android:id="@+id/view5"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="30dp"
+            android:background="#e2e2e2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/feedDate" />
+
+    <ImageView
+            android:id="@+id/addFavoriteIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/delete_after_favorite"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view5" />
+
+    <TextView
+            android:id="@+id/addFavoriteText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="20dp"
+            android:text="Favorilere Ekle"
+            app:layout_constraintStart_toEndOf="@+id/addFavoriteIcon"
+            app:layout_constraintTop_toBottomOf="@+id/view5" />
+
+    <ImageView
+            android:id="@+id/doCommentIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/delete_after_comment"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.45"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view5" />
+
+    <TextView
+            android:id="@+id/doCommentText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="20dp"
+            android:text="Yorum Yap"
+            app:layout_constraintStart_toEndOf="@+id/doCommentIcon"
+            app:layout_constraintTop_toBottomOf="@+id/view5" />
+
+    <ImageView
+            android:id="@+id/shareIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="6dp"
+            android:src="@drawable/delete_after_share"
+            app:layout_constraintEnd_toStartOf="@+id/shareText"
+            app:layout_constraintTop_toBottomOf="@+id/view5" />
+
+    <TextView
+            android:id="@+id/shareText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="30dp"
+            android:text="Paylaş"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view5" />
+
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:background="#e2e2e2"
+            android:layout_marginTop="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/doCommentIcon" />
+
+
+    <!--<TextView
+            android:id="@+id/itemTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="wafawfawfawf"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" /> -->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

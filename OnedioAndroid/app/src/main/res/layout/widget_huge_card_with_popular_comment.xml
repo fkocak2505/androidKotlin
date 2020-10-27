@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools">
+
+    <ImageView
+            android:id="@+id/coverPhoto"
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img_delete_after"
+            android:layout_marginTop="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    <ProgressBar
+            android:id="@+id/coverPhotoProgress"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:indeterminate="true"
+            android:visibility="invisible"
+            android:indeterminateTint="@color/tabIndicatorColor4Proile"
+            android:indeterminateTintMode="src_atop"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:targetApi="lollipop" />
+
+    <View
+            android:layout_width="125dp"
+            android:layout_height="35dp"
+            android:background="#fc3937"
+            android:layout_marginTop="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+            android:id="@+id/coverPhotoText"
+            android:layout_width="125dp"
+            android:layout_height="35dp"
+            android:gravity="center"
+            android:text="#Helal Olsun!"
+            android:textColor="#FFFFFF"
+            android:textSize="14dp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+            android:id="@+id/coverPhotoActionImage"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="110dp"
+            android:src="@drawable/delete_after"
+            android:layout_marginTop="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+            android:id="@+id/articleAction"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="12dp"
+            android:src="@drawable/delete_after"
+            app:layout_constraintBottom_toBottomOf="@+id/coverPhoto"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/feedTitle" />
+
+    <ProgressBar
+            android:id="@+id/articleActionPhotoProgress"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginEnd="25dp"
+            android:layout_marginBottom="15dp"
+            android:indeterminate="true"
+            android:visibility="invisible"
+            android:indeterminateTint="@color/tabIndicatorColor4Proile"
+            android:indeterminateTintMode="src_atop"
+            app:layout_constraintBottom_toBottomOf="@+id/coverPhoto"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/feedTitle" />
+
+    <TextView
+            android:id="@+id/feedTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="20dp"
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:text="Kripto Para Piyasasında Neler Oluyor? Bitcoin Uzun Sürenin Ardından 5 Bin Doları Geçti"
+            android:textColor="#231f20"
+            android:textSize="16dp"
+            android:fontFamily="@font/muli_regular"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/coverPhoto" />
+
+    <TextView
+            android:id="@+id/feedDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp"
+            android:text="25/05/2015"
+            android:textColor="#191919"
+            android:textSize="14dp"
+            android:fontFamily="@font/muli_regular"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/feedTitle" />
+
+    <ImageView
+            android:id="@+id/addFavoriteIcon"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="5dp"
+            android:src="@drawable/delete_after_favorite"
+            app:layout_constraintEnd_toStartOf="@+id/addFavoriteText"
+            app:layout_constraintTop_toBottomOf="@+id/feedTitle" />
+
+    <TextView
+            android:id="@+id/addFavoriteText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="30dp"
+            android:text="Favorilere Ekle"
+            android:textSize="14dp"
+            android:fontFamily="@font/muli_regular"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/feedTitle" />
+
+    <View
+            android:id="@+id/view5"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="30dp"
+            android:background="#e2e2e2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/feedDate" />
+
+    <TextView
+            android:id="@+id/emojiAction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/rounded_corner"
+            android:scaleType="fitCenter"
+            android:src="@drawable/delete_after_emoji_1"
+            android:text="😄"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view5" />
+
+    <TextView
+            android:id="@+id/emojiAction2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/rounded_corner"
+            android:scaleType="fitCenter"
+            android:src="@drawable/delete_after_emoji_1"
+            android:text="😄"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view5" />
+
+    <TextView
+            android:id="@+id/emojiAction3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/rounded_corner"
+            android:scaleType="fitCenter"
+            android:src="@drawable/delete_after_emoji_1"
+            android:text="😄"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view5" />
+
+    <TextView
+            android:id="@+id/emojiActionCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="20dp"
+            android:text="59"
+            android:textColor="#191919"
+            android:textSize="14dp"
+            android:fontFamily="@font/muli_regular"
+            app:layout_constraintStart_toEndOf="@+id/emojiAction3"
+            app:layout_constraintTop_toBottomOf="@+id/view5" />
+
+    <ImageView
+            android:id="@+id/doCommentIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/delete_after_comment"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.41"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view5" />
+
+    <TextView
+            android:id="@+id/doCommentText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="20dp"
+            android:text="Yorum Yap"
+            android:textColor="#191919"
+            android:textSize="14dp"
+            android:fontFamily="@font/muli_regular"
+            app:layout_constraintStart_toEndOf="@+id/doCommentIcon"
+            app:layout_constraintTop_toBottomOf="@+id/view5" />
+
+    <TextView
+            android:id="@+id/dotIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/dot"
+            android:textColor="#191919"
+            android:textSize="14dp"
+            app:layout_constraintStart_toEndOf="@+id/doCommentText"
+            app:layout_constraintTop_toBottomOf="@+id/view5" />
+
+    <TextView
+            android:id="@+id/commentCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="20dp"
+            android:text="30"
+            android:fontFamily="@font/muli_regular"
+            android:textColor="#191919"
+            android:textSize="14dp"
+            app:layout_constraintStart_toEndOf="@+id/dotIcon"
+            app:layout_constraintTop_toBottomOf="@+id/view5" />
+
+    <ImageView
+            android:id="@+id/shareIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="6dp"
+            android:src="@drawable/delete_after_share"
+            app:layout_constraintEnd_toStartOf="@+id/shareText"
+            app:layout_constraintTop_toBottomOf="@+id/view5" />
+
+    <TextView
+            android:id="@+id/shareText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="30dp"
+            android:text="Paylaş"
+            android:textColor="#191919"
+            android:textSize="14dp"
+            android:fontFamily="@font/muli_regular"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view5" />
+
+    <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="16dp"
+            android:text="Popüler Yorum"
+            android:textColor="#191919"
+            android:textSize="14dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/emojiAction" />
+
+    <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/empty_avatar"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="30dp"
+            android:background="@drawable/bg_comment_parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4">
+
+        <TextView
+                android:id="@+id/childCommentUserName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="11dp"
+                android:text="kevinmerc"
+                android:textColor="#191919"
+                android:textSize="16dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="15dp"
+                android:lineSpacingExtra="0sp"
+                android:text="@string/dot"
+                android:textColor="#191919"
+                android:textSize="12dp"
+                app:layout_constraintStart_toEndOf="@+id/childCommentUserName"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+                android:id="@+id/childCommentTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="13dp"
+                android:lineSpacingExtra="0sp"
+                android:text="1h"
+                android:textColor="#777777"
+                android:textSize="12dp"
+                app:layout_constraintStart_toEndOf="@+id/textView2"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+                android:id="@+id/childCommentText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="11dp"
+                android:maxWidth="280dp"
+                android:paddingBottom="11dp"
+                android:text="Hi, joe how are you, do you like to join our party in next week because you don't like party?"
+                android:textColor="#191919"
+                android:textSize="14dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/childCommentUserName"
+                tools:ignore="ObsoleteLayoutParam" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+            android:id="@+id/childLikeIcon"
+            android:layout_width="17dp"
+            android:layout_height="17dp"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/ic_like"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout5" />
+
+    <TextView
+            android:id="@+id/childLikeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="8dp"
+            android:paddingBottom="20dp"
+            android:text="Beğen"
+            android:textColor="#191919"
+            android:textSize="12dp"
+            app:layout_constraintStart_toEndOf="@+id/childLikeIcon"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout5" />
+
+    <TextView
+            android:id="@+id/childLikeDot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="9dp"
+            android:text="@string/dot"
+            android:textColor="#191919"
+            android:textSize="14dp"
+            app:layout_constraintStart_toEndOf="@+id/childLikeText"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout5" />
+
+    <TextView
+            android:id="@+id/childLikeCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="9dp"
+            android:text="60"
+            android:textColor="#191919"
+            android:textSize="12dp"
+            app:layout_constraintStart_toEndOf="@+id/childLikeDot"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout5" />
+
+    <!--<ImageView
+            android:id="@+id/childAnswerCommentIcon"
+            android:layout_width="17dp"
+            android:layout_height="17dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="8dp"
+            android:visibility="invisible"
+            android:src="@drawable/ic_answer_comment"
+            app:layout_constraintStart_toEndOf="@+id/childLikeCount"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout5" />
+
+    <TextView
+            android:id="@+id/childAnswerCommentText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="8dp"
+            android:text="Yanıtla"
+            android:textColor="#191919"
+            android:textSize="12dp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/childAnswerCommentIcon"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout5" />
+-->
+    <!--<View
+            android:id="@+id/widthLineSeparate"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="#e2e2e2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/childLikeText" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

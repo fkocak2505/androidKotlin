@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "262942824570",
+    "firebase_url": "https://testonedio.firebaseio.com",
+    "project_id": "testonedio",
+    "storage_bucket": "testonedio.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:262942824570:android:446bb295c3fc1e43",
+        "android_client_info": {
+          "package_name": "com.onedio.androidside"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "262942824570-1v9d7ci27asg3s4ns83q8748vk3mhs68.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzeRfN8-5EO3o6yEhGwL3vDH3b9r3VCFU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "262942824570-1v9d7ci27asg3s4ns83q8748vk3mhs68.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "262942824570-na556pbdclgei6v58gtqn3onq8jspqdl.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "ru.onedio.onedioapp",
+                "app_store_id": "1227660080"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:262942824570:android:b8e93dabec0eccfa",
+        "android_client_info": {
+          "package_name": "ru.onedio.androidside"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "262942824570-1v9d7ci27asg3s4ns83q8748vk3mhs68.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzeRfN8-5EO3o6yEhGwL3vDH3b9r3VCFU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "262942824570-1v9d7ci27asg3s4ns83q8748vk3mhs68.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "262942824570-na556pbdclgei6v58gtqn3onq8jspqdl.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "ru.onedio.onedioapp",
+                "app_store_id": "1227660080"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

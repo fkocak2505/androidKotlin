@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp">
+
+    <View
+            android:id="@+id/lastLine"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="18dp"
+            android:layout_marginEnd="18dp"
+            android:background="#e2e2e2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+            android:id="@+id/categoryItemPhoto"
+            android:layout_width="140dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="10dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/image_error_dark_mode"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    <ProgressBar
+            android:id="@+id/categoryItemPhotoProgress"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:indeterminate="true"
+            android:layout_marginStart="85dp"
+            android:layout_marginTop="35dp"
+            android:indeterminateTint="@color/tabIndicatorColor4Proile"
+            android:indeterminateTintMode="src_atop"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+            android:id="@+id/categoryItemTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="180dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="30dp"
+            android:text="Bu Testi Sadece Gerçek Makyaj Tutkunları Geçebilecek!"
+            android:textSize="14dp"
+            android:ellipsize="end"
+            android:fontFamily="@font/muli_semibold"
+            android:maxLines="4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+            android:id="@+id/categoryItemSubTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="180dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="30dp"
+            android:text=""
+            android:textSize="14dp"
+            android:fontFamily="@font/muli_regular"
+            android:ellipsize="end"
+            android:maxLines="3"
+            app:layout_constraintTop_toBottomOf="@+id/categoryItemTitle" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_category_item_read_count"
+            android:elevation="3dp"
+            android:padding="5dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/categoryItemPhoto">
+
+        <TextView
+                android:id="@+id/categoryItemReadCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="376b"
+                android:textSize="14dp"
+                android:fontFamily="@font/muli_regular"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+                android:id="@+id/infoText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Okunma"
+                android:textSize="10dp"
+                android:fontFamily="@font/muli_regular"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/categoryItemReadCount" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+            android:id="@+id/categoryItemDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="09.10.2019"
+            android:layout_marginStart="10dp"
+            android:textSize="12dp"
+            android:gravity="center"
+            android:fontFamily="@font/muli_regular"
+            app:layout_constraintBottom_toBottomOf="@+id/constraintLayout7"
+            app:layout_constraintStart_toEndOf="@+id/constraintLayout7"
+            app:layout_constraintTop_toTopOf="@+id/constraintLayout7" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

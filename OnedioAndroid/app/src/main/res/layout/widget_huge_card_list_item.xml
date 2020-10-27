@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <ImageView
+            android:id="@+id/coverPhoto"
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:contentDescription="@null" />
+
+    <ProgressBar
+            android:id="@+id/coverPhotoProgress"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:indeterminate="true"
+            android:visibility="invisible"
+            android:indeterminateTint="@color/tabIndicatorColor4Proile"
+            android:indeterminateTintMode="src_atop"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+            android:id="@+id/badgeLineCovertPhoto"
+            android:layout_width="25dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="10dp"
+            android:background="#50000000"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+            android:id="@+id/coverPhotoBadgeImage"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+            android:id="@+id/articleActionBackground"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="25dp"
+            android:src="@drawable/ic_circle"
+            app:layout_constraintBottom_toBottomOf="@+id/coverPhoto"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/feedTitle" />
+
+    <ImageView
+            android:id="@+id/articleAction"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="25dp"
+            app:layout_constraintBottom_toBottomOf="@+id/coverPhoto"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/feedTitle" />
+
+    <ProgressBar
+            android:id="@+id/articleActionPhotoProgress"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="25dp"
+            android:indeterminate="true"
+            android:visibility="invisible"
+            android:indeterminateTint="@color/tabIndicatorColor4Proile"
+            android:indeterminateTintMode="src_atop"
+            app:layout_constraintBottom_toBottomOf="@+id/coverPhoto"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/feedTitle" />
+
+    <TextView
+            android:id="@+id/feedTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:ellipsize="end"
+            android:maxLines="4"
+            android:fontFamily="@font/muli_semibold"
+            android:text="Kripto Para Piyasasında Neler Oluyor? Bitcoin Uzun Sürenin Ardından 5 Bin Doları Geçti"
+            android:textSize="14dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/coverPhoto" />
+
+
+    <LinearLayout
+            android:id="@+id/linearLayoutHugeCard"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:weightSum="5"
+            android:gravity="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/feedTitle">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:layout_marginStart="20dp">
+
+            <TextView
+                    android:id="@+id/feedDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="25/05/2015"
+                    android:textSize="12dp"
+                    android:fontFamily="@font/muli_regular"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:layout_marginStart="20dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/favoriteIconBackground"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                <com.sackcentury.shinebuttonlib.ShineButton
+                        android:id="@+id/flagImage"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@android:color/darker_gray"
+                        app:allow_random_color="false"
+                        app:big_shine_color="#ffac33"
+                        app:btn_color="@android:color/darker_gray"
+                        app:btn_fill_color="#ffac33"
+                        app:click_animation_duration="200"
+                        app:enable_flashing="false"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:shine_animation_duration="1500"
+                        app:shine_count="8"
+                        app:shine_turn_angle="10"
+                        app:siShape="@raw/star"
+                        app:small_shine_color="#CC9999"
+                        app:small_shine_offset_angle="20" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:layout_marginStart="20dp">
+
+            <ImageView
+                    android:id="@+id/emojiAction"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:scaleType="fitCenter"
+                    android:text="😄"
+                    android:textColor="#000000"
+                    android:textSize="18dp"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent" />
+
+            <ImageView
+                    android:id="@+id/emojiAction2"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginStart="15dp"
+                    android:scaleType="fitCenter"
+                    android:text="😄"
+                    android:textColor="#000000"
+                    android:textSize="18dp"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent" />
+
+            <ImageView
+                    android:id="@+id/emojiAction3"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginStart="30dp"
+                    android:scaleType="fitCenter"
+                    android:text="😄"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent" />
+
+            <TextView
+                    android:id="@+id/emojiActionCount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:text="59"
+                    android:fontFamily="@font/muli_regular"
+                    android:textSize="12dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/emojiAction3"
+                    app:layout_constraintStart_toEndOf="@+id/emojiAction3"
+                    app:layout_constraintTop_toTopOf="@+id/emojiAction3" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/commentConstraintLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:layout_marginStart="20dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/commentIconBackground"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                        android:id="@+id/doCommentIcon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/delete_after_comment"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"/>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                    android:id="@+id/commentCount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="2dp"
+                    android:text="30"
+                    android:fontFamily="@font/muli_regular"
+                    android:textSize="12dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/commentIconBackground"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="20dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_comment_background_dark_mode"
+            android:id="@+id/shareIconBackground"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp">
+
+            <ImageView
+                android:id="@+id/shareIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_share_black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/popularCommentConstraintLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/bg_comment_parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayoutHugeCard">
+
+        <ImageView
+                android:id="@+id/popularCommentUserProfilePhoto"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:foreground="@drawable/custom_image_view_comment_layout"
+                android:src="@drawable/empty_avatar"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+                android:id="@+id/popularCommentUserName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="11dp"
+                android:layout_marginTop="11dp"
+                android:text="denverr"
+                android:textSize="16dp"
+                android:fontFamily="@font/muli_semibold"
+                app:layout_constraintStart_toEndOf="@+id/popularCommentUserProfilePhoto"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+                android:id="@+id/popularCommentDotIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="14dp"
+                android:lineSpacingExtra="0sp"
+                android:text="@string/dot"
+                android:textColor="@color/brown_grey"
+                android:textSize="16dp"
+                app:layout_constraintStart_toEndOf="@+id/popularCommentUserName"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+                android:id="@+id/popularCommentTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="13dp"
+                android:lineSpacingExtra="0sp"
+                android:text="14/04/2020"
+                android:fontFamily="@font/muli_regular"
+                android:textColor="@color/brown_grey"
+                app:layout_constraintStart_toEndOf="@+id/popularCommentDotIcon"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+                android:id="@+id/popularCommentText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginTop="3dp"
+                android:maxWidth="280dp"
+                android:layout_marginStart="11dp"
+                android:layout_marginEnd="14dp"
+                android:text="segsegsegsegsegsegsegsegsegsegsegsegsegsegsegseg segsegsegseg  segsegseg segsegseg segseg sesegseg seg esgs seg seg "
+                android:ellipsize="end"
+                android:maxLines="3"
+                android:textSize="14dp"
+                android:gravity="start"
+                android:fontFamily="@font/muli_regular"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/popularCommentUserProfilePhoto"
+                app:layout_constraintTop_toBottomOf="@+id/popularCommentUserName"
+                tools:ignore="ObsoleteLayoutParam" />
+
+        <ImageView
+                android:id="@+id/childLikeIcon"
+                android:layout_width="17dp"
+                android:layout_height="17dp"
+                android:layout_marginStart="11dp"
+                android:layout_marginTop="8dp"
+                android:src="@drawable/ic_like"
+                app:layout_constraintStart_toEndOf="@+id/popularCommentUserProfilePhoto"
+                app:layout_constraintTop_toBottomOf="@+id/popularCommentText" />
+
+
+        <TextView
+                android:id="@+id/childLikeDot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="3dp"
+                android:layout_marginTop="9dp"
+                android:text="@string/dot"
+                android:textColor="#191919"
+                android:textSize="14dp"
+                app:layout_constraintStart_toEndOf="@+id/childLikeIcon"
+                app:layout_constraintTop_toBottomOf="@+id/popularCommentText" />
+
+        <TextView
+                android:id="@+id/childLikeCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="3dp"
+                android:layout_marginTop="9dp"
+                android:text="60"
+                android:paddingBottom="10dp"
+                android:textSize="12dp"
+                android:fontFamily="@font/muli_regular"
+                app:layout_constraintStart_toEndOf="@+id/childLikeDot"
+                app:layout_constraintTop_toBottomOf="@+id/popularCommentText" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

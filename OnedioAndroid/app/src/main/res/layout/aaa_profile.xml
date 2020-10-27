@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/profileConstraint"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible">
+
+    <!--<include
+            android:id="@+id/toolBar4Profile"
+            layout="@layout/toolbar_without_onedio_icon" />-->
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolBar4Profile"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/toProfileSetting"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="8dp"
+            android:src="@drawable/ic_setting" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/profileUserDataNestedScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="400dp">
+
+
+            <ImageView
+                android:id="@+id/profilePhotoUser"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="17dp"
+                android:layout_marginTop="15dp"
+                android:foreground="@drawable/custom_image_view_white"
+                android:src="@drawable/empty_avatar"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="132dp"
+                android:layout_marginEnd="10dp"
+                android:ellipsize="end"
+                android:fontFamily="@font/muli_regular"
+                android:textSize="16dp"
+                android:maxLines="1"
+                android:text=""
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/profilePhotoUser" />
+
+            <!--<TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="•"
+                    android:textSize="15dp"
+                    android:textColor="#aaaaaa"
+                    android:fontFamily="@font/muli_regular"
+                    android:layout_marginStart="5dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/username"
+                    app:layout_constraintStart_toEndOf="@+id/username"
+                    app:layout_constraintTop_toTopOf="@+id/username" />
+
+            <TextView
+                    android:id="@+id/userRealName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="awfawf"
+                    android:ellipsize="end"
+                    android:textSize="16dp"
+                    android:textColor="#aaaaaa"
+                    android:fontFamily="@font/muli_regular"
+                    android:layout_marginStart="5dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/username"
+                    app:layout_constraintStart_toEndOf="@+id/textView6"
+                    app:layout_constraintTop_toTopOf="@+id/username" />-->
+
+            <TextView
+                android:id="@+id/userAboutInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="132dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="15dp"
+                android:ellipsize="end"
+                android:fontFamily="@font/muli_regular"
+                android:maxLines="3"
+                android:text=""
+                android:textSize="14dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/username" />
+
+            <TextView
+                android:id="@+id/followingCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/muli_regular"
+                android:text="0"
+                android:textColor="#191919"
+                android:textSize="16dp"
+                app:layout_constraintStart_toEndOf="@+id/profilePhotoUser"
+                app:layout_constraintTop_toBottomOf="@+id/userAboutInfo" />
+
+            <TextView
+                android:id="@+id/followingCountInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:fontFamily="@font/muli_regular"
+                android:text="Takipçi"
+                android:textColor="#777777"
+                android:textSize="14dp"
+                app:layout_constraintBottom_toBottomOf="@+id/followingCount"
+                app:layout_constraintStart_toEndOf="@+id/followingCount"
+                app:layout_constraintTop_toTopOf="@+id/followingCount" />
+
+
+            <TextView
+                android:id="@+id/dot1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:fontFamily="@font/muli_regular"
+                android:text="•"
+                android:textColor="#aaaaaa"
+                app:layout_constraintBottom_toBottomOf="@+id/followingCountInfo"
+                app:layout_constraintStart_toEndOf="@+id/followingCountInfo"
+                app:layout_constraintTop_toTopOf="@+id/followingCountInfo" />
+
+
+            <TextView
+                android:id="@+id/followersCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/muli_regular"
+                android:text="0"
+                android:textColor="#191919"
+                android:textSize="16dp"
+                app:layout_constraintStart_toEndOf="@+id/dot1"
+                app:layout_constraintTop_toBottomOf="@+id/userAboutInfo" />
+
+
+            <TextView
+                android:id="@+id/followersCountInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:fontFamily="@font/muli_regular"
+                android:text="Takip Edilen"
+                android:textColor="#777777"
+                android:textSize="14dp"
+                app:layout_constraintBottom_toBottomOf="@+id/followersCount"
+                app:layout_constraintStart_toEndOf="@+id/followersCount"
+                app:layout_constraintTop_toTopOf="@+id/followersCount" />
+
+            <Button
+                android:id="@+id/sendMessage"
+                android:layout_width="115dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="40dp"
+                android:background="@drawable/custom_button_blue"
+                android:fontFamily="@font/muli_regular"
+                android:stateListAnimator="@null"
+                android:text="Mesaj At"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:visibility="gone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/followersCount" />
+
+            <Button
+                android:id="@+id/doFollowing"
+                android:layout_width="115dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/custom_button_gray_empty"
+                android:fontFamily="@font/muli_regular"
+                android:stateListAnimator="@null"
+                android:text="Takip Et"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:visibility="gone"
+                app:layout_constraintEnd_toStartOf="@+id/sendMessage"
+                app:layout_constraintTop_toBottomOf="@+id/followersCount" />
+
+
+            <LinearLayout
+                android:id="@+id/tabsButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/doFollowing">
+
+                <!--<Button
+                        android:id="@+id/activities"
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:text="Aktivite"
+                        android:textAllCaps="false"
+                        android:textColor="#FFFFFF"
+                        android:background="@drawable/custom_button_blue_radius_top"
+                        android:fontFamily="@font/muli_regular"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_vertical" />-->
+
+
+                <!--<Button
+                        android:id="@+id/comment"
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:textColor="#191919"
+                        android:fontFamily="@font/muli_regular"
+                        android:background="@drawable/custom_button_gray"
+                        android:textAllCaps="false"
+                        android:layout_gravity="center_vertical"
+                        android:text="Yorumlar" />-->
+                <Button
+                    android:id="@+id/articles"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:background="@drawable/custom_button_blue_radius_top"
+                    android:fontFamily="@font/muli_regular"
+                    android:text="İçerikler"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16dp" />
+
+                <Button
+                    android:id="@+id/favorites"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:background="@drawable/custom_button_gray"
+                    android:fontFamily="@font/muli_regular"
+                    android:text="Favoriler"
+                    android:textAllCaps="false"
+                    android:textColor="#191919"
+                    android:textSize="16dp" />
+
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/userArticleRecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:nestedScrollingEnabled="false"
+                android:visibility="invisible"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tabsButton" />
+
+            <TextView
+                android:id="@+id/noFavoriteContentText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/muli_regular"
+                android:gravity="center"
+                android:text="Profile ait favori\n içerik bulunmamaktadır."
+                android:textColor="#191919"
+                android:textSize="16dp"
+                android:visibility="invisible"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tabsButton" />
+
+            <ImageView
+                android:id="@+id/noFavoriteContentImage"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/ic_no_content"
+                android:visibility="invisible"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.4"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/noFavoriteContentText" />
+
+            <TextView
+                android:id="@+id/noContentText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/muli_regular"
+                android:gravity="center"
+                android:text="Profile ait içerik \nbulunmamaktadır."
+                android:textColor="#191919"
+                android:textSize="16dp"
+                android:visibility="invisible"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tabsButton" />
+
+            <ImageView
+                android:id="@+id/noContentImage"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/ic_no_content"
+                android:visibility="invisible"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.4"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/noContentText" />
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/userFavoriteRecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:nestedScrollingEnabled="false"
+                android:visibility="invisible"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tabsButton" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/avlIndicatorProgressProfile"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lottie_loop="true"
+        app:lottie_autoPlay="true"
+        app:lottie_rawRes="@raw/progress" />
+
+    <!--<com.wang.avi.AVLoadingIndicatorView
+        android:id="@+id/avlIndicatorProgressProfile"
+        style="@style/AVLoadingIndicatorView"
+        android:layout_width="60sp"
+        android:layout_height="60sp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:visibility="invisible"
+        app:indicatorColor="@color/buttonBackgroundColorBlue"
+        app:indicatorName="BallSpinFadeLoaderIndicator"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

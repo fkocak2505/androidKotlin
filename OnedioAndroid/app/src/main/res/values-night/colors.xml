@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#8015212b</color>
+
+    <color name="backgroundColor">#15212b</color>
+    <color name="light_transparent_shimmer">#8015212b</color>
+    <color name="tabBackgroundColor">#39444e</color>
+    <color name="secondSliderBackground">#39444e</color>
+    <color name="textColor">#FFFFFF</color>
+    <color name="dateTextColor">#FFFFFF</color>
+    <color name="lineColor">#0e1720</color>
+
+</resources>

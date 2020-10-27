@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/rootConstraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/whiteColor">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/tabBackgroundColor"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+                android:id="@+id/conversationProfilePhoto"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="8dp"
+                android:foreground="@drawable/custom_image_view_grey"
+                android:scaleType="centerCrop"
+                android:src="@drawable/empty_avatar"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/goBack"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        <ProgressBar
+                android:id="@+id/conversationPhotoProgressMessage"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:layout_marginStart="20dp"
+                android:indeterminate="true"
+                android:indeterminateTint="@color/tabIndicatorColor4Proile"
+                android:indeterminateTintMode="src_atop"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/goBack"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+                android:id="@+id/goBack"
+                android:layout_width="40dp"
+                android:layout_height="60dp"
+                android:paddingTop="18dp"
+                android:paddingBottom="18dp"
+                android:paddingEnd="30dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:src="@drawable/ic_back"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="ContentDescription" />
+
+        <TextView
+                android:id="@+id/userNameMessage"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:text="Mesaj Detay"
+                android:textSize="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/conversationProfilePhoto"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimaryDark"
+                app:layout_constraintBottom_toBottomOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="60dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/constraintLayout">
+
+        <RelativeLayout
+                android:id="@+id/rl_bottom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="@color/tabBackgroundColor"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="5dp">
+
+            <!--<Button
+                    android:id="@+id/sendMessage"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/btn_grey"
+                    android:gravity="center"
+                    android:stateListAnimator="@null"
+                    android:text="Send"
+                    android:textColor="#1A4EA0"
+                    android:textSize="14sp" /> -->
+
+            <ImageButton
+                    android:id="@+id/sendMessage"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:background="@null"
+                    android:scaleType="centerCrop"
+                    android:padding="7dp"
+                    android:gravity="center"
+                    android:src="@drawable/ic_message_send" />
+
+            <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="60dp"
+                    android:layout_toLeftOf="@id/sendMessage"
+                    android:background="@drawable/bg_white_rounded">
+
+                <ImageButton
+                        android:id="@+id/bt_attachment"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:background="@android:color/transparent"
+                        android:padding="10dp"
+                        app:srcCompat="@drawable/ic_attachment"
+                        tools:ignore="VectorDrawableCompat" />
+
+                <!--<EditText
+                    android:id="@+id/et_message"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toLeftOf="@id/bt_attachment"
+                    android:background="@android:color/transparent"
+                    android:hint="Enter your message"
+                    android:maxLines="3"
+                    android:padding="15dp"
+                    android:textColor="#333333"
+                    android:textColorHint="#e1e1e1"
+                    android:textSize="14sp" /> -->
+
+                <com.vanniktech.emoji.EmojiEditText
+                        android:id="@+id/writingMessageArea"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toLeftOf="@id/bt_attachment"
+                        android:background="@android:color/transparent"
+                        android:hint="@string/youCanWriteHere"
+                        android:inputType="textMultiLine"
+                        android:maxLines="3"
+                        android:padding="15dp"
+                        android:textColor="@color/userFollowerCountColor"
+                        android:textColorHint="@color/userFollowerCountColor"
+                        android:textSize="14sp" />
+
+            </RelativeLayout>
+
+            <ImageButton
+                    android:id="@+id/emojiButton"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:background="@drawable/custom_emoji_background"
+                    android:padding="12dp"
+                    android:src="@drawable/ic_emoji"
+                    android:scaleType="centerCrop"
+                    tools:ignore="ContentDescription" />
+
+        </RelativeLayout>
+
+        <!--<androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/conversationRecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@id/rl_bottom"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:overScrollMode="never" /> -->
+
+        <com.omadahealth.github.swipyrefreshlayout.library.SwipyRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/swipeRefresh"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@id/rl_bottom"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                app:srl_direction="bottom">
+
+            <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/conversationRecyclerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:overScrollMode="never" />
+
+
+        </com.omadahealth.github.swipyrefreshlayout.library.SwipyRefreshLayout>
+
+
+    </RelativeLayout>
+
+    <!--<com.wang.avi.AVLoadingIndicatorView
+            android:id="@+id/messageConversationAvlIndicatorProgress"
+            style="@style/AVLoadingIndicatorView"
+            android:layout_width="60sp"
+            android:layout_height="60sp"
+            android:visibility="invisible"
+            app:indicatorColor="@color/constProgressColor"
+            app:indicatorName="BallSpinFadeLoaderIndicator"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/constraintLayout"
+            app:layout_constraintStart_toStartOf="@+id/constraintLayout"
+            app:layout_constraintTop_toTopOf="@+id/constraintLayout" />-->
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/messageConversationAvlIndicatorProgress"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lottie_loop="true"
+        app:lottie_autoPlay="true"
+        app:lottie_rawRes="@raw/progress" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

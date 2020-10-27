@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <View
+            android:id="@+id/sportBadgeLineCovertPhoto"
+            android:layout_width="25dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:background="#50000000"
+            android:elevation="10dp"
+            app:layout_constraintStart_toStartOf="@+id/itemSportImage"
+            app:layout_constraintTop_toTopOf="@+id/itemSportImage" />
+
+    <ImageView
+            android:id="@+id/sportCoverPhotoBadgeImage"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:elevation="10dp"
+            android:src="@drawable/delete_after"
+            app:layout_constraintStart_toStartOf="@+id/itemSportImage"
+            app:layout_constraintTop_toTopOf="@+id/itemSportImage"
+            tools:ignore="ContentDescription" />
+
+    <ImageView
+            android:id="@+id/itemSportImage"
+            android:layout_width="165dp"
+            android:layout_height="93dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/placeholder"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    <ProgressBar
+            android:id="@+id/itemSportImageProgress"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:indeterminate="true"
+            android:indeterminateTint="@color/tabIndicatorColor4Proile"
+            android:indeterminateTintMode="src_atop"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+            android:id="@+id/itemSportTitle"
+            android:layout_width="165dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="10dp"
+            android:paddingBottom="10dp"
+            android:maxLines="4"
+            android:ellipsize="end"
+            android:textColor="#191919"
+            android:fontFamily="@font/muli_regular"
+            android:textSize="14dp"
+            android:text="Buna Hazır Mıyız? Dünya, Erkekler Arasında Yayılan Başörtüsü Modasını Konuşuyor"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/itemSportImage" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/swipeRefreshTrending"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/trendingRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!--<androidx.core.widget.NestedScrollView
+                android:id="@+id/trendingNestedScrollView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/nestedScrollConstraint"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                <com.google.android.gms.ads.doubleclick.PublisherAdView
+                    android:id="@+id/publisherAdViewTrendingTop"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    app:adSize="300x150, 300x100,300x250, 320x50, 320x100, 320x150"
+                    app:adUnitId="/21814681/Onedio.com_App_android_Masthead"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                        android:id="@+id/trendingCoverPhoto"
+                        android:layout_width="match_parent"
+                        android:layout_height="230dp"
+                        android:scaleType="centerCrop"
+                        android:visibility="invisible"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/img_delete_after"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/publisherAdViewTrendingTop" />
+
+                <ImageView
+                        android:id="@+id/articleActionBackground"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginEnd="12dp"
+                        android:layout_marginBottom="25dp"
+                        android:src="@drawable/ic_circle"
+                        android:visibility="invisible"
+                        app:layout_constraintBottom_toBottomOf="@+id/trendingCoverPhoto"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="@+id/trendingTitle" />
+
+                <ImageView
+                        android:id="@+id/articleAction"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginBottom="25dp"
+                        android:visibility="invisible"
+                        android:src="@drawable/ic_launcher_background"
+                        app:layout_constraintBottom_toBottomOf="@+id/trendingCoverPhoto"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="@+id/trendingTitle" />
+
+                <TextView
+                        android:id="@+id/trendingTitle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:maxLines="4"
+                        android:ellipsize="end"
+                        android:visibility="invisible"
+                        android:text="Kripto Para Piyasasında Neler Oluyor? Bitcoin Uzun Sürenin Ardından 5 Bin Doları Geçti"
+                        android:textColor="#231f20"
+                        android:textSize="14dp"
+                        android:fontFamily="@font/muli_semibold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/trendingCoverPhoto" />
+
+                <View
+                        android:id="@+id/view3"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="20dp"
+                        android:background="#e2e2e2"
+                        android:visibility="invisible"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/trendingTitle" />
+
+                <View
+                        android:id="@+id/view5"
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp"
+                        android:background="#f5f5f5"
+                        android:visibility="invisible"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/view3" />
+
+
+                <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/trendingRecyclerView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:nestedScrollingEnabled="false"
+                        android:visibility="visible"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/view5" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.core.widget.NestedScrollView>-->
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/trendingAvlIndicatorProgress"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:lottie_loop="true"
+            app:lottie_autoPlay="true"
+            app:lottie_rawRes="@raw/progress" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
