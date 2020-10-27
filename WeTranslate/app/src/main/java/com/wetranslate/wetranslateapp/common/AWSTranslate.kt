@@ -16,11 +16,11 @@ class AWSTranslate {
         fun translate(context: Context, str2BeTranslated: String, edtTranslated: TextView){
             val awsCredentials: AWSCredentials = object : AWSCredentials {
                 override fun getAWSAccessKeyId(): String {
-                    return "AKIAJFN564UI7QI3RUAA"
+                    return ""
                 }
 
                 override fun getAWSSecretKey(): String {
-                    return "vXgS10SGnm++eBRYPKf3m7MJvyXkH+QmDeaEFq7D"
+                    return ""
                 }
             }
 
