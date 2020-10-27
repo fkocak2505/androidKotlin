@@ -41,7 +41,7 @@ class MainActivity : AppCompatActivity() {
      * Simplify Function Declaration With If Statement
      */
     ////////////////////////////////////
-    fun simplifyFuncWithIf(count: Int): String = if (count == 10) "Sayı 10' dur" else "Sayı 10 Değildir.."
+    fun simplifyFuncWithIf(count: Int): String = if (count == 10) "Sayı 10' dur" else if (count == 5) "Sayı 10 Değildir.." else ""
 
     ////////////////////////////////////
     /**

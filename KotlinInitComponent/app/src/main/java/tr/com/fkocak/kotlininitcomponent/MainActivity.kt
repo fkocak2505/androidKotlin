@@ -2,6 +2,8 @@ package tr.com.fkocak.kotlininitcomponent
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.support.v4.content.ContextCompat
+import android.support.v7.widget.DividerItemDecoration
 import android.support.v7.widget.LinearLayoutManager
 import android.widget.AdapterView
 import android.widget.ArrayAdapter
@@ -9,36 +11,38 @@ import android.widget.TextView
 import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_main.*
 
+
+
 class MainActivity : AppCompatActivity() {
 
-    //val meyveler = listOf("Elma", "Armut", "Muz", "Kivi", "Çilek", "Karpuz", "Kavun", "Ananas", "Kiraz", "Dut")
+    private lateinit var model: MutableList<CountryModel>
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        /*deneme.setText("Fatih Koçak")
-        Toast.makeText(applicationContext,deneme.text,Toast.LENGTH_SHORT).show()
 
-        deneme.setOnClickListener(){
-            Toast.makeText(applicationContext,"aaa",Toast.LENGTH_SHORT).show()
-        }*/
+        recyclerView.layoutManager = LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false)
 
-        /*val adapter = ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, meyveler)
-        listView.adapter = adapter
+        /*val itemDecorator = DividerItemDecoration(applicationContext, DividerItemDecoration.VERTICAL)
+        itemDecorator.setDrawable(ContextCompat.getDrawable(applicationContext, R.drawable.recycler_view_divider)!!)
 
-        listView.onItemClickListener = AdapterView.OnItemClickListener { parent, view, position, id ->
+        recyclerView.addItemDecoration(itemDecorator)*/
 
-            val secilenMeyve = parent.getItemAtPosition(position) as String
-            Toast.makeText(applicationContext,secilenMeyve,Toast.LENGTH_LONG).show()
-
-        }*/
-
-
-        recyclerView.layoutManager = LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false)
         recyclerView.adapter = RecylerAdapter(getModels()) {
             Toast.makeText(applicationContext, getModels()[it].capitalName,Toast.LENGTH_SHORT).show()
+        }
+
+        button.setOnClickListener{
+            model.add(CountryModel(R.drawable.ic_launcher_background, "Çin", "Pekin"))
+            model.add(CountryModel(R.drawable.ic_launcher_background, "Mısır", "Kahire"))
+            model.add(CountryModel(R.drawable.ic_launcher_background, "Almanya", "Berlin"))
+
+            recyclerView.adapter = RecylerAdapter(model) {
+                Toast.makeText(applicationContext, model[it].capitalName,Toast.LENGTH_SHORT).show()
+            }
+
         }
 
 
@@ -46,16 +50,11 @@ class MainActivity : AppCompatActivity() {
 
     fun getModels(): MutableList<CountryModel> {
 
-        val models = mutableListOf(
+        model = mutableListOf(
             CountryModel(R.drawable.ic_launcher_background, "Çin", "Pekin"),
             CountryModel(R.drawable.ic_launcher_background, "Mısır", "Kahire"),
-            CountryModel(R.drawable.ic_launcher_background, "Almanya", "Berlin"),
-            CountryModel(R.drawable.ic_launcher_background, "Türkiye", "Ankara"),
-            CountryModel(R.drawable.ic_launcher_background, "Rusya", "Moskova"),
-            CountryModel(R.drawable.ic_launcher_background, "İngiltere", "Londra"),
-            CountryModel(R.drawable.ic_launcher_background, "Ukrayna", "Kiev"),
-            CountryModel(R.drawable.ic_launcher_background, "Japonya", "Tokyo")
+            CountryModel(R.drawable.ic_launcher_background, "Almanya", "Berlin")
         )
-        return models
+        return model
     }
 }

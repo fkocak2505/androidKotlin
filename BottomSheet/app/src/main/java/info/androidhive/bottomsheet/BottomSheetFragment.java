@@ -1,6 +1,9 @@
 package info.androidhive.bottomsheet;
 
+import android.content.DialogInterface;
 import android.os.Bundle;
+import android.support.design.widget.BottomSheetBehavior;
+import android.support.design.widget.BottomSheetDialog;
 import android.support.design.widget.BottomSheetDialogFragment;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -41,10 +44,22 @@ public class BottomSheetFragment extends BottomSheetDialogFragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        viewP = inflater.inflate(R.layout.fragment_bottom_sheet_dialog, container, false);
+        //viewP = inflater.inflate(R.layout.fragment_bottom_sheet_dialog, container, false);
 
         /*initialize();
         fillArrayList(persons);*/
+
+        getDialog().setOnShowListener(new DialogInterface.OnShowListener() {
+            @Override
+            public void onShow(DialogInterface dialog) {
+                BottomSheetDialog d = (BottomSheetDialog) dialog;
+                View bottomSheetInternal = d.findViewById(android.support.design.R.id.design_bottom_sheet);
+                BottomSheetBehavior.from(bottomSheetInternal).setState(BottomSheetBehavior.STATE_EXPANDED);
+            }
+        });
+
+        viewP =  inflater.inflate(R.layout.fragment_bottom_sheet_dialog, container, false);
+
 
         expandlist_view = (BottomSheetListView) viewP.findViewById(R.id.expand_listview);
         hazırla();
