@@ -1,0 +1,436 @@
+{
+  "code": "CAT-1000",
+  "message": "Article fetched successfully.",
+  "data": {
+    "_id": "5f5769e7b9c1941a5dc00089",
+    "legacyId": 919843,
+    "title": "Çevre İllerden de Hissedildi: Malatya'da 4,6 Büyüklüğünde Deprem Oldu",
+    "description": "Malatya'nın Pütürge ilçesinde, 4,6 büyüklüğünde deprem meydana geldi\\. AFAD, depremin büyüklüğünü 4,6 olarak duyururken, Kandilli Rasathanesi ise depremin büyüklüğünün 4,9 olduğunu açıkladı\\. ",
+    "layout": "default",
+    "authors": [
+      {
+        "_id": "4ff8ed3d4eb13e2b2518aa73",
+        "username": "nihat",
+        "name": "Nihat Bilge",
+        "image": {
+          "alternates": {
+            "standardResolution": {
+              "url": "https://graph.facebook.com/613563017/picture?type=normal"
+            },
+            "highResolution": {
+              "url": "https://graph.facebook.com/613563017/picture?type=large"
+            }
+          }
+        },
+        "country": "TR",
+        "gender": "male",
+        "city": null,
+        "title": "Onedio Editörü",
+        "slogan": null,
+        "birthdate": "1990-07-22T00:00:00.000Z",
+        "flags": {
+          "approvedEmail": true
+        }
+      }
+    ],
+    "image": {
+      "_id": "5f57693ace5d6f1071fc356e",
+      "url": "https://img-s1.onedio.com/id-5f57693ace5d6f1071fc356e/rev-0/w-864/h-486/f-jpg/s-29efe5f00bce9f2c01ce56390d044e617f758e2b.jpg",
+      "width": 864,
+      "height": 486,
+      "format": "jpg",
+      "alternates": {
+        "standardResolution": {
+          "url": "https://img-s1.onedio.com/id-5f57693ace5d6f1071fc356e/rev-0/w-600/h-337/f-jpg/s-6b05a5c5a1d764dceadc5adc98854864e2161c93.jpg",
+          "height": 337,
+          "width": 600,
+          "format": "jpg",
+          "thumbnail": null
+        },
+        "highResolution": {
+          "url": "https://img-s1.onedio.com/id-5f57693ace5d6f1071fc356e/rev-0/w-900/h-506/f-jpg/s-14111addb84290603bbeffb72334a31a120114d5.jpg",
+          "height": 506,
+          "width": 900,
+          "format": "jpg",
+          "thumbnail": null
+        }
+      }
+    },
+    "categories": [
+      {
+        "_id": "50187b5d295c043264000144",
+        "name": "Gündem",
+        "icons": {
+          "png": "https://static.onedio.com/icons/category/png/gundem-68.png",
+          "svg": "https://static.onedio.com/icons/category/svg/gundem.svg"
+        }
+      }
+    ],
+    "entries": [
+      {
+        "_id": "5f5769e7b9c1941a5dc00085",
+        "mode": "text",
+        "title": null,
+        "content": "**Malatya'nın Pütürge ilçesinde, 4,6 büyüklüğünde deprem meydana geldi\\. AFAD, depremin büyüklüğünü 4,6 olarak duyururken, Kandilli Rasathanesi ise depremin büyüklüğünün 4,9 olduğunu açıkladı\\. **",
+        "metadata": {
+          "unordered": true
+        },
+        "internaldata": {},
+        "urls": {
+          "image": null
+        }
+      },
+      {
+        "_id": "5f5769e7b9c1941a5dc00086",
+        "mode": "image",
+        "title": null,
+        "content": "Malatya’nın Pütürge ilçesi merkezli, 4\\.6 büyüklüğünde bir deprem meydana geldi\\. Kandilli Rasathanesi ise depremin büyüklüğünü 4\\.9 olarak duyurdu\\.",
+        "image": {
+          "_id": "5f57693ace5d6f1071fc356e",
+          "url": "https://img-s1.onedio.com/id-5f57693ace5d6f1071fc356e/rev-0/w-864/h-486/f-jpg/s-29efe5f00bce9f2c01ce56390d044e617f758e2b.jpg",
+          "width": 864,
+          "height": 486,
+          "format": "jpg",
+          "alternates": {
+            "standardResolution": {
+              "url": "https://img-s1.onedio.com/id-5f57693ace5d6f1071fc356e/rev-0/w-600/h-337/f-jpg/s-6b05a5c5a1d764dceadc5adc98854864e2161c93.jpg",
+              "height": 337,
+              "width": 600,
+              "format": "jpg",
+              "thumbnail": null
+            },
+            "highResolution": {
+              "url": "https://img-s1.onedio.com/id-5f57693ace5d6f1071fc356e/rev-0/w-900/h-506/f-jpg/s-14111addb84290603bbeffb72334a31a120114d5.jpg",
+              "height": 506,
+              "width": 900,
+              "format": "jpg",
+              "thumbnail": null
+            }
+          }
+        },
+        "metadata": {},
+        "internaldata": {
+          "size": {
+            "width": 864,
+            "height": 486
+          },
+          "format": "jpg"
+        },
+        "urls": {
+          "source": "https://cdnuploads.aa.com.tr/uploads/Contents/2019/12/18/thumbs_b_c_240e44a4b92f539c595204748f7fa824.jpg",
+          "image": "https://cdnuploads.aa.com.tr/uploads/Contents/2019/12/18/thumbs_b_c_240e44a4b92f539c595204748f7fa824.jpg"
+        }
+      },
+      {
+        "_id": "5f5769e7b9c1941a5dc00087",
+        "mode": "image",
+        "title": "Kayıp meydana gelmedi",
+        "content": "Afet ve Acil Durum Yönetimi Başkanlığı Deprem Dairesi Başkanlığı \\(AFAD\\), saat 13\\.44’te meydana gelen depremin büyüklüğünü 4\\.6 olarak duyurdu\\.\n\nYerin 15 kilometre derinliğinde meydana gelen ve çevre illerden de hissedilen kısa süreli depremde herhangi bir kayıp meydana gelmediği belirtildi\\.",
+        "image": {
+          "_id": "5f576898bacea3ce716d1a43",
+          "url": "https://img-s1.onedio.com/id-5f576898bacea3ce716d1a43/rev-0/w-1156/h-720/f-jpg/s-c8f083be4c1f438b5b2c8717e470cc06be74b4e1.jpg",
+          "width": 1156,
+          "height": 720,
+          "format": "jpg",
+          "alternates": {
+            "standardResolution": {
+              "url": "https://img-s1.onedio.com/id-5f576898bacea3ce716d1a43/rev-0/w-600/h-373/f-jpg/s-e1b5bc2bed2284f29ae4d561967645d9aa8dacfc.jpg",
+              "height": 373,
+              "width": 600,
+              "format": "jpg",
+              "thumbnail": null
+            },
+            "highResolution": {
+              "url": "https://img-s1.onedio.com/id-5f576898bacea3ce716d1a43/rev-0/w-900/h-560/f-jpg/s-a9a0bd8ee3500943024d22b882a91b8141ad91de.jpg",
+              "height": 560,
+              "width": 900,
+              "format": "jpg",
+              "thumbnail": null
+            }
+          }
+        },
+        "metadata": {},
+        "internaldata": {
+          "size": {
+            "width": 1156,
+            "height": 720
+          },
+          "format": "jpg"
+        },
+        "urls": {
+          "source": "https://i.sozcu.com.tr/wp-content/uploads/2020/09/08/deprem-afad.jpeg",
+          "image": "https://i.sozcu.com.tr/wp-content/uploads/2020/09/08/deprem-afad.jpeg"
+        }
+      },
+      {
+        "_id": "5f5769e7b9c1941a5dc00088",
+        "mode": "oio-embed",
+        "title": "Bir ay önce, Pütürge ilçesinde yaşanan 5,7 büyüklüğündeki deprem, Malatyalıları korkutmuştu.",
+        "content": null,
+        "image": null,
+        "metadata": {},
+        "internaldata": {
+          "embedfrom": "oioembed"
+        },
+        "urls": {
+          "image": null,
+          "source": "https://onedio.com/haber/malatya-da-korkutan-deprem-kandilli-rasathanesi-buyuklugun-5-7-oldugunu-duyurdu-913194?oioembed"
+        },
+        "embedArticle": {
+          "_id": "5f2931009d93d38d3ba884cd",
+          "legacyId": 913194,
+          "title": "Malatya'da Korkutan Deprem: Kandilli Rasathanesi Büyüklüğün 5.7 Olduğunu Duyurdu",
+          "description": "Kandilli Rasathanesi Malatya'da meydana gelen depremin büyüklüğünü 5\\.7 olarak açıkladı\\. Paniğe neden olan deprem Adıyaman, Diyarbakır ve çevresindeki illerde de hissedildi\\.",
+          "layout": "default",
+          "authors": [
+            {
+              "_id": "530d1b0ca542f1c138000075",
+              "username": "sadecegeciyorum",
+              "name": "Ulaş Demircan",
+              "email": "ardaulasdemircan@gmail.com",
+              "image": {
+                "_id": "5f4a2ba65785173e79d64a2b",
+                "url": "https://img-s1.onedio.com/id-5f4a2ba65785173e79d64a2b/rev-0/w-210/h-208/f-jpg/s-8c8d707a34642eb9df88a1298469e5c58b817785.jpg",
+                "width": 210,
+                "height": 208,
+                "format": "jpg",
+                "alternates": {
+                  "standardResolution": {
+                    "url": "https://img-s1.onedio.com/id-5f4a2ba65785173e79d64a2b/rev-0/w-600/h-594/f-jpg/s-d3ae88a0b71c87f9b952fa810f3f0288d4805d51.jpg",
+                    "height": 594,
+                    "width": 600,
+                    "format": "jpg",
+                    "thumbnail": null
+                  },
+                  "highResolution": {
+                    "url": "https://img-s1.onedio.com/id-5f4a2ba65785173e79d64a2b/rev-0/w-900/h-891/f-jpg/s-af9f56882acd77cacd90c1e3b721f77ce44f2c9a.jpg",
+                    "height": 891,
+                    "width": 900,
+                    "format": "jpg",
+                    "thumbnail": null
+                  }
+                }
+              },
+              "country": "TR",
+              "gender": "unknown",
+              "city": null,
+              "title": "Onedio Editörü",
+              "slogan": null,
+              "birthdate": null,
+              "flags": {
+                "approvedEmail": true
+              }
+            }
+          ],
+          "image": {
+            "_id": "5f292ff83784f6bd35bfc181",
+            "url": "https://img-s2.onedio.com/id-5f292ff83784f6bd35bfc181/rev-0/w-865/h-487/f-jpg/s-793bf650bcaaeb7b56da0fb08375634ba0a3b4e6.jpg",
+            "width": 865,
+            "height": 487,
+            "format": "jpg",
+            "alternates": {
+              "standardResolution": {
+                "url": "https://img-s2.onedio.com/id-5f292ff83784f6bd35bfc181/rev-0/w-600/h-337/f-jpg/s-df52b1aa577883581e9091e55d55df363e0e38d8.jpg",
+                "height": 337,
+                "width": 600,
+                "format": "jpg",
+                "thumbnail": null
+              },
+              "highResolution": {
+                "url": "https://img-s2.onedio.com/id-5f292ff83784f6bd35bfc181/rev-0/w-900/h-506/f-jpg/s-4194740923cfc89a451701aae9c6c78f3b48bf90.jpg",
+                "height": 506,
+                "width": 900,
+                "format": "jpg",
+                "thumbnail": null
+              }
+            }
+          },
+          "categories": [
+            {
+              "_id": "50187b5d295c043264000144",
+              "name": "Gündem",
+              "icons": {
+                "png": "https://static.onedio.com/icons/category/png/gundem-68.png",
+                "svg": "https://static.onedio.com/icons/category/svg/gundem.svg"
+              }
+            }
+          ],
+          "reactions": [
+            {
+              "id": "1f631",
+              "name": "",
+              "count": 70,
+              "icons": {
+                "svg": "https://static.onedio.com/icons/badge/svg/sad.svg",
+                "png": "https://static.onedio.com/icons/badge/png/sad.png"
+              }
+            },
+            {
+              "id": "1f625",
+              "name": "",
+              "count": 20,
+              "icons": {
+                "svg": "https://static.onedio.com/icons/badge/svg/surprise.svg",
+                "png": "https://static.onedio.com/icons/badge/png/surprise.png"
+              }
+            },
+            {
+              "id": "1f60c",
+              "name": "",
+              "count": 5,
+              "icons": {
+                "svg": "https://static.onedio.com/icons/badge/svg/clap.svg",
+                "png": "https://static.onedio.com/icons/badge/png/clap.png"
+              }
+            },
+            {
+              "id": "1f44e",
+              "name": "",
+              "count": 4,
+              "icons": {
+                "svg": "https://static.onedio.com/icons/badge/svg/heart.svg",
+                "png": "https://static.onedio.com/icons/badge/png/heart.png"
+              }
+            },
+            {
+              "id": "1f44f",
+              "name": "",
+              "count": 3,
+              "icons": {
+                "svg": "https://static.onedio.com/icons/badge/svg/laugh.svg",
+                "png": "https://static.onedio.com/icons/badge/png/laugh.png"
+              }
+            },
+            {
+              "id": "1f602",
+              "name": "",
+              "count": 1,
+              "icons": {
+                "svg": "https://static.onedio.com/icons/badge/svg/fail.svg",
+                "png": "https://static.onedio.com/icons/badge/png/fail.png"
+              }
+            },
+            {
+              "id": "emoj.kizgin",
+              "name": "",
+              "count": 0,
+              "icons": {
+                "svg": "https://static.onedio.com/icons/badge/svg/angry.svg",
+                "png": "https://static.onedio.com/icons/badge/png/angry.png"
+              }
+            }
+          ],
+          "badge": [],
+          "showInWebview": false,
+          "stats": {
+            "views": 11668,
+            "shares": 318,
+            "comments": 7,
+            "reactions": 103
+          },
+          "flags": {
+            "showAds": true
+          },
+          "redirectUrl": null,
+          "isUserFavorite": false,
+          "createDate": "2020-08-04T09:57:20.934Z",
+          "updateDate": "2020-08-04T09:57:56.138Z",
+          "publishDate": "2020-08-04T09:57:56.138Z"
+        }
+      }
+    ],
+    "reactions": [
+      {
+        "id": "1f631",
+        "name": "",
+        "count": 6,
+        "icons": {
+          "svg": "https://static.onedio.com/icons/badge/svg/sad.svg",
+          "png": "https://static.onedio.com/icons/badge/png/sad.png"
+        }
+      },
+      {
+        "id": "1f60c",
+        "name": "",
+        "count": 0,
+        "icons": {
+          "svg": "https://static.onedio.com/icons/badge/svg/clap.svg",
+          "png": "https://static.onedio.com/icons/badge/png/clap.png"
+        }
+      },
+      {
+        "id": "1f602",
+        "name": "",
+        "count": 0,
+        "icons": {
+          "svg": "https://static.onedio.com/icons/badge/svg/fail.svg",
+          "png": "https://static.onedio.com/icons/badge/png/fail.png"
+        }
+      },
+      {
+        "id": "1f44e",
+        "name": "",
+        "count": 0,
+        "icons": {
+          "svg": "https://static.onedio.com/icons/badge/svg/heart.svg",
+          "png": "https://static.onedio.com/icons/badge/png/heart.png"
+        }
+      },
+      {
+        "id": "1f625",
+        "name": "",
+        "count": 0,
+        "icons": {
+          "svg": "https://static.onedio.com/icons/badge/svg/surprise.svg",
+          "png": "https://static.onedio.com/icons/badge/png/surprise.png"
+        }
+      },
+      {
+        "id": "1f44f",
+        "name": "",
+        "count": 0,
+        "icons": {
+          "svg": "https://static.onedio.com/icons/badge/svg/laugh.svg",
+          "png": "https://static.onedio.com/icons/badge/png/laugh.png"
+        }
+      },
+      {
+        "id": "emoj.kizgin",
+        "name": "",
+        "count": 0,
+        "icons": {
+          "svg": "https://static.onedio.com/icons/badge/svg/angry.svg",
+          "png": "https://static.onedio.com/icons/badge/png/angry.png"
+        }
+      }
+    ],
+    "badge": [],
+    "showInWebview": false,
+    "tags": [
+      "~experimental-videogifs",
+      "Gündem",
+      "~no-instant-article",
+      "Manşet Haberi",
+      "Anasayfa",
+      "#deprem",
+      "~shared-social-twitter-onedio_gundem",
+      "~shared-social",
+      "~shared-social-twitter-onediocom"
+    ],
+    "stats": {
+      "views": 805,
+      "shares": 0,
+      "comments": 1,
+      "reactions": 6
+    },
+    "flags": {
+      "showAds": true
+    },
+    "redirectUrl": null,
+    "isUserFavorite": false,
+    "createDate": "2020-09-08T11:24:23.464Z",
+    "updateDate": "2020-09-08T11:26:52.651Z",
+    "publishDate": "2020-09-08T11:26:52.651Z",
+    "comments": []
+  }
+}

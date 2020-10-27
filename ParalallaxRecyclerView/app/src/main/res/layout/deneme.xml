@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <com.smarteist.autoimageslider.SliderView
+        android:id="@+id/imageSlider"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:sliderAnimationDuration="600"
+        app:sliderAutoCycleDirection="back_and_forth"
+        app:sliderAutoCycleEnabled="true"
+        app:sliderCircularHandlerEnabled="true"
+        app:sliderIndicatorAnimationDuration="600"
+        app:sliderIndicatorGravity="center_horizontal|bottom"
+        app:sliderIndicatorMargin="15dp"
+        app:sliderIndicatorOrientation="horizontal"
+        app:sliderIndicatorPadding="3dp"
+        app:sliderIndicatorRadius="2dp"
+        app:sliderIndicatorSelectedColor="#5A5A5A"
+        app:sliderIndicatorUnselectedColor="#FFF"
+        app:sliderScrollTimeInSec="1"
+        app:sliderStartAutoCycle="false" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:text="Sırala"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageSlider" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tarihe göre"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/imageSlider" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Popüleriteye göre"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        app:layout_constraintStart_toEndOf="@+id/button1"
+        app:layout_constraintTop_toBottomOf="@+id/imageSlider" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

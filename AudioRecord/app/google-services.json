@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "278108635348",
+    "firebase_url": "https://soundrecorder-33f74.firebaseio.com",
+    "project_id": "soundrecorder-33f74",
+    "storage_bucket": "soundrecorder-33f74.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:278108635348:android:6425d90e2c05a64728bb41",
+        "android_client_info": {
+          "package_name": "com.gencdil.audiorecord"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "278108635348-1ebnhuhfdbgs6tonp8g9bi3c7incni2c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzxmyUMX_z0q1WxTybbsVunF_9G0bqXQQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "278108635348-1ebnhuhfdbgs6tonp8g9bi3c7incni2c.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "278108635348-rpf9vnberfd3bn1s6i2vee6g3vc2oiph.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.berkan.cimen.soundRecorder"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

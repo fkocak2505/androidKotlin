@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nestedScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:orientation="horizontal"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_scrollFlags="scroll|enterAlways">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/articleDetailCoverPhoto"
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:scaleType="centerCrop"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ProgressBar
+                android:id="@+id/articleDetailCoverPhotoProgress"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="100dp"
+                android:indeterminate="true"
+                android:indeterminateTint="#000"
+                android:indeterminateTintMode="src_atop"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/articleDetailAction"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginEnd="12dp"
+                android:layout_marginBottom="12dp"
+                android:src="@drawable/ic_launcher_background"
+                app:layout_constraintBottom_toBottomOf="@+id/articleDetailCoverPhoto"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/articleDetailTitle" />
+
+            <ProgressBar
+                android:id="@+id/articleDetailActionPhotoProgress"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:layout_marginEnd="25dp"
+                android:layout_marginBottom="15dp"
+                android:indeterminate="true"
+                android:indeterminateTint="#000"
+                android:indeterminateTintMode="src_atop"
+                app:layout_constraintBottom_toBottomOf="@+id/articleDetailCoverPhoto"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/articleDetailTitle" />
+
+            <TextView
+                android:id="@+id/articleDetailTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:maxLines="3"
+                android:text="awfawfawfawfwfawfawf"
+                android:textColor="#231f20"
+                android:textSize="18dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/articleDetailCoverPhoto" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/editorUserProfileConstraintLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/articleDetailTitle">
+
+                <ImageView
+                    android:id="@+id/profilePhoto"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_launcher_background"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ProgressBar
+                    android:id="@+id/profilePhotoProgress"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:indeterminate="true"
+                    android:indeterminateTint="#000"
+                    android:indeterminateTintMode="src_atop"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:id="@+id/editorUserName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:text="awfawfawf"
+                android:textColor="#191919"
+                android:textSize="14dp"
+                app:layout_constraintStart_toEndOf="@+id/editorUserProfileConstraintLayout"
+                app:layout_constraintTop_toBottomOf="@+id/articleDetailTitle" />
+
+            <TextView
+                android:id="@+id/editorTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="awfawfawfawf"
+                android:textColor="#777777"
+                android:textSize="14dp"
+                app:layout_constraintStart_toEndOf="@+id/editorUserProfileConstraintLayout"
+                app:layout_constraintTop_toBottomOf="@+id/editorUserName" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/readableCountConst"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="9dp"
+                android:layout_marginEnd="10dp"
+                android:elevation="3dp"
+                android:padding="5dp"
+                app:layout_constraintEnd_toStartOf="@+id/articleFeedDate"
+                app:layout_constraintTop_toBottomOf="@+id/articleDetailTitle">
+
+                <TextView
+                    android:id="@+id/articleDetailItemReadCount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="100"
+                    android:textColor="#191919"
+                    android:textSize="14dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/infoText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Okunma"
+                    android:textSize="10dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/articleDetailItemReadCount" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:id="@+id/articleFeedDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:text="10/10/2019"
+                android:textColor="#191919"
+                android:textSize="12dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/articleDetailTitle" />
+
+            <View
+                android:id="@+id/widthLine"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="20dp"
+                android:background="#e2e2e2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/readableCountConst" />
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/entriesRecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/widthLine" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

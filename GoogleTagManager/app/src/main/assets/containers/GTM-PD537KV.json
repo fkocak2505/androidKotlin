@@ -1,0 +1,58 @@
+{
+    "exportFormatVersion": 2,
+    "exportTime": "2020-05-04 13:56:20",
+    "containerVersion": {
+        "path": "accounts/6001091974/containers/31278301/versions/1",
+        "accountId": "6001091974",
+        "containerId": "31278301",
+        "containerVersionId": "1",
+        "name": "GTM Added for Android",
+        "description": "GTM added for android demo project",
+        "container": {
+            "path": "accounts/6001091974/containers/31278301",
+            "accountId": "6001091974",
+            "containerId": "31278301",
+            "name": "onedio.com",
+            "publicId": "GTM-PD537KV",
+            "usageContext": [
+                "ANDROID_SDK_5"
+            ],
+            "fingerprint": "1588513687045",
+            "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6001091974/containers/31278301/workspaces?apiLink=container"
+        },
+        "builtInVariable": [
+            {
+                "accountId": "6001091974",
+                "containerId": "31278301",
+                "type": "APP_ID",
+                "name": "App ID"
+            },
+            {
+                "accountId": "6001091974",
+                "containerId": "31278301",
+                "type": "APP_NAME",
+                "name": "App Name"
+            },
+            {
+                "accountId": "6001091974",
+                "containerId": "31278301",
+                "type": "APP_VERSION_CODE",
+                "name": "App Version Code"
+            },
+            {
+                "accountId": "6001091974",
+                "containerId": "31278301",
+                "type": "APP_VERSION_NAME",
+                "name": "App Version Name"
+            },
+            {
+                "accountId": "6001091974",
+                "containerId": "31278301",
+                "type": "EVENT_NAME",
+                "name": "Event Name"
+            }
+        ],
+        "fingerprint": "1588594202333",
+        "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/6001091974/containers/31278301/versions/1?apiLink=version"
+    }
+}

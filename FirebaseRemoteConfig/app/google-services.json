@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "905542276065",
+    "firebase_url": "https://frconfig-60cf6.firebaseio.com",
+    "project_id": "frconfig-60cf6",
+    "storage_bucket": "frconfig-60cf6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:905542276065:android:afd63c983d1c1c15a8b8a0",
+        "android_client_info": {
+          "package_name": "com.musicore.firebaseremoteconfig"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "905542276065-flb1grui486hffbrfahvbkcacm052tp2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.musicore.firebaseremoteconfig",
+            "certificate_hash": "33c29a08e9b9ae9caec91ecd8c836da74c13d598"
+          }
+        },
+        {
+          "client_id": "905542276065-4ikhhv4rkapst3kkr05lhiud2o5djgut.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAr2m79vGq8wL0D6XEhOGmHXOSI7L8Zyg4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "905542276065-4ikhhv4rkapst3kkr05lhiud2o5djgut.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "930500113977",
+    "firebase_url": "https://crashylticsdevlab.firebaseio.com",
+    "project_id": "crashylticsdevlab",
+    "storage_bucket": "crashylticsdevlab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:930500113977:android:f1a7ab06d9eb2a15387fe8",
+        "android_client_info": {
+          "package_name": "com.weatherlogger.firebaseentegration"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "930500113977-g609cmfckrr35m54dvhtl0aevgei5n0q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.weatherlogger.firebaseentegration",
+            "certificate_hash": "33c29a08e9b9ae9caec91ecd8c836da74c13d598"
+          }
+        },
+        {
+          "client_id": "930500113977-90ap32fv45knb2frledt76s68jcc1jju.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARjoRx6nkpv1gTImSsayPMsb6RJq-x-98"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "930500113977-90ap32fv45knb2frledt76s68jcc1jju.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

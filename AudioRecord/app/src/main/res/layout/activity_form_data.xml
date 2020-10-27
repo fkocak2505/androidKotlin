@@ -1,0 +1,644 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/bilgiler"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:textColor="#e6e6e6"
+        android:textSize="30dp"
+        android:text="Bilgiler"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <ImageView
+        android:id="@+id/playRecordFile"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:src="@drawable/ic_play_button"
+        app:layout_constraintStart_toEndOf="@+id/bilgiler"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/speakPlace"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#e6e6e6"
+                android:textColorHint="#bdaeae"
+                android:backgroundTint="#bdaeae"
+                android:hint="Konuşma nerede gerçekleşti? (kafe, ev, vb.)*"/>
+
+            <EditText
+                android:id="@+id/firstWord"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#e6e6e6"
+                android:textColorHint="#bdaeae"
+                android:backgroundTint="#bdaeae"
+                android:hint="Sesini ayırt edebilmek için, bu kayıtta SENİN söylediğin ilk sözcük/ifade nedir?*"/>
+
+            <!--<View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#e6e6e6"/>-->
+
+            <TextView
+                android:id="@+id/digerKonusmac"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Diğer Konuşmacı Bilgileri"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:textSize="18dp"
+                android:textColor="#e6e6e6"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/konusmacı1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Konuşmacı 1*"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:textSize="16dp"
+                android:textColor="#e6e6e6" />
+
+            <EditText
+                android:id="@+id/nameSurname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#e6e6e6"
+                android:textColorHint="#bdaeae"
+                android:backgroundTint="#bdaeae"
+                android:hint="Ad Soyad*"/>
+
+            <EditText
+                android:id="@+id/birthday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#e6e6e6"
+                android:textColorHint="#bdaeae"
+                android:backgroundTint="#bdaeae"
+                android:hint="Doğum Tarihi*"/>
+
+            <EditText
+                android:id="@+id/gender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#e6e6e6"
+                android:textColorHint="#bdaeae"
+                android:backgroundTint="#bdaeae"
+                android:hint="Cinsiyet*"/>
+
+            <EditText
+                android:id="@+id/mainLanguage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#e6e6e6"
+                android:textColorHint="#bdaeae"
+                android:backgroundTint="#bdaeae"
+                android:hint="Ana Dili*"/>
+
+            <EditText
+                android:id="@+id/otherLanguage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#e6e6e6"
+                android:textColorHint="#bdaeae"
+                android:backgroundTint="#bdaeae"
+                android:hint="Varsa bildiği diğer diller.*"/>
+
+            <EditText
+                android:id="@+id/fromCity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#e6e6e6"
+                android:textColorHint="#bdaeae"
+                android:backgroundTint="#bdaeae"
+                android:hint="Memleket*"/>
+
+            <TextView
+                android:id="@+id/longLiveAnkara"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kaç yıldır Ankara'da yaşıyor?*"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:textSize="16dp"
+                android:textColor="#e6e6e6" />
+
+            <Spinner
+                android:id="@+id/spnLongLiveAnkara"
+                android:layout_width="match_parent"
+                android:popupBackground="#787C7F"
+                android:layout_height="50dp"
+                android:backgroundTint="#e6e6e6"/>
+
+            <EditText
+                android:id="@+id/school"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#e6e6e6"
+                android:textColorHint="#bdaeae"
+                android:backgroundTint="#bdaeae"
+                android:hint="Okulu*"/>
+
+            <EditText
+                android:id="@+id/classBy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#e6e6e6"
+                android:textColorHint="#bdaeae"
+                android:backgroundTint="#bdaeae"
+                android:hint="Sınıfı*"/>
+
+            <EditText
+                android:id="@+id/motherJob"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#e6e6e6"
+                android:textColorHint="#bdaeae"
+                android:backgroundTint="#bdaeae"
+                android:hint="Annesinin Mesleği*"/>
+
+            <TextView
+                android:id="@+id/annesininSeviyesi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Annesinin eğitim seviyesi*"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:textSize="16dp"
+                android:textColor="#e6e6e6" />
+
+            <Spinner
+                android:id="@+id/spnMotherJob"
+                android:layout_width="match_parent"
+                android:popupBackground="#787C7F"
+                android:layout_height="50dp"
+                android:backgroundTint="#e6e6e6"/>
+
+            <EditText
+                android:id="@+id/fatherJob"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#e6e6e6"
+                android:textColorHint="#bdaeae"
+                android:backgroundTint="#bdaeae"
+                android:hint="Babasının Mesleği*"/>
+
+            <TextView
+                android:id="@+id/babasininSeviyesi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Babasının eğitim seviyesi*"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:textSize="16dp"
+                android:textColor="#e6e6e6" />
+
+            <Spinner
+                android:id="@+id/spnFatherJob"
+                android:layout_width="match_parent"
+                android:popupBackground="#787C7F"
+                android:layout_height="50dp"
+                android:backgroundTint="#e6e6e6"/>
+
+            <EditText
+                android:id="@+id/brotherCount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#e6e6e6"
+                android:textColorHint="#bdaeae"
+                android:backgroundTint="#bdaeae"
+                android:hint="Kardeş Sayısı*"/>
+
+            <EditText
+                android:id="@+id/firstWordForSpeaker"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#e6e6e6"
+                android:textColorHint="#bdaeae"
+                android:backgroundTint="#bdaeae"
+                android:hint="Bu konuşmacının sesini ayırt edebilmemiz için bu ses kaydında söylediği ilk ifadeyi/sözcüğü yazınız*"/>
+
+            <!--<View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#e6e6e6"/>-->
+
+            <CheckBox
+                android:id="@+id/isExistSecondSpeaker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#e6e6e6"
+                android:buttonTint="#e6e6e6"
+                android:textSize="16dp"
+                android:text="İkinci Konuşmacı var mı?" />
+
+            <TextView
+                android:id="@+id/secondSpeaker"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Konuşmacı 2"
+                android:visibility="gone"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:textSize="16dp"
+                android:textColor="#e6e6e6" />
+
+            <EditText
+                android:id="@+id/nameSurname2"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#e6e6e6"
+                android:textColorHint="#bdaeae"
+                android:backgroundTint="#bdaeae"
+                android:hint="Ad Soyad"/>
+
+            <EditText
+                android:id="@+id/birthday2"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#e6e6e6"
+                android:textColorHint="#bdaeae"
+                android:backgroundTint="#bdaeae"
+                android:hint="Doğum Tarihi"/>
+
+            <EditText
+                android:id="@+id/gender2"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#e6e6e6"
+                android:textColorHint="#bdaeae"
+                android:backgroundTint="#bdaeae"
+                android:hint="Cinsiyet"/>
+
+            <EditText
+                android:id="@+id/mainLanguage2"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#e6e6e6"
+                android:textColorHint="#bdaeae"
+                android:backgroundTint="#bdaeae"
+                android:hint="Ana Dili"/>
+
+            <EditText
+                android:id="@+id/otherLanguage2"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#e6e6e6"
+                android:textColorHint="#bdaeae"
+                android:backgroundTint="#bdaeae"
+                android:hint="Varsa Diğer Diller."/>
+
+            <EditText
+                android:id="@+id/fromCity2"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#e6e6e6"
+                android:textColorHint="#bdaeae"
+                android:backgroundTint="#bdaeae"
+                android:hint="Memleket"/>
+
+            <TextView
+                android:id="@+id/longLiveAnkara2"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kaç yıldır Ankara'da yaşıyor?"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:textSize="16dp"
+                android:textColor="#e6e6e6" />
+
+            <Spinner
+                android:id="@+id/spnLongLiveAnkara2"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:popupBackground="#787C7F"
+                android:layout_height="50dp"
+                android:backgroundTint="#e6e6e6"/>
+
+            <EditText
+                android:id="@+id/school2"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#e6e6e6"
+                android:textColorHint="#bdaeae"
+                android:backgroundTint="#bdaeae"
+                android:hint="Okulu"/>
+
+            <EditText
+                android:id="@+id/classBy2"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#e6e6e6"
+                android:textColorHint="#bdaeae"
+                android:backgroundTint="#bdaeae"
+                android:hint="Sınıfı"/>
+
+            <EditText
+                android:id="@+id/motherJob2"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#e6e6e6"
+                android:textColorHint="#bdaeae"
+                android:backgroundTint="#bdaeae"
+                android:hint="Annesinin Mesleği"/>
+
+            <TextView
+                android:id="@+id/infoMotherEdLevel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Annesinin eğitim seviyesi"
+                android:visibility="gone"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:textSize="16dp"
+                android:textColor="#e6e6e6" />
+
+            <Spinner
+                android:id="@+id/spnMotherJob2"
+                android:layout_width="match_parent"
+                android:visibility="gone"
+                android:popupBackground="#787C7F"
+                android:layout_height="50dp"
+                android:backgroundTint="#e6e6e6"/>
+
+            <EditText
+                android:id="@+id/fatherJob2"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#e6e6e6"
+                android:textColorHint="#bdaeae"
+                android:backgroundTint="#bdaeae"
+                android:hint="Babasının Mesleği"/>
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Babasının eğitim seviyesi"
+                android:visibility="gone"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:textSize="16dp"
+                android:textColor="#e6e6e6" />
+
+            <Spinner
+                android:id="@+id/spnFatherJob2"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:popupBackground="#787C7F"
+                android:layout_height="50dp"
+                android:backgroundTint="#e6e6e6"/>
+
+            <EditText
+                android:id="@+id/brotherCount2"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#e6e6e6"
+                android:textColorHint="#bdaeae"
+                android:backgroundTint="#bdaeae"
+                android:hint="Kardeş Sayısı"/>
+
+            <EditText
+                android:id="@+id/firstWordForSpeaker2"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#e6e6e6"
+                android:textColorHint="#bdaeae"
+                android:backgroundTint="#bdaeae"
+                android:hint="Bu konuşmacının sesini ayırt edebilmemiz için bu ses kaydında söylediği ilk ifadeyi/sözcüğü yazınız"/>
+
+            <!--<View
+                android:id="@+id/deneme"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:visibility="gone"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#e6e6e6"/>-->
+
+
+            <TextView
+                android:id="@+id/ttt1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Siz ve diğer konuşmacı(lar) arasındaki ilişki hakkında bilgi veriniz. Birden fazla seçebilirsiniz."
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:textSize="16dp"
+                android:textColor="#e6e6e6" />
+
+            <CheckBox
+                android:id="@+id/closeFriend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#e6e6e6"
+                android:buttonTint="#e6e6e6"
+                android:text="Yakın Arkdaş" />
+
+            <CheckBox
+                android:id="@+id/doorMate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#e6e6e6"
+                android:buttonTint="#e6e6e6"
+                android:text="Komşu" />
+
+            <CheckBox
+                android:id="@+id/relative"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#e6e6e6"
+                android:buttonTint="#e6e6e6"
+                android:text="Akraba" />
+
+            <CheckBox
+                android:id="@+id/schoolFriend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#e6e6e6"
+                android:buttonTint="#e6e6e6"
+                android:text="Okul Arkadaşı" />
+
+            <CheckBox
+                android:id="@+id/dershaneArkadasi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#e6e6e6"
+                android:buttonTint="#e6e6e6"
+                android:text="Dershane Arkadaşı" />
+
+            <CheckBox
+                android:id="@+id/mahalleArkadasi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#e6e6e6"
+                android:buttonTint="#e6e6e6"
+                android:text="Mahalle arkadaşı" />
+
+            <EditText
+                android:id="@+id/other"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#bdaeae"
+                android:backgroundTint="#bdaeae"
+                android:hint="Diğer"/>
+
+            <!--<View
+                android:id="@+id/deneme"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#e6e6e6"/>-->
+
+            <TextView
+                android:id="@+id/ttt2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Siz ve diğer konuşmacı(lar) ne zamandan beri birbirinizi tanıyorsunuz?"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:textSize="16dp"
+                android:textColor="#e6e6e6" />
+
+            <Spinner
+                android:id="@+id/spnNeZamandanBeri"
+                android:layout_width="match_parent"
+                android:popupBackground="#787C7F"
+                android:layout_height="50dp"
+                android:backgroundTint="#e6e6e6"/>
+
+            <View
+                android:id="@+id/deneme2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#e6e6e6"/>
+
+
+            <TextView
+                android:id="@+id/ttt3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Siz ve diğer konuşmacı(lar) ne sıklıkla görüşüyorsunuz? (Yüzyüze veya elektronik iletişim aracıyla)"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:textSize="16dp"
+                android:textColor="#e6e6e6" />
+
+            <Spinner
+                android:id="@+id/spnMeeting"
+                android:layout_width="match_parent"
+                android:popupBackground="#787C7F"
+                android:layout_height="50dp"
+                android:backgroundTint="#e6e6e6"/>
+
+            <View
+                android:id="@+id/deneme3"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#e6e6e6"/>
+
+
+            <TextView
+                android:id="@+id/ttt4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bu ses kaydıyla ve ya konuşmacı(lar) ile ilgili eklemek/açıklamak istediğiniz başka şeyler varsa buraya yazabilirsiniz."
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:textSize="16dp"
+                android:textColor="#e6e6e6" />
+
+            <EditText
+                android:id="@+id/extraInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#e6e6e6"
+                android:textColorHint="#bdaeae"
+                android:backgroundTint="#bdaeae"
+                android:inputType="textMultiLine" />
+
+            <Button
+                android:id="@+id/sendData"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gönder"
+                android:textColor="#e6e6e6"
+                android:background="#76140C"
+                android:layout_gravity="center"
+                android:textAllCaps="false"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <com.wang.avi.AVLoadingIndicatorView
+        android:id="@+id/avlIndicatorProgress"
+        style="@style/AVLoadingIndicatorView"
+        android:layout_width="60sp"
+        android:layout_height="60sp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:visibility="invisible"
+        app:indicatorColor="#76140C"
+        app:indicatorName="BallSpinFadeLoaderIndicator"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

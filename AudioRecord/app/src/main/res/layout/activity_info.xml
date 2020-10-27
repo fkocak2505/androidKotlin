@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="#000000"
+    android:layout_height="match_parent">
+
+    <!--<TextView
+        android:id="@+id/aaa"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="App Bilgi Yazısı"
+        android:textColor="#e6e6e6"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+-->
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
+        android:textColor="#e6e6e6"
+        android:textSize="16dp"
+        android:gravity="left"
+        android:textStyle="normal"
+        android:scrollbars = "vertical"
+        android:text="Sevgili Katılımcı Arkadaşım,\n\nGençlik Dili Araştırması’na hoşgeldin!\n\nBu araştırma; ODTÜ Sosyal Bilimler Enstitüsü doktora öğrencilerinden Esranur Efeoğlu-Özcan’ın (araştırmacı) doktora tezi kapsamında Türkçe konuşan gençlerin dili nasıl kullandıklarını incelemektedir. Bu mobil uygulama, yalnızca araştırmacının ön görüşme yaptığı ve veli/vasilerinden yazılı olarak izin alınmış katılımcıların kullanımı için geliştirilmiştir.\n\nKatılımcı kimlik bilgileri tümüyle gizli tutularak yapılacak bilimsel yayınlarda hiçbir şekilde kimliği açıklayabilecek bilgilere yer verilmeyecektir.\n\nBu araştırmada yer aldığın için çok teşekkür ederim.\n\nHer türlü soru/öneri için araştırmacı ile esranur.efeoglu@metu.edu.tr iletişime geçebilirsin."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

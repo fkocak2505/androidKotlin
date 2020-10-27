@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/tabBackgroundColor"/>
+        </shape>
+    </item>
+    <item
+            android:width="116dp"
+            android:height="25dp"
+            android:drawable="@drawable/ic_onedio_logo2"
+            android:gravity="center"/>
+</layer-list>
